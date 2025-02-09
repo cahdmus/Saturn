@@ -1,4 +1,5 @@
 import "./styles.css";
+import { NPCgenerator } from "./NPCgenerator/NPCmodule.js";
 
 if (process.env.NODE_ENV !== 'production') {
     console.log('-------------------------------------');
@@ -14,3 +15,4 @@ function component() {
 }
 
 document.body.appendChild(component());
+NPCgenerator.init();

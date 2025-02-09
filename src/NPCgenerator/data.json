@@ -1,0 +1,2191 @@
+{
+    "NPCgenerator": {
+        "names": [
+            {
+                "name": "Agla",
+                "genders": ""
+            },
+            {
+                "name": "Akram",
+                "genders": ""
+            },
+            {
+                "name": "Aliénor",
+                "genders": ""
+            },
+            {
+                "name": "Alimon",
+                "genders": ""
+            },
+            {
+                "name": "Alphée",
+                "genders": ""
+            },
+            {
+                "name": "Alphun",
+                "genders": ""
+            },
+            {
+                "name": "Alric",
+                "genders": ""
+            },
+            {
+                "name": "Ambroise",
+                "genders": ""
+            },
+            {
+                "name": "Amos",
+                "genders": ""
+            },
+            {
+                "name": "Apollyon",
+                "genders": ""
+            },
+            {
+                "name": "Arabelle",
+                "genders": ""
+            },
+            {
+                "name": "Arel",
+                "genders": ""
+            },
+            {
+                "name": "Arlo",
+                "genders": ""
+            },
+            {
+                "name": "Armesi",
+                "genders": ""
+            },
+            {
+                "name": "Armoise",
+                "genders": ""
+            },
+            {
+                "name": "Asmodel",
+                "genders": ""
+            },
+            {
+                "name": "Asmodeus",
+                "genders": ""
+            },
+            {
+                "name": "Asphodel",
+                "genders": ""
+            },
+            {
+                "name": "Astel",
+                "genders": ""
+            },
+            {
+                "name": "Atlas",
+                "genders": ""
+            },
+            {
+                "name": "Aubépine",
+                "genders": ""
+            },
+            {
+                "name": "Azza",
+                "genders": ""
+            },
+            {
+                "name": "Baltazard",
+                "genders": ""
+            },
+            {
+                "name": "Ban",
+                "genders": ""
+            },
+            {
+                "name": "Barcus",
+                "genders": ""
+            },
+            {
+                "name": "Bergamote",
+                "genders": ""
+            },
+            {
+                "name": "Brunelle",
+                "genders": ""
+            },
+            {
+                "name": "Bruyère",
+                "genders": ""
+            },
+            {
+                "name": "Calico",
+                "genders": ""
+            },
+            {
+                "name": "Carotte",
+                "genders": ""
+            },
+            {
+                "name": "Castor",
+                "genders": ""
+            },
+            {
+                "name": "Chapelain",
+                "genders": ""
+            },
+            {
+                "name": "Chardon",
+                "genders": ""
+            },
+            {
+                "name": "Circe",
+                "genders": ""
+            },
+            {
+                "name": "Colin",
+                "genders": ""
+            },
+            {
+                "name": "Coquelicot",
+                "genders": ""
+            },
+            {
+                "name": "Crépin",
+                "genders": ""
+            },
+            {
+                "name": "Cripon",
+                "genders": ""
+            },
+            {
+                "name": "Criquet",
+                "genders": ""
+            },
+            {
+                "name": "Crocell",
+                "genders": ""
+            },
+            {
+                "name": "Croesus",
+                "genders": ""
+            },
+            {
+                "name": "Dagobert",
+                "genders": ""
+            },
+            {
+                "name": "Elio",
+                "genders": ""
+            },
+            {
+                "name": "Euphraise",
+                "genders": ""
+            },
+            {
+                "name": "Eusæbius",
+                "genders": ""
+            },
+            {
+                "name": "Galaad",
+                "genders": ""
+            },
+            {
+                "name": "Gauvin",
+                "genders": ""
+            },
+            {
+                "name": "Haggo",
+                "genders": ""
+            },
+            {
+                "name": "Hemera",
+                "genders": ""
+            },
+            {
+                "name": "Hyperion",
+                "genders": ""
+            },
+            {
+                "name": "Hysope",
+                "genders": ""
+            },
+            {
+                "name": "Iago",
+                "genders": ""
+            },
+            {
+                "name": "Kadosh",
+                "genders": ""
+            },
+            {
+                "name": "Krios",
+                "genders": ""
+            },
+            {
+                "name": "Kronos",
+                "genders": ""
+            },
+            {
+                "name": "Labusi",
+                "genders": ""
+            },
+            {
+                "name": "Lamorak",
+                "genders": ""
+            },
+            {
+                "name": "Lanzelet",
+                "genders": ""
+            },
+            {
+                "name": "Linaigrette",
+                "genders": ""
+            },
+            {
+                "name": "Loel",
+                "genders": ""
+            },
+            {
+                "name": "Lumazi",
+                "genders": ""
+            },
+            {
+                "name": "Lupin",
+                "genders": ""
+            },
+            {
+                "name": "Magnus",
+                "genders": ""
+            },
+            {
+                "name": "Magog",
+                "genders": ""
+            },
+            {
+                "name": "Mephistopheles",
+                "genders": ""
+            },
+            {
+                "name": "Mercure",
+                "genders": ""
+            },
+            {
+                "name": "Meririm",
+                "genders": ""
+            },
+            {
+                "name": "Merlin",
+                "genders": ""
+            },
+            {
+                "name": "Murmus",
+                "genders": ""
+            },
+            {
+                "name": "Myrddin",
+                "genders": ""
+            },
+            {
+                "name": "Nabu",
+                "genders": ""
+            },
+            {
+                "name": "Narcisse",
+                "genders": ""
+            },
+            {
+                "name": "Neroli",
+                "genders": ""
+            },
+            {
+                "name": "Ophrys",
+                "genders": ""
+            },
+            {
+                "name": "Orcus",
+                "genders": ""
+            },
+            {
+                "name": "Orla",
+                "genders": ""
+            },
+            {
+                "name": "Orrin",
+                "genders": ""
+            },
+            {
+                "name": "Otis",
+                "genders": ""
+            },
+            {
+                "name": "Pâquerette",
+                "genders": ""
+            },
+            {
+                "name": "Pellinor",
+                "genders": ""
+            },
+            {
+                "name": "Pépin",
+                "genders": ""
+            },
+            {
+                "name": "Perzival",
+                "genders": ""
+            },
+            {
+                "name": "Petrus",
+                "genders": ""
+            },
+            {
+                "name": "Phoebus",
+                "genders": ""
+            },
+            {
+                "name": "Pontus",
+                "genders": ""
+            },
+            {
+                "name": "Pryderi",
+                "genders": ""
+            },
+            {
+                "name": "Rampel",
+                "genders": ""
+            },
+            {
+                "name": "Rhosyn",
+                "genders": ""
+            },
+            {
+                "name": "Rimezin",
+                "genders": ""
+            },
+            {
+                "name": "Saga",
+                "genders": ""
+            },
+            {
+                "name": "Salem",
+                "genders": ""
+            },
+            {
+                "name": "Selmy",
+                "genders": ""
+            },
+            {
+                "name": "Sisera",
+                "genders": ""
+            },
+            {
+                "name": "Sosol",
+                "genders": ""
+            },
+            {
+                "name": "Taliesin",
+                "genders": ""
+            },
+            {
+                "name": "Thémis",
+                "genders": ""
+            },
+            {
+                "name": "Tilli",
+                "genders": ""
+            },
+            {
+                "name": "Tristam",
+                "genders": ""
+            },
+            {
+                "name": "Vel",
+                "genders": ""
+            },
+            {
+                "name": "Zarobi",
+                "genders": ""
+            },
+            {
+                "name": "Aderyn",
+                "genders": ""
+            },
+            {
+                "name": "Alys",
+                "genders": ""
+            },
+            {
+                "name": "Branwen",
+                "genders": ""
+            },
+            {
+                "name": "Cerys",
+                "genders": ""
+            },
+            {
+                "name": "Eleri",
+                "genders": ""
+            },
+            {
+                "name": "Medeni",
+                "genders": ""
+            },
+            {
+                "name": "Modron",
+                "genders": ""
+            },
+            {
+                "name": "Nefyn",
+                "genders": ""
+            },
+            {
+                "name": "Nia",
+                "genders": ""
+            },
+            {
+                "name": "Seren",
+                "genders": ""
+            },
+            {
+                "name": "Taryn",
+                "genders": ""
+            },
+            {
+                "name": "Teleri",
+                "genders": ""
+            },
+            {
+                "name": "Elfinn",
+                "genders": ""
+            },
+            {
+                "name": "Finn",
+                "genders": ""
+            },
+            {
+                "name": "Emyr",
+                "genders": ""
+            },
+            {
+                "name": "Gwydion",
+                "genders": ""
+            },
+            {
+                "name": "Heilyn",
+                "genders": ""
+            },
+            {
+                "name": "Llyr",
+                "genders": ""
+            },
+            {
+                "name": "Macsen",
+                "genders": ""
+            },
+            {
+                "name": "Merfyn",
+                "genders": ""
+            },
+            {
+                "name": "Owain",
+                "genders": ""
+            },
+            {
+                "name": "Rhys",
+                "genders": ""
+            },
+            {
+                "name": "Perceval",
+                "genders": ""
+            },
+            {
+                "name": "Tegwyn",
+                "genders": ""
+            },
+            {
+                "name": "Viktor",
+                "genders": ""
+            },
+            {
+                "name": "Ambrose",
+                "genders": ""
+            },
+            {
+                "name": "Phineas",
+                "genders": ""
+            },
+            {
+                "name": "Yvette",
+                "genders": ""
+            },
+            {
+                "name": "Juliotte",
+                "genders": ""
+            },
+            {
+                "name": "Charme",
+                "genders": ""
+            },
+            {
+                "name": "Lierre",
+                "genders": ""
+            },
+            {
+                "name": "Agathe",
+                "genders": ""
+            },
+            {
+                "name": "Enracine",
+                "genders": ""
+            },
+            {
+                "name": "Kaven",
+                "genders": ""
+            },
+            {
+                "name": "Lala",
+                "genders": ""
+            },
+            {
+                "name": "Lillai",
+                "genders": ""
+            },
+            {
+                "name": "Majaris",
+                "genders": ""
+            },
+            {
+                "name": "Miri",
+                "genders": ""
+            },
+            {
+                "name": "Ladin",
+                "genders": ""
+            },
+            {
+                "name": "Titi",
+                "genders": ""
+            },
+            {
+                "name": "Olius",
+                "genders": ""
+            },
+            {
+                "name": "Matthem",
+                "genders": ""
+            },
+            {
+                "name": "Pauel",
+                "genders": ""
+            },
+            {
+                "name": "Herard",
+                "genders": ""
+            },
+            {
+                "name": "Arnus",
+                "genders": ""
+            },
+            {
+                "name": "Tiel",
+                "genders": ""
+            },
+            {
+                "name": "Hardus",
+                "genders": ""
+            },
+            {
+                "name": "Albert",
+                "genders": ""
+            },
+            {
+                "name": "Coppert",
+                "genders": ""
+            },
+            {
+                "name": "Compère",
+                "genders": ""
+            },
+            {
+                "name": "Alebette",
+                "genders": ""
+            },
+            {
+                "name": "Maris",
+                "genders": ""
+            },
+            {
+                "name": "Lelie",
+                "genders": ""
+            },
+            {
+                "name": "Pieteris",
+                "genders": ""
+            },
+            {
+                "name": "Hersen",
+                "genders": ""
+            },
+            {
+                "name": "Emme",
+                "genders": ""
+            },
+            {
+                "name": "Marga",
+                "genders": ""
+            },
+            {
+                "name": "Berna",
+                "genders": ""
+            },
+            {
+                "name": "Amelia",
+                "genders": ""
+            },
+            {
+                "name": "Nell",
+                "genders": ""
+            },
+            {
+                "name": "Hodis",
+                "genders": ""
+            },
+            {
+                "name": "Ada",
+                "genders": ""
+            },
+            {
+                "name": "Alma",
+                "genders": ""
+            },
+            {
+                "name": "Blanche",
+                "genders": ""
+            },
+            {
+                "name": "Briar",
+                "genders": ""
+            },
+            {
+                "name": "Cora",
+                "genders": ""
+            },
+            {
+                "name": "Effie",
+                "genders": ""
+            },
+            {
+                "name": "Eleanor",
+                "genders": ""
+            },
+            {
+                "name": "Hariet",
+                "genders": ""
+            },
+            {
+                "name": "Josephine",
+                "genders": ""
+            },
+            {
+                "name": "Mabel",
+                "genders": ""
+            },
+            {
+                "name": "Augustus",
+                "genders": ""
+            },
+            {
+                "name": "Boaz",
+                "genders": ""
+            },
+            {
+                "name": "Caius",
+                "genders": ""
+            },
+            {
+                "name": "Cassius",
+                "genders": ""
+            },
+            {
+                "name": "Everett",
+                "genders": ""
+            },
+            {
+                "name": "Harold",
+                "genders": ""
+            },
+            {
+                "name": "Ivor",
+                "genders": ""
+            },
+            {
+                "name": "Merrit",
+                "genders": ""
+            },
+            {
+                "name": "Oscar",
+                "genders": ""
+            },
+            {
+                "name": "Simeon",
+                "genders": ""
+            },
+            {
+                "name": "Alden",
+                "genders": ""
+            },
+            {
+                "name": "Alfred",
+                "genders": ""
+            },
+            {
+                "name": "Batilda",
+                "genders": ""
+            },
+            {
+                "name": "Marguerite",
+                "genders": ""
+            },
+            {
+                "name": "Pâquerette",
+                "genders": ""
+            },
+            {
+                "name": "Fay",
+                "genders": ""
+            },
+            {
+                "name": "Millard",
+                "genders": ""
+            },
+            {
+                "name": "Osbert",
+                "genders": ""
+            },
+            {
+                "name": "Baran",
+                "genders": ""
+            },
+            {
+                "name": "Caspar",
+                "genders": ""
+            },
+            {
+                "name": "Dario",
+                "genders": ""
+            },
+            {
+                "name": "Darius",
+                "genders": ""
+            },
+            {
+                "name": "Estera",
+                "genders": ""
+            },
+            {
+                "name": "Irma",
+                "genders": ""
+            },
+            {
+                "name": "Philocrates",
+                "genders": ""
+            },
+            {
+                "name": "Margaux",
+                "genders": ""
+            },
+            {
+                "name": "Jean",
+                "genders": ""
+            },
+            {
+                "name": "Bertille",
+                "genders": ""
+            },
+            {
+                "name": "Pierre",
+                "genders": ""
+            },
+            {
+                "name": "Égide",
+                "genders": ""
+            },
+            {
+                "name": "Richard",
+                "genders": ""
+            },
+            {
+                "name": "Sylvestre",
+                "genders": ""
+            },
+            {
+                "name": "Annette",
+                "genders": ""
+            },
+            {
+                "name": "Marion",
+                "genders": ""
+            },
+            {
+                "name": "Suzon",
+                "genders": ""
+            },
+            {
+                "name": "Ninon",
+                "genders": ""
+            },
+            {
+                "name": "Louisette",
+                "genders": ""
+            },
+            {
+                "name": "Marceline",
+                "genders": ""
+            },
+            {
+                "name": "Sidonie",
+                "genders": ""
+            },
+            {
+                "name": "Thérèsa",
+                "genders": ""
+            },
+            {
+                "name": "Modestie",
+                "genders": ""
+            },
+            {
+                "name": "Constance",
+                "genders": ""
+            },
+            {
+                "name": "Anatalie",
+                "genders": ""
+            },
+            {
+                "name": "Anatolie",
+                "genders": ""
+            },
+            {
+                "name": "Olympe",
+                "genders": ""
+            },
+            {
+                "name": "Pénélope",
+                "genders": ""
+            },
+            {
+                "name": "Céleste",
+                "genders": ""
+            },
+            {
+                "name": "Anasthasia",
+                "genders": ""
+            },
+            {
+                "name": "Capucine",
+                "genders": ""
+            },
+            {
+                "name": "Albertine",
+                "genders": ""
+            },
+            {
+                "name": "Odette",
+                "genders": ""
+            },
+            {
+                "name": "Cunégonde",
+                "genders": ""
+            },
+            {
+                "name": "Henriette",
+                "genders": ""
+            },
+            {
+                "name": "Gabriel",
+                "genders": ""
+            },
+            {
+                "name": "Claire",
+                "genders": ""
+            },
+            {
+                "name": "Prudence",
+                "genders": ""
+            },
+            {
+                "name": "Toinette",
+                "genders": ""
+            },
+            {
+                "name": "Léonard",
+                "genders": ""
+            },
+            {
+                "name": "George",
+                "genders": ""
+            },
+            {
+                "name": "Etienne",
+                "genders": ""
+            },
+            {
+                "name": "Augustin",
+                "genders": ""
+            },
+            {
+                "name": "César",
+                "genders": ""
+            },
+            {
+                "name": "Isidore",
+                "genders": ""
+            },
+            {
+                "name": "Marius",
+                "genders": ""
+            },
+            {
+                "name": "Amédée",
+                "genders": ""
+            },
+            {
+                "name": "Perrin",
+                "genders": ""
+            },
+            {
+                "name": "Casimir",
+                "genders": ""
+            },
+            {
+                "name": "Hyppolyte",
+                "genders": ""
+            },
+            {
+                "name": "Anthelme",
+                "genders": ""
+            },
+            {
+                "name": "Parfait",
+                "genders": ""
+            },
+            {
+                "name": "Marcellin",
+                "genders": ""
+            },
+            {
+                "name": "Gustave",
+                "genders": ""
+            },
+            {
+                "name": "Maturin",
+                "genders": ""
+            },
+            {
+                "name": "Roland",
+                "genders": ""
+            },
+            {
+                "name": "Charles",
+                "genders": ""
+            },
+            {
+                "name": "Martin",
+                "genders": ""
+            },
+            {
+                "name": "Simon",
+                "genders": ""
+            },
+            {
+                "name": "Norbert",
+                "genders": ""
+            },
+            {
+                "name": "Auguste",
+                "genders": ""
+            },
+            {
+                "name": "Planturin",
+                "genders": ""
+            },
+            {
+                "name": "Eugène",
+                "genders": ""
+            },
+            {
+                "name": "Aristide",
+                "genders": ""
+            },
+            {
+                "name": "Rémi",
+                "genders": ""
+            },
+            {
+                "name": "Constantin",
+                "genders": ""
+            },
+            {
+                "name": "Amaury",
+                "genders": ""
+            }
+        ],
+        "surnames": {
+            "prefix": [
+                "Chape",
+                "Ester",
+                "Fort",
+                "Fran",
+                "Halle",
+                "Har",
+                "Haste",
+                "Hourd",
+                "Lanter",
+                "Manne",
+                "Mor",
+                "Or",
+                "Pré",
+                "Riche",
+                "Rive",
+                "Sang",
+                "Tierce",
+                "Triste",
+                "Trouble",
+                "Ver",
+                "Dar",
+                "Ben",
+                "Le",
+                "La",
+                "Son",
+                "Uste",
+                "Vol",
+                "Mer",
+                "Hurle",
+                "Cache",
+                "Chasse",
+                "Nar",
+                "Chant",
+                "Sourd",
+                "Ra",
+                "Brame",
+                "Mal",
+                "Havre",
+                "Mon",
+                "Vieil",
+                "Castel",
+                "Four",
+                "Bré",
+                "Veuve",
+                "Ronce",
+                "Folle",
+                "Roche",
+                "Roc",
+                "Arbre",
+                "Glace",
+                "Char",
+                "Vest",
+                "Ou",
+                "Sau",
+                "Syl",
+                "Aube",
+                "Sou",
+                "Car",
+                "Brune",
+                "Brume",
+                "Rose",
+                "Sor",
+                "Vaten",
+                "Fon",
+                "Fan",
+                "É",
+                "Maison",
+                "Hôte",
+                "Vil",
+                "Hante",
+                "Change",
+                "Her",
+                "Ton",
+                "Co",
+                "Té",
+                "Éper",
+                "Songe",
+                "Li",
+                "Cor",
+                "Bourg",
+                "Mont",
+                "Noir",
+                "Vau",
+                "Lou",
+                "Ours",
+                "Paon",
+                "Corne",
+                "Cloche",
+                "Cage",
+                "Pa",
+                "Feinte",
+                "Oust",
+                "Rouille",
+                "Bronze",
+                "Gris",
+                "Hame"
+            ],
+            "sufix": [
+                "dérésie",
+                "errion",
+                "faide",
+                "faucre",
+                "fleur",
+                "follis",
+                "gueules",
+                "hospes",
+                "lin",
+                "logis",
+                "moineau",
+                "novale",
+                "omon",
+                "paire",
+                "panage",
+                "pleige",
+                "port",
+                "terrier",
+                "val",
+                "zin",
+                "cy",
+                "net",
+                "ban",
+                "rune",
+                "dard",
+                "satyr",
+                "sonne",
+                "vent",
+                "pot",
+                "traille",
+                "dent",
+                "coeur",
+                "delourd",
+                "velours",
+                "telle",
+                "bosse",
+                "boise",
+                "liotte",
+                "vage",
+                "loup",
+                "venue",
+                "sac",
+                "tordu",
+                "pierre",
+                "tronc",
+                "marais",
+                "haigne",
+                "poussière",
+                "dechouette",
+                "deloup",
+                "linotte",
+                "paces",
+                "grue",
+                "faucon",
+                "brigand",
+                "fosse",
+                "ronce",
+                "perdu",
+                "sang",
+                "chêne",
+                "bon",
+                "oubli",
+                "limbe",
+                "aube",
+                "phe",
+                "pir",
+                "casse",
+                "hulotte",
+                "guerre",
+                "terre",
+                "mer",
+                "drière",
+                "tôme",
+                "cine",
+                "close",
+                "lin",
+                "ligne",
+                "line",
+                "mine",
+                "ton",
+                "lombe",
+                "nèbre",
+                "vier",
+                "songe",
+                "père",
+                "ixir",
+                "neille",
+                "vert",
+                "pendu",
+                "delours",
+                "bouc",
+                "corne",
+                "diable",
+                "passe",
+                "rêve",
+                "aupie",
+                "fume",
+                "pique",
+                "deboeuf",
+                "ceur",
+                "coton",
+                "neige",
+                "sauge",
+                "gris",
+                "brouillard",
+                "cuir",
+                "orage",
+                "clairière",
+                "bourasque",
+                "revert",
+                "seigle",
+                "blé",
+                "raisin",
+                "raison",
+                "recueil",
+                "logis",
+                "refuge"
+            ]
+        },
+        "gender": [
+            {
+                "name": "neutre",
+                "chance": "10%"
+            },
+            {
+                "name": "femme",
+                "chance": "45%"
+            },
+            {
+                "name": "homme",
+                "chance": "45%"
+            }
+        ],
+        // manque calcul des richesses
+        "socialClass": [
+            {
+                "name": "miséreux",
+                "chance": "5%",
+                "gold": "0"
+            },
+            {
+                "name": "pauvre",
+                "chance": "25%",
+                "gold": "0"
+            },
+            {
+                "name": "classe moyenne",
+                "chance": "50%",
+                "gold": "0"
+            },
+            {
+                "name": "riche",
+                "chance": "15%",
+                "gold": "0"
+            },
+            {
+                "name": "elite",
+                "chance": "5%",
+                "gold": "0"
+            }
+        ],
+        "age": [
+            {
+                "name": "enfant",
+                "chance": "10%"
+            },
+            {
+                "name": "adolescent",
+                "chance": "15%"
+            },
+            {
+                "name": "jeune adulte",
+                "chance": "25%"
+            },
+            {
+                "name": "adulte",
+                "chance": "30%"
+            },
+            {
+                "name": "vieux",
+                "chance": "20%"
+            }
+        ],
+        "attitude": [
+            "Ambitieux",
+            "Fermé d'esprit",
+            "Capricieux",
+            "Prudent",
+            "Compatissant",
+            "Trompeur",
+            "Peureux",
+            "Bruyant",
+            "Avide",
+            "Indécis",
+            "Curieux",
+            "Fainéant",
+            "Loyal",
+            "Observateur",
+            "Patient",
+            "Fier",
+            "Méprisant",
+            "Timide",
+            "Entêté",
+            "Courageux",
+            "Colérique",
+            "Jovial",
+            "Charmant",
+            "Passif",
+            "Distant",
+            "Affectueux",
+            "Généreux",
+            "Suffisant",
+            "Intelligent",
+            "Sociable",
+            "Charismatique",
+            "Audacieux",
+            "Jaloux",
+            "Suspicieux",
+            "Coeur de pierre",
+            "Talentueux",
+            "Expérimenté",
+            "Agressif",
+            "Vaniteux",
+            "Sévère",
+            "Dépendant",
+            "Indépendant",
+            "Perspicace",
+            "Bizarre",
+            "Enjoué",
+            "Cinglant",
+            "Insensible",
+            "Sauvage",
+            "Aigri",
+            "Rusé",
+            "Gentil",
+            "Plein de remords",
+            "Inconscient",
+            "Tête en l'air",
+            "Critique",
+            "Débrouillard",
+            "Blessé",
+            "Cruel",
+            "Silencieux",
+            "Honnête",
+            "Confus",
+            "Détendu",
+            "Sûr de lui",
+            "Amical",
+            "Impassible",
+            "Mou",
+            "Egoïste",
+            "Violent",
+            "Obsédé",
+            "Chaste",
+            "Humble",
+            "Juste",
+            "Aime chanter",
+            "Vulgaire",
+            "Adore la magie",
+            "Se trompe souvent de mot",
+            "Fait des blagues nulles",
+            "Pessimiste",
+            "Optimiste",
+            "Addicte",
+            "Solitaire",
+            "Gros dur",
+            "Envieux",
+            "Muet",
+            "Pieux",
+            "Évite les miroirs",
+            "Proche de sa famille",
+            "Aime faire de belles phrases",
+            "A peur de la magie",
+            "A eu une révélation divine",
+            "Amnésique",
+            "Antipathique",
+            "A des hallucinations",
+            "Mégalomane",
+            "Parano",
+            "Claustrophobe",
+            "Hydrophobe",
+            "Pyrophobe",
+            "Pyromane",
+            "A peur d'un animal"
+        ],
+        "appearance": [
+            "Regard fou",
+            "Peau peinte",
+            "Sauvage",
+            "Elégant",
+            "Mal habillé",
+            "Coquet",
+            "Cicatrices",
+            "Lunettes",
+            "Caché sous une cape",
+            "Voix douce",
+            "Bien coiffé, bien rasé ou barbe bien entretenue",
+            "Air fatigué",
+            "Sportif",
+            "Mal rasé ou mal coiffé",
+            "Voix criarde",
+            "Voix grave",
+            "Voix énervante",
+            "Yeux magnifiques",
+            "Très maigre",
+            "Peau très pâle",
+            "Peau très sombre",
+            "Cheveux lisses",
+            "Cheveux frisés",
+            "Très moche",
+            "Physique passe-partout",
+            "Mauvaise odeur",
+            "Bonne odeur",
+            "Yeux globuleux",
+            "Air majestueux",
+            "Brûlures",
+            "Air dangereux",
+            "Défiguré",
+            "Mourrant",
+            "Handicapé",
+            "se ronge les ongles",
+            "Porte beaucoup de bijoux et/ou grigri",
+            "Doigt en moins",
+            "Tatouage",
+            "Couleur de peau hors norme",
+            "Albinos",
+            "Étrange",
+            "Cliché",
+            "Blond",
+            "Brun",
+            "Roux",
+            "Grand",
+            "Petit",
+            "Géant",
+            "Imberbe",
+            "Se donne l'air plus vieux",
+            "Très masculin",
+            "Yeux vairons",
+            "Lent",
+            "Malade",
+            "En forme",
+            "Très féminin",
+            "Sourir ravageur",
+            "Cheveux long",
+            "Cheveux court",
+            "Tâche de vin",
+            "Porte des vêtements hors de la norme (de la région, de sa race, etc.)",
+            "Dent en moins",
+            "Tâche de naissance",
+            "Charme indescriptible",
+            "Robuste",
+            "Tout petit",
+            "Yeux bleus",
+            "Yeux verts",
+            "Yeux marrons",
+            "Yeux sombres",
+            "Yeux clairs",
+            "Air pincé",
+            "Cool",
+            "Amusant",
+            "Marche avec une canne",
+            "Chauve",
+            "Cicatrice au visage",
+            "Nez cassé",
+            "Gros",
+            "Obèse",
+            "Princier",
+            "Jambe de bois",
+            "Cache oeil",
+            "Grand chapeau",
+            "Chapeau de paille",
+            "En bonne santé, mais un regard et des mains ridées",
+            "En surpoid",
+            "Très poilu",
+            "Se donne l'air plus jeune",
+            "Repoussant",
+            "Tête de rat",
+            "Canin",
+            "Félin",
+            "Moche",
+            "Beau",
+            "Normal",
+            "Etonnant",
+            "Démodé",
+            "Tête d'oiseau",
+            "Tatouage de criminel ou d'esclave",
+        ],
+        "motivations": {
+            "noun": [
+                "La richesse",
+                "Les riches",
+                "Rêves",
+                "Gourmandise",
+                "Conseils",
+                "Difficultés",
+                "Le peuple",
+                "Discrétion",
+                "Péché",
+                "Propagande",
+                "Abondance",
+                "Ennemis",
+                "Amour",
+                "Envie",
+                "Science",
+                "Ressources",
+                "Le public",
+                "La liberté",
+                "La cupidité",
+                "Le savoir",
+                "La prospérité",
+                "Religion",
+                "Douleur",
+                "Paresse",
+                "Communications",
+                "Pauvreté",
+                "Les pauvres",
+                "Foi",
+                "Colère",
+                "Mensonges",
+                "Opulence",
+                "Famille",
+                "Esclavage",
+                "Fierté",
+                "Mythes",
+                "Privation",
+                "L'élite",
+                "Illumination",
+                "Pureté",
+                "Enigmes",
+                "Succès",
+                "Académie",
+                "Racisme",
+                "Modération",
+                "Histoires",
+                "Détresse",
+                "Abandonnés",
+                "Douceur",
+                "Vigilance",
+                "Légendes",
+                "La contrebande",
+                "La loi",
+                "La dissonance",
+                "Le zèle",
+                "L'industrie",
+                "Musique",
+                "Le gouvernement",
+                "Paix",
+                "Calme",
+                "Nouvelle religion",
+                "Littérature",
+                "Les opprimés",
+                "Discrimination",
+                "Charité",
+                "Progrès",
+                "Technologie",
+                "Amis",
+                "Incrédulité",
+                "Modestie",
+                "Animaux",
+                "Drogue",
+                "Criminels",
+                "Plaisir",
+                "Atrocités",
+                "Fantômes",
+                "Médicaments",
+                "Alliés",
+                "Haine",
+                "Lâcheté",
+                "Magie",
+                "Beauté",
+                "Société secrète",
+                "Bonheur",
+                "Narcissisme",
+                "Nature",
+                "Puissance",
+                "Le monde",
+                "servitude",
+                "Compassion",
+                "Vieille religion",
+                "Intelligence",
+                "Militaire",
+                "Harmonie",
+                "Valeur",
+                "Expertise",
+                "Force",
+                "L'Eglise",
+                "Justice",
+                "Patience",
+                "Esprit"
+            ],
+            "verb": [
+                "Conseiller",
+                "Eclairer",
+                "Prendre",
+                "Travailler",
+                "Gérer",
+                "Obtenir",
+                "Abuser",
+                "Découvrir",
+                "Accompagner",
+                "Supprimer",
+                "Tenter",
+                "Livrer",
+                "Dissuader",
+                "Offenser",
+                "Proclamer",
+                "Gâcher",
+                "Chroniquer",
+                "Acquérir",
+                "Guider",
+                "Exploiter",
+                "Opprimer",
+                "Accomplir",
+                "Abîmer",
+                "Apprendre",
+                "Accéder",
+                "Interagir",
+                "Conduire",
+                "Faire connaître",
+                "Persécuter",
+                "Affiner",
+                "Créer",
+                "Réviser",
+                "Charger",
+                "Communiquer",
+                "Composer",
+                "Enlever",
+                "Aider",
+                "Défendre",
+                "Saisir",
+                "Ruiner",
+                "Promouvoir",
+                "Suivre",
+                "Mettre en oeuvre",
+                "Signaler",
+                "Expliquer",
+                "Concevoir",
+                "Avancer",
+                "Comprendre",
+                "Développer",
+                "Décourager",
+                "Ravager",
+                "Protéger",
+                "Collaborer",
+                "Voler",
+                "Assister",
+                "Progresser",
+                "Vaincre",
+                "S'efforcer",
+                "Suggérer",
+                "Détecter",
+                "Inquiéter",
+                "Entraver",
+                "Terminer",
+                "Affaiblir",
+                "Exécuter",
+                "Posséder",
+                "Piller",
+                "Contraindre",
+                "Atteindre",
+                "Maintenir",
+                "Enregistrer",
+                "Construire",
+                "Rejoindre",
+                "Sécuriser",
+                "Réaliser",
+                "Embrasser",
+                "Encourager",
+                "Aider",
+                "Informer",
+                "Transmettre",
+                "Contacter",
+                "Agoniser",
+                "Souiller",
+                "Patronniser",
+                "Voler",
+                "Poursuivre",
+                "Appréhender",
+                "Produire",
+                "Déprimer",
+                "Établir",
+                "Associer",
+                "Administrer",
+                "Instituer",
+                "Déterminer",
+                "Renverser",
+                "Préparer",
+                "Relier",
+                "Compter",
+                "Rechercher",
+                "Soutenir"
+            ]
+        },
+        "focus": [
+            "Scène actuelle",
+            "Dernière histoire",
+            "Équipement",
+            "Parents",
+            "Histoire",
+            "Paiement",
+            "Richesse",
+            "Reliques",
+            "Dernière action",
+            "Capacités",
+            "Supérieurs",
+            "Gloire",
+            "Aventure",
+            "Action future",
+            "Amis",
+            "Alliés",
+            "Dernière scène",
+            "Contacts",
+            "Défaut",
+            "Antagoniste",
+            "Récompenses",
+            "Expérience",
+            "Connaissance",
+            "Scène récente",
+            "Communauté",
+            "Trésor",
+            "Le personnage joueur",
+            "L'histoire actuelle",
+            "Famille",
+            "Pouvoir",
+            "Armes",
+            "Scène précédente",
+            "Enemies"
+        ],
+        "archetype": {
+            "role": [
+                "Sorcier",
+                "Marchand",
+                "Expert",
+                "Roturier",
+                "Juge",
+                "Garde forestier",
+                "Occultiste",
+                "Religieux",
+                "Voyou",
+                "Vagabond",
+                "Compagnon",
+                "Homme d'État",
+                "Astrologue",
+                "Duelliste",
+                "Touche-à-tout",
+                "Aristocrate",
+                "Artisans",
+                "Prédicateur",
+                "Missionnaire",
+                "Paria",
+                "Mercenaire",
+                "Gardien",
+                "Hermite",
+                "Orateur",
+                "Chef",
+                "Pionnier",
+                "Cambrioleur",
+                "Vicaire",
+                "Officier",
+                "Explorateur",
+                "Directeur",
+                "Hors-la-loi",
+                "Adepte",
+                "Clochard",
+                "Enchanteur",
+                "Paysan",
+                "Maître",
+                "Villageois",
+                "Mage",
+                "Conscrit",
+                "Travailleur",
+                "Acteur",
+                "Héraut",
+                "Bandit de grand chemin",
+                "Chasseur de trésor",
+                "Gouverneur",
+                "Combattant",
+                "Moine",
+                "Parent au foyer",
+                "Reclus",
+                "Intendant",
+                "Mathématicien",
+                "Magicien",
+                "Voyageur",
+                "Vagabond",
+                "Apprenti",
+                "Médiateur",
+                "Fripouille",
+                "Civil",
+                "Activiste",
+                "Héros",
+                "Champion",
+                "Clerc",
+                "Esclave",
+                "Soldat",
+                "Voyante",
+                "Patriarche",
+                "Commerçant",
+                "Vieillard",
+                "Aventurier",
+                "Vétéran",
+                "Artiste",
+                "Artisan",
+                "Scientifique",
+                "Ascète",
+                "Interprète",
+                "Magistère",
+                "Serf",
+                "Brute",
+                "Inquisiteur",
+                "Seigneur",
+                "Scélérat",
+                "Professeur",
+                "Serviteur",
+                "Charmeur",
+                "Globe-trotter",
+                "Guide",
+                "Courtisan",
+                "Prêtre",
+                "Marchand",
+                "Tueur à gages",
+                "Charlatan",
+                "Mendiant",
+                "Marchand",
+                "Gitan"
+            ],
+            "descriptor": [
+                "Inutile",
+                "Accro",
+                "Conformiste",
+                "Infâme",
+                "Sensé",
+                "Incompétent",
+                "Romantique",
+                "Déraisonnable",
+                "Qualifié",
+                "Négligent",
+                "Animé",
+                "Franc",
+                "Idéaliste",
+                "Décourageant",
+                "Rationnel",
+                "Grossier",
+                "Idiot",
+                "Rusé",
+                "Délicieux",
+                "Inepte",
+                "Banal",
+                "Logique",
+                "Subtil",
+                "Réputé",
+                "Méchant",
+                "Paresseux",
+                "Pessimiste",
+                "Solennel",
+                "Habituel",
+                "Doux",
+                "Serviable",
+                "Indifférent",
+                "Généreux",
+                "Docile",
+                "Joyeux",
+                "Pragmatique",
+                "Serein",
+                "Réfléchi",
+                "Agréable",
+                "Sans-cœur",
+                "Noble",
+                "Inexpérimenté",
+                "Indiscret",
+                "Inconscient",
+                "Raffiné",
+                "Indispensable",
+                "Érudit",
+                "Conventionnel",
+                "Grossier",
+                "Volontaire",
+                "Indifférent",
+                "Volage",
+                "Âgé",
+                "Immoral",
+                "Naïf",
+                "Privilégié",
+                "Maussade",
+                "Léthargique",
+                "Provocateur",
+                "Odieux",
+                "Perspicace",
+                "Sans tact",
+                "Fanatique",
+                "Plébéien",
+                "Enfantin",
+                "Pieux",
+                "Illettré",
+                "Étourdi",
+                "Cultivé",
+                "Révoltant",
+                "Curieux",
+                "Susceptible",
+                "Collant",
+                "Digne",
+                "Insistant",
+                "Gentil",
+                "Jovial",
+                "Débrouillard",
+                "Tolérant",
+                "Obéissant",
+                "Démuni",
+                "Complice",
+                "Prudent",
+                "Charmant",
+                "Débile",
+                "Optimiste",
+                "Riche",
+                "Découragé",
+                "Idiot",
+                "Passionné",
+                "Dévoué",
+                "Établi",
+                "Inconvenant",
+                "Juste",
+                "Fiable"
+            ],
+            "animal": [
+                {
+                    "name": "Aigle",
+                    "modificators": "Volonté +5",
+                    "traits": "Ambitieux, Autoritaire, Discipliné, Hautain, Impitoyable, Loyal, Pragmatique, Prétentieux, Suspicieux, Sûr de soi"
+                },
+                {
+                    "name": "Chat",
+                    "modificators": "Mouvement +5, Discrétion +5, Force ou Volonté -5",
+                    "traits": "Cruel, Curieux, Dépravé, Égoïste, Élégant, Hautain, Moqueur, Paresseux, Rusé, Séducteur"
+                },
+                {
+                    "name": "Chien",
+                    "modificators": "Endurance ou Perception +5, Sociabilité +5, Discrétion -5",
+                    "traits": "Altruiste, Courageux, Crédule, Gentil, Jaloux, Loyal, Optimiste, Passionnel, Sensible, Spontané "
+                },
+                {
+                    "name": "Coq",
+                    "modificators": "Combat +5, Sociabilité +5, Discrétion ou Connaissances -5",
+                    "traits": "Agressif, Autoritaire, Courageux, Impulsif, Intolérant, Jaloux, Passionnel, Prétentieux, Séducteur, Sûr de soi"
+                },
+                {
+                    "name": "Corbeau",
+                    "modificators": "Discrétion ou Survie +5, Volonté +5, Sociabilité -5",
+                    "traits": "Critique, Cruel, Distant, Intimidant, Mystérieux, Pragmatique, Rancunier, Sarcastique, Solitaire, Spirituel"
+                },
+                {
+                    "name": "Fourmi",
+                    "modificators": "Habileté +5, Volonté +5, Endurance -5",
+                    "traits": "Conservateur, Débrouillard, Discipliné. Inventif, Loyal, Méticuleux, Rationnel, Suiveur, Travailleur, Donneur de leçon"
+                },
+                {
+                    "name": "Hibou",
+                    "modificators": "Connaissances +5",
+                    "traits": "Critique, Curieux, Donneur de leçon, Insatisfait, intellectuel, Inventif, Patient, Raisonneur, Rationnel, Sérieux "
+                },
+                {
+                    "name": "Lapin",
+                    "modificators": "Discrétion +5, Mouvement +5, Perception +5, Combat -5, Force -5 ",
+                    "traits": "Amical, Courtois, Crédule, Curieux, Gentil, Lâche, Pereux, Réservé, Sensible, Suspicieux"
+                },
+                {
+                    "name": "Lion",
+                    "modificators": "Combat +5, Force +5, Sociabilité +5, Connaissances -5, Discrétion -5 ",
+                    "traits": "Ambitieux, Autoritaire, Charismatique, Courageux, Égoïste, Fier, Jaloux, Paresseux, Sanguinaire, Sûr de soi"
+                },
+                {
+                    "name": "Loup",
+                    "modificators": "Combat +5, Perception ou Survie +5, Sociabilité -5",
+                    "traits": "Cynique, Débrouillard, Distant, Honorable, Passionnel, Pragmatique, Rancunier, Sérieux, Solitaire, Violent"
+                },
+                {
+                    "name": "Mouton",
+                    "modificators": "Habileté +5, Perception +5, Sociabilité +5, Combat -5, Volonté -5 ",
+                    "traits": "Suiveur, Réservé, Conservateur, Attentif, Conformiste, Courtois, Raisonneur, Travailleur, Amical, Suspicieux"
+                },
+                {
+                    "name": "Ours",
+                    "modificators": "Force +10, Sociabilité -5",
+                    "traits": "Amical, Attentif, Conservateur, Courageux, Curieux, Intimidant, Loyal, Protecteur, Réservé, Sentimental"
+                },
+                {
+                    "name": "Porc",
+                    "modificators": "Force +5. Endurance +5, Mouvement ou Connaissances -5",
+                    "traits": "Amical, Autoritaire, Dépravé, Fort en gueule, Grossier, Intolérant, Jaloux, Libidineux, Sale, Spontané"
+                },
+                {
+                    "name": "Rat",
+                    "modificators": "Discrétion +5, Volonté ou Survie +5, Force -5",
+                    "traits": "Avare, Cruel, Courtois, Débrouillard, Déloyal, Froid, Inventif, Lâche, Malhonnête, Rancunier"
+                },
+                {
+                    "name": "Renard",
+                    "modificators": "Mouvement +5, Sociabilité +5, Combat ou Force -5 ",
+                    "traits": "Amical, Courtois, Débrouillard, Déloyal, Égoïste, Inventif, Malhonnête, Moqueur, Rusé, Spontané"
+                },
+                {
+                    "name": "Serpent",
+                    "modificators": "Connaissances ou Sociabilité +5, Volonté +5 Mouvement -5 ",
+                    "traits": "Déloyal, Discipliné, Froid, Pragmatique, Manipulateur, Mystérieux, Patient, Spirituel, Suspicieux"
+                },
+                {
+                    "name": "Singe",
+                    "modificators": "Mouvement +5, Sociabilité +5, Combat ou Volonté -5",
+                    "traits": "Curieux, Débrouillard, Déloyal, Infantile, Jovial, Peureux, Rebelle, Rusé, Sarcastique, Spontané"
+                },
+                {
+                    "name": "Souris",
+                    "modificators": "Discrétion +10, Sociabilité +5, Combat -5, Force -5",
+                    "traits": "Altruiste, Courtois, Gentil, Infantile, Inventif, Loyal, Peureux, Réservé, Sensible, Suiveur"
+                },
+                {
+                    "name": "Taureau",
+                    "modificators": "Combat +5. Force +10, Discrétion -5, Connaissances -5",
+                    "traits": "Agressif, Dépravé, Fier, Grossier, Honorable. Intimidant. Jovial, Optimiste, Spontané, Têtu"
+                },
+                {
+                    "name": "Vautour",
+                    "modificators": "Connaissances +5, Endurance +5, Sociabilité -5",
+                    "traits": "Critique, Cruel, Intimidant, Moqueur, Mystérieux, Patient, Pragmatique, Rancunier, Sarcastique, Suspicieux"
+                },
+                {
+                    "name": "Âne",
+                    "modificators": "Endurance +5, Survie ou Volonté +5, Combat ou Tir -5",
+                    "traits": "Altruiste, Amical, Courageux, Crédule, Loyal, Pacifique, Prudent, Sensible, Sérieux, Suiveur, Timide, Travailleur"
+                },
+                {
+                    "name": "Cerf",
+                    "modificators": "Sociabilité +5, Volonté +5, Discrétion ou Tir -5",
+                    "traits": "Ambitieux, Conservateur, Courageux, Courtois, Critique, Exigeant, Intolérant, Loyal, Narcissique, Prétentieux, Séducteur, Volontaire"
+                },
+                {
+                    "name": "Hyène",
+                    "modificators": "Combat ou Tir +5, Discrétion +5, Force ou Volonté -5",
+                    "traits": "Bavard, Cruel, Envieux, Moqueur, Nerveux, Patibulaire, Peureux, Insensible, Intolérant, Prudent, Rancunier, Suiveur"
+                },
+                {
+                    "name": "Paon",
+                    "modificators": "Connaissances ou Perception +5, Sociabilité +5, Combat ou Force -5",
+                    "traits": "Bavard, Courtois, Critique, Curieux, Envieux, Futile, Menteur, Moqueur, Narcissique, Prudent, Séducteur, Susceptible"
+                }
+            ]
+        },
+        // mise en page mutations
+        "speciality": [
+            {
+                "name": "Appétit d'ogre",
+                "desc": "4 repas par jour sont nécessaires à ce personnage, mais son estomac est bien plus résistant pour tout ce qui concerne les intoxications et les poisons (+20% aux tests d’END)."
+            },
+            {
+                "name": "NYCTALOPIE",
+                "desc": "Capacité de voir dans la nuit sans malus, mais pas dans le noir total."
+            },
+            {
+                "name": "Résistance à la magie",
+                "desc": "Dans les tests d'opposition à la magie, le personnage gagne toujours un bonus de +10% pour résister au sort"
+            },
+            {
+                "name" : "Mutation",
+                "type": [
+                    {
+                        "name": "Phobie",
+                        "desc": "Choisissez une phobie (foule, vide, insectes volants, araignées, endroits clos, serpents, feu…). A chaque fois que vous serez confronté à cette peur, vous devrez réussir un test de VOL régulièrement pour ne pas subir -10% à toutes vos actions. Un échec critique provoquera une crise et vous resterez paralysé par la peur."
+                    },
+                    "Albinos : Vous avez la peau blanchâtre et les yeux rouges. De constitution fragile, vous perdez 5% en END, et subirez un - 5% en PER lorsque la lumière sera vive.",
+                    "Bec : Votre nez et votre bouche se tordent pour former un bec. Votre alimentation devra s’y adapter, et vous devrez le dissimuler pour ne pas être chassé. Vous pouvez attaquer avec votre bec qui fait des dégâts de BF-1.",
+                    "Bossu : Vous souffrez d’une déformation du thorax et de la colonne vertébrale qui forme une bosse sur votre dos. Vous perdez 10% en SOC. De plus, vous serez régulièrement moqué et suspecté de malice par vos contemporains.",
+                    "Court sur pattes ou nanisme : Vous rapetissez, vos jambes se rétractent et perdez 10% en MVT, et 5% en COM.",
+                    "Crises vomitives ou diarrhéiques : chaque jour, à un moment décidé par le MJ, vous devrez tester votre END pour ne pas subir immédiatement une crise vomitive ou une diarrhée aigüe. En combat, vous perdrez votre action, mais cela peut aussi surprendre ou dégoûter votre adversaire.",
+                    "Défaut de prononciation : il peut s’agir d’un bégaiement, d’un nasillement, d’un zozotement, d’un zézaiement, d’une blésité… Vous perdez 5% en SOC.",
+                    "Dépendance : Votre corps doit consommer une substance chaque jour pour ne pas perdre 1PV par jour d’abstinence. Lancez un d10 pour la connaître : 1-2: du sang; 3-4: de l’alcool; 4-5: de l’urine ou des déjections ; 5-6: des insectes; 7-8: une plante; 9: un animal; 0 : au choix",
+                    "Doigts atrophiés : quelques doigts de vos mains se sont atrophiés et sont inutilisables. Vous perdez 10% en HAB.",
+                    "Excroissance de chair : de la chair a poussé sur votre corps pour former un amas étrange. Il peut s’agir d’une couronne de chair, des kystes palpitants, une crête sur la nuque et le dos… Si elle est visible, vous perdez 10% sur vos tests de SOC.",
+                    "Flatulences incontrôlées : cette mutation vous afflige d’un malus de 10% en SOC, et d’une réputation désastreuse. Cependant, en réussissant un test d’END, vous pourrez vous retenir pendant une heure maximum.",
+                    "Fragilité des os : vos os sont moins solides que la moyenne et peuvent se briser plus facilement en cas de choc. Vous perdez 5% en FOR, et chaque fois que vous obtiendrez un échec critique dans une action physique, vous vous briserez un os.",
+                    "Frère/Sœur siamois : un être vivant s’extirpe de votre corps et vous ressemble beaucoup. Il peut être une version miniature de vous d’une trentaine de centimètres, comme un véritable frère siamois faisant votre taille. Il dispose de 5PV qui vous sont prélevés définitivement. S’il meurt, vous reperdrez 5 PV de façon permanente.",
+                    "Furoncles, verrues : des furoncles violacés recouvrent une partie de votre corps. Lancez un d10 pour la déterminer : 1 : les pieds, 2 : une jambe, 3 : les mains, 4 : un bras, 5: le ventre, 6: la poitrine, 7: le dos, 8 : le cou, 9: le visage, 0: partout sur le corps.",
+                    "Groin / museau : votre bouche et votre nez se fondent en un groin porcin, ou un museau de chien. Vous devez impérativement le dissimuler en société, mais vous gagnez +20% aux tests de PER basés sur l’odorat.",
+                    "Hyperphagie, boulimie : vous avez l’appétit de trois ou quatre hommes. Manger est votre obsession, et chaque jour où vous ne vous nourrissez pas suffisamment vous infligera la perte d’1PV. Vous pouvez être aussi bien obèse que maigre.",
+                    "Langage inconnu : du jour au lendemain, vous vous êtes mis à vous exprimer dans un langage inconnu. Vous devez réussir un test de CNS à chaque fois que vous voudrez reparler dans votre ancienne langue, car vous ne la maîtrisez plus.",
+                    "Langue étrange : votre langue a muté pour devenir noire, bifide, ou très longue.",
+                    "Long cou : votre cou s’allonge de 1d10 cm. Il y a 50% de chances que sa nouvelle composition vous permette de tourner votre tête à 180°. Cependant, si vous subissez un coup critique, vous ajoutez 2 points aux dégâts subis, car votre long cou attire.",
+                    "Maigreur : votre corps semble fondre pour ne vous laisser que la peau sur les os. Quelle que soit la nourriture que vous ingurgitez, vous resterez d’une maigreur maladive. Vous perdez définitivement 10% en FOR, 5% en END et 5% en SOC.",
+                    "Membre mort supplémentaire : un membre supplémentaire a poussé sur votre corps, mais s’est atrophié, rabougri et n’est plus utilisable. Lancez un d10 pour le déterminer : 1-2: un bras, 2 : une queue, 3 : un œil, 4-5: des doigts, 6: des ailes, 7: un organe sexuel, 8 : un sein, 9: un nez ou une oreille , 0: une petite tête. Procéder à son amputation vous fera perdre définitivement 3 PV. Ce membre pourra potentiellement repousser (et devenir utilisable, ou se rabougrir encore).",
+                    "Membres déformés : certains de vos membres se sont déformés et sont difficilement utilisables. Lancez un d10 pour le(s) déterminer : 1-2: quelques doigts; 3-4: une main; 5: un bras entier; 6-7: un pied; 8: une oreille; 9: un œil; 9: au choix du joueur. Appliquez un malus de 10% aux tests en conséquence (PER, HAB, MVT, TIR…).",
+                    "Obésité : votre poids est doublé, et tout ce surplus est en graisse. Vous vous essoufflez très vite, et vous avez du mal à avancer avec ce nouveau poids. Vous perdez définitivement 15% en MVT. Et tous vos tests de souffle subissent un malus de 20%.",
+                    "Odeur bizarre : votre odeur est étrange ou inhabituelle. Cela peut être une odeur de soufre, d’animal, ou d’un parfum fort qu’on reconnaît immédiatement. De plus cette odeur se maintient de longues minutes après votre passage dans une pièce, si bien qu’on sait que vous êtes passé.",
+                    "Pattes d’oiseau ou sabots : vos pieds mutent pour prendre l’apparence de sabots ou de pattes d’oiseau. Aucune botte ne peut cacher cette mutation, et vous devez impérativement cacher vos pieds sous une robe ample, si vous ne voulez pas être chassé à vue. Cependant vous gagnez +5% en MVT.",
+                    "Peau tachetée : votre peau est constellée de petites taches brunes ou rougeâtres. Vous perdez 5% en SOC. Ces taches peuvent aussi attirer l’attention.",
+                    "Peau translucide : votre peau peut laisser apparaître vos muscles et vos nerfs, selon les moments de la journée (20% de chances par jour). Votre apparence sera alors monstrueuse, et il vous sera impossible de passer pour un humain.",
+                    "Perte de membre : un de vos membres s’est racorni et a dû être retiré/amputé pour ne pas que la mutation se propage sur tout le corps. Lancez un d10 pour le déterminer : 1-2: un pied, 3-4: une jambe (sous le genou), 5-6: une main, 7-8: un bras, 9-0: un œil ou le nez",
+                    "Perte des ongles ou des dents : vos ongles sont tombés ou vos dents se sont déchaussées. Vous perdez 20% en SOC. Si on vous implante de nouvelles dents (en or par exemple), vous pourrez regagner 10% en SOC.",
+                    "Plaies purulentes : votre corps est constellé de petites croûtes qui suintent. Si elles sont visibles par votre interlocuteur, vous subissez un -10% en SOC, et -30% dans les tests de séduction. Cependant vous gagnez +10% aux tests pour éviter une saisie.",
+                    "Plumes : une bonne partie de vos flancs s’est recouvert de plumes. Votre peau a aussi changé en devenant flasque à ces endroits.",
+                    "Putréfaction : votre corps semble se décomposer mais régénère à d’autres endroits. Vous exhalez une odeur de mort, et subissez un -20% en SOC si vous n’arrivez pas à dissimuler cette odeur par le truchement de parfums ou d’encens.",
+                    "Pyromanie: le feu vous fascine. Lorsque la situation s’y prête, un test de VOL sera nécessaire pour ne pas céder à vos pulsions incendiaires.",
+                    "Retard mental : votre mutation a atteint vos capacités cognitives. Vous perdez définitivement 20% en CNS.",
+                    "Sensible aux poisons : tous vos tests d’END pour résister aux poisons subissent un malus de 10%.",
+                    "Sens sous-développé : un ou plusieurs de vos sens sont déficients. Vous subirez un malus de -20% à chaque fois qu’un de ces sens sera sollicité. Lancez un dé pour déterminer le (ou les) sens amoindri(s) : 1-3: la vue, 4-6: l’ouïe, 7-8: l’odorat et le goût, 9 : la vue et l’ouïe, 0 : tous.",
+                    "Système immunitaire déficient : Tous vos tests d’END pour résister aux maladies subissent un malus de 10%.",
+                    "Tentacule : un de vos bras se tord et devient un long tentacule recouvert de ventouses collantes. Vous subissez un -30% en HAB avec ce bras, et devrez le cacher pour ne pas être chassé. Cependant vous gagnez +5% pour les tests d’immobilisation.",
+                    "Tête difforme ou énorme : atteint d’hydrocéphalie ou d’une autre déformation, vous perdez définitivement 20% en SOC. Vous subissez en outre un malus de 20% pour les tests de séduction. Votre mutation est très visible et il vous faudra la faire passer pour un accident pour ne pas être chassé à vue.",
+                    "Traînée de bave : votre corps est constellé de petits pores qui suintent une bave visqueuse. Vous pouvez dissimuler cet aspect sous des vêtements, des bottes et des gants, mais votre accoutrement humide pourra attirer l’attention.",
+                    "Tumeur énorme : une tumeur de plusieurs kilos a poussé sur votre dos, sous l’aisselle ou sur votre nuque. Vous perdez 5% en MVT, et 10% en SOC si elle est visible par votre interlocuteur.",
+                    "Vers sous la peau : des vers courent sous votre peau et peuvent être visibles par votre entourage. Ils ne vous gênent pas outre mesure, mais les parties nues de votre corps pourront dégoûter vos interlocuteurs si des vers sont visibles à ce moment-là (-20 aux tests de SOC ou fuite immédiate). Si vous êtes précautionneux et que vous ne laissez apparaître que vos mains et votre visage par exemple, les vers ne seront visibles que si vous obtenez un doublé sur votre test de SOC.",
+                    "Vieillissement prématuré du corps : votre corps vieillit deux fois plus vite que la normale. Selon l’âge de votre corps, appliquez ces malus physiques : À un âge vieux : -5 en PER, HAB et ﻿TIR, -10 en MVT, FOR, END, COM. À un âge vénérable : -10 en PER, HAB et ﻿TIR, -15 en MVT, FOR, END, COM.",
+                    "Vieillissement prématuré du visage : votre visage vieillit deux fois plus vite que la normale. Tenez en compte dans vos relations sociales, car si à 20 ans vous en paraîtrez 40, il n’en sera pas de même à 35, quand votre visage en paraîtra 70.",
+                    "Agile : votre mutation vous a rendu particulièrement souple. Vous pouvez vous tordre de façon étrange, et vous disposez d’un meilleur équilibre. Vous gagnez +10% en MVT, et un bonus de +20% automatique aux tests de contorsion.",
+                    "Ailes membraneuses : de petites ailes membraneuses ont poussé le long de vos bras et sur vos flancs. Vous ne pouvez pas prendre votre envol, mais pouvez planer et diriger votre vol descendant, même à des hauteurs vertigineuses. Il est nécessaire que vos vêtements soient coupés sur les côtés pour laisser passer vos ailes.",
+                    "Arme dissimulée : vous pouvez faire sortir de votre corps une arme d’os , qui infligera des dégâts de BF+0.",
+                    "Attaque mentale : vous pouvez écraser l’esprit de votre adversaire sur un test d’opposition VOL/VOL. En cas de réussite, vous infliger RU (Résultat Unité) dégâts temporaires. En cas d’échec, vous subissez RU/2 (arrondi à l’inférieur) dégâts temporaires.",
+                    "Branchies : des branchies ont poussé dans votre cou, mais ne remplacent pas votre système respiratoire actuel. Vous pouvez donc respirer sur terre comme dans l’eau.",
+                    "Caméléon : votre peau semble s’adapter à son environnement et en copie l’aspect. Il vous faut rester immobile une minute pour que votre peau change de teinte, et vous gagnez alors +20% à vos tests de DIS.",
+                    "Combustion : vous pouvez enflammer des objets, des tissus, des constructions, par la seule force de votre esprit, sur un test réussi de VOL. Chaque échec vous laisse des marques de brûlure sur la peau et vous fait perdre 1PV.",
+                    "Contact électrique : votre peau peut déclencher une attaque électrique. Si vous êtes au contact avec un (voire plusieurs) individu(s) et que vous réussissez un test d’END, votre cible subira (RU (Résultat Unité) +1) points de dégâts, et devra immédiatement vous lâcher.",
+                    "Contrôle des animaux : si vous regardez un animal dans les yeux, et réussissez un test de VOL, vous pouvez en prendre le contrôle pendant (RU (Résultat Unité)) heures. Il vous obéira totalement et pourra même mettre sa vie en danger pour vous.",
+                    "Cornes : votre crâne s’est solidifié sur le dessus, et des cornes d’1d10 cm ont poussé. Vos dégâts en cas de coup de tête ont un modificateur de -1. Vous devez dissimuler cette mutation sous un couvre-chef sous peine d’être considéré comme un démon.",
+                    "Crocs : vos dents se sont transformées en crocs. Solides et pointus, ces crocs infligent des dégâts de BF -1 en cas de morsure. Cependant, votre SOC baisse de 5%.",
+                    "Croissance : vous gagnez 1d10+2 cm, et gagnez autant de kilos et autant de points en FOR et en END.",
+                    "Dard de scorpion : une queue de scorpion longue comme une de vos jambes a poussé dans le bas de votre dos. Le dard suinte de poison. Si vous attaquez avec, son modificateur de dégâts est de 0, et si vous touchez avec une réussite 30+, l’adversaire sera empoisonné. Il devra réussir un test d’END pour ne pas être pris de convulsions et mourir dans la minute. Vous devez bien sûr cacher cette mutation coûte que coûte.",
+                    "Devin : vous avez des prémonitions. Une fois par jour, sur un test de VOL réussi, vous pouvez avoir des visions, des flashs, ou des rêves qui répondront à vos questions. Ces réponses peuvent être très précises comme très vagues (au bon vouloir du MJ).",
+                    "Énergie magique : vous gagnez +10% en MAG. Vous pouvez maintenant apprendre des sortilèges et développer cette caractéristique, car votre don s’est éveillé.",
+                    "Épines : votre corps se couvre d’épines noires. Vous gagnez la capacité PEUR(1), et tous ceux qui réussissent une passe d’armes au contact contre vous perdront 1PV (sauf s’ils sont à bonne distance grâce à une arme d’hast par exemple). Vous pouvez aussi projeter ces épines en réussissant un test de TIR (mod. aux dégâts : BF -2).",
+                    "Fourrure : une fourrure d’animal vous recouvre le corps. Si vous ne voulez pas être traité comme un monstre, il vous faudra vous raser les parties visibles (visage et mains principalement). Cependant, vous gagnez +30% à tous vos tests pour résister au froid, et 1 point de protection naturelle sur tout le corps.",
+                    "Force accrue : vos muscles grossissent et font apparaître vos veines qui palpitent sous votre peau. Vous gagnez +15% en FOR.",
+                    "Garou : sur un test de VOL réussi, vous pouvez vous métamorphoser en un animal. Lancez un d10 pour le déterminer : 1: une nuée de rats; 2: un corbeau; 3: un nuage de mouches; 4-5: un loup noir; 6: un ours; 7: un chat; 8: un serpent; 9: une araignée géante; 0: un dragonnet",
+                    "Griffes : vous disposez de griffes rétractiles. Elles infligent des dégâts de BF -1.",
+                    "Langue fouet : vous pouvez allonger votre langue à volonté. Elle peut atteindre 3 mètres et inflige des dégâts de BF-2.",
+                    "Lévitation : en réussissant un test de VOL, vous pouvez léviter horizontalement ou verticalement sur RU (Résultat Unité) mètres. Chaque échec vous fait perdre 1PV.",
+                    "Magie instable : la magie n’a pas les mêmes effets sur vous que sur les autres. Tout sortilège lancé sur vous (bénéfique ou maléfique) subit un changement. Lancez un d10 pour le déterminer : 1-3: l’effet reste identique mais le mage perd (votre VOL/10) PV; 4-6: le RU (Résultat Unité) du sort est divisé par deux (arrondi à l’inférieur) ; 7-9: le sort mute en un autre, du même mage; 0: le sort est annulé, purement et simplement.",
+                    "Mains guérisseuses : vous semblez disposer d’un don pour soigner autrui. Une fois par jour, sur un test de VOL réussi, vous pouvez au choix faire regagner (RU (Résultat Unité)) PV, soit guérir une maladie bénigne. Vous ne pouvez pas vous soigner vous-même.",
+                    "Mémoire eidétique : votre mémoire est infaillible. Vous gagnez un bonus de +40% à tous les tests de CNS concernant la mémoire des faits, des noms, des nombres, des rues, aussi bien visuelle et auditive qu’olfactive… Vous vous souvenez de tout.",
+                    "Peau malléable : votre peau et vos replis de graisse sont si malléables que vous pouvez dissimuler des objets à l’intérieur (ne dépassant pas la taille de votre cuisse).",
+                    "Phéromones : votre corps produit des phéromones puissantes qui vous procurent un magnétisme animal. Vous gagnez +10% en SOC.",
+                    "Pince : un de vos avant-bras s’est transformé en une pince monstrueuse. Vous subissez un malus de 30% en HAB avec cette pince, et devrez la dissimuler à tout prix. Cependant, elle inflige des dégâts de BF+1, et sur une réussite 30+, vous pouvez désarmer votre adversaire en lui saisissant son arme (et en réussissant un test d’opposition FOR/FOR) ou détruire l’arme si celle-ci comporte un manche en bois.",
+                    "Plaques épidermiques : Votre peau est devenue très épaisse et vous gagnez 2 points de protection sur tout le corps.",
+                    "Poison : vous sécrétez dans vos glandes un venin que vous pouvez utiliser une fois par jour. Lancez 1d10 pour le déterminer : 1-3: poison paralysant; 4-6: poison virulent; 7-9: poison lent; 0: au choix. Vous pouvez enduire une lame de ce poison, ou en conserver d’avance.",
+                    "Puanteur contrôlée : en réussissant un test d’END, vous pouvez provoquer un gaz à la puanteur suffocante, qui gênera toutes les personnes autour de vous dans un rayon de 3 mètres. Il leur faudra réussir un test d’END pour ne pas subir un malus de 10% à toutes leurs actions pendant deux tours .",
+                    "Queue préhensile : une queue longue de deux mètres et suffisamment fine pour tenir dans un pantalon bouffant, et saisir des objets, a poussé en bas de votre dos. Si vous lui donnez une arme (type poignard), cela pourra vous donner un +5% en COM.",
+                    "Regard hypnotique : vous avez la capacité d’hypnotiser une cible si vous la regardez dans les yeux pendant une minute. Vous ne pouvez pas utiliser cette capacité en combat (car le stress et l’agressivité empêche tout hypnose), et devez réussir un test d’opposition VOL/VOL. En cas de réussite, la cible vous obéira pendant une heure. Cette capacité ne fonctionne pas sur les animaux.",
+                    "Régénération : vos blessures physiques se régénèrent au rythme d’1 PV/heure. Cette régénération n’a aucun effet sur les maladies, les poisons ou les sortilèges, et ne permet pas de faire repousser un membre coupé.",
+                    "Résistance au feu : tous les dégâts liés au feu sont diminués de moitié sur vous. Deplus vous gagnez +30% aux tests d’END liés au feu (asphyxie, brûlures…).",
+                    "Résistance aux maladies : vous gagnez +30% aux tests d’END liés aux maladies.",
+                    "Résistance aux poisons : vous gagnez +30% aux tests d’END liés aux poisons.",
+                    "Sécrétion acide : vous sécrétez un acide puissant, que vous pouvez cracher sur un adversaire en utilisant votre END. En cas de succès, l’acide inflige (RU (Résultat Unité)) points de dégâts. Il rongera ensuite la chair ou l’armure de la cible au rythme d’1 point (de vie ou de protection) par tour.",
+                    "Sens améliorés : un (ou plusieurs) de vos sens se sont améliorés, et vous gagnez +20% aux tests de PER quand ce sens entre en jeu. Lancez un d10 : 1: l’odorat et le goût; 2-4: la vue; 5-7: l’ouïe; 8-9: la vue et l’ouïe; 0: tous les sens.",
+                    "Spores : sur un test d’END réussi, vous crachez un nuage de spores qui viendra gêner un maximum (RU (Résultat Unité)) adversaires, qui subiront -5% à toutes leurs actions jusqu’à la fin du combat.",
+                    "Squelette renforcé : vos os sont très solides. Vous ajoutez 1 point à tous vos dégâts à mains nues et vous divisez par deux tous les dégâts reçus par une arme contondante.",
+                    "Télékinésie : vous pouvez déplacer par la pensée des objets ne dépassant pas votre VOL/10 kilos. Pour cela, vous devez réussir un test de VOL, et l’effet ne dure qu’une minute. Chaque échec vous fait perdre 1PV.",
+                    "Télépathie : vous pouvez communiquer par la pensée avec des individus se trouvant à une distance maximale d’1 km. Pour ce faire, vous devez réussir un test de VOL et l’effet ne dure qu’une minute. Chaque échec vous fait perdre 1PV.",
+                    "Terrifiant : votre visage est si horrible (peau en lambeaux, yeux supplémentaires aveugles, asticots gras se baladant dans votre tête, bubons purulents, tête déformée…) que vous disposez de la capacité PEUR (2). Votre SOC tombe à 0 quand on voit votre apparence, et vous devez dissimuler votre figure derrière un masque, ou un heaume.",
+                    "Vampire : vous avez développé une fragilité au soleil, et subissez un malus de -5% à toutes vos actions pendant la journée (le malus est doublé en cas de grand soleil, et annulé en cas de temps très couvert). Cependant, vous pouvez régénérer toutes vos blessures en absorbant le sang d’êtres vivants (animaux ou humanoïdes), au rythme d’1PV récupéré pour 2PV prélevés sur la cible.",
+                    "Ventouses : votre corps est constellé de minuscules ventouses que vous pouvez faire « éclore » quand bon vous semble. Elles vous donnent un bonus de +30% aux tests de MVT liés à l’escalade, et vous donne la possibilité de grimper aux murs.",
+                    "Vision nocturne : vous pouvez voir de nuit sans malus, mais pas dans le noir total.",
+                    "Yeux multiples : vous gagnez 1d10/2 yeux supplémentaires à placer sur votre corps. Cela vous permet de ne jamais subir d’attaque par surprise, et de gagner +5% par œil supplémentaire aux tests de PER liés à la vue. S’ils sont visibles, toute interaction sociale est impossible, et vous serez chassé à vue."
+                ]
+            }
+        ]
+    }
+}
