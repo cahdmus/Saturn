@@ -1,5 +1,5 @@
 import "./styles.css";
-import { NPCgenerator } from "./NPCgenerator/NPCmodule.js";
+import { displayNPC } from "./NPCgenerator/NPCdom.js";
 
 if (process.env.NODE_ENV !== 'production') {
     console.log('-------------------------------------');
@@ -7,12 +7,14 @@ if (process.env.NODE_ENV !== 'production') {
     console.log('-------------------------------------');
 }
 
-function component() {
-    const element = document.createElement('pre');
-    element.innerHTML = 'What we doin today ?';
+// function component() {
+//     const element = document.createElement('pre');
+//     element.innerHTML = 'What we doin today ?';
 
-    return element;
-}
+//     return element;
+// }
 
-document.body.appendChild(component());
-NPCgenerator.init();
+// document.body.appendChild(component());
+// NPCgenerator.init();
+
+displayNPC.init()

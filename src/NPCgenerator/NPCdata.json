@@ -1,0 +1,4763 @@
+{
+    "names": [
+        {
+            "name": "Agla",
+            "genders": "F"
+        },
+        {
+            "name": "Akram",
+            "genders": "M"
+        },
+        {
+            "name": "Aliénor",
+            "genders": "F"
+        },
+        {
+            "name": "Alimon",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Alphée",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Alphun",
+            "genders": "M"
+        },
+        {
+            "name": "Alric",
+            "genders": "M"
+        },
+        {
+            "name": "Ambroise",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Amos",
+            "genders": "M"
+        },
+        {
+            "name": "Apollyon",
+            "genders": "M"
+        },
+        {
+            "name": "Arabelle",
+            "genders": "F"
+        },
+        {
+            "name": "Arel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Arlo",
+            "genders": "M"
+        },
+        {
+            "name": "Armesi",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Armoise",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Asmodel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Asmodeus",
+            "genders": "M"
+        },
+        {
+            "name": "Asphodel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Astel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Atlas",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Aubépine",
+            "genders": "F"
+        },
+        {
+            "name": "Azza",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Baltazard",
+            "genders": "M"
+        },
+        {
+            "name": "Ban",
+            "genders": "M"
+        },
+        {
+            "name": "Barcus",
+            "genders": "M"
+        },
+        {
+            "name": "Bergamote",
+            "genders": "F"
+        },
+        {
+            "name": "Brunelle",
+            "genders": "F"
+        },
+        {
+            "name": "Bruyère",
+            "genders": "F"
+        },
+        {
+            "name": "Calico",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Carotte",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Castor",
+            "genders": "M"
+        },
+        {
+            "name": "Chapelain",
+            "genders": "M"
+        },
+        {
+            "name": "Chardon",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Circe",
+            "genders": "F"
+        },
+        {
+            "name": "Colin",
+            "genders": "M"
+        },
+        {
+            "name": "Coquelicot",
+            "genders": "F"
+        },
+        {
+            "name": "Crépin",
+            "genders": "M"
+        },
+        {
+            "name": "Cripon",
+            "genders": "M"
+        },
+        {
+            "name": "Criquet",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Crocell",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Croesus",
+            "genders": "M"
+        },
+        {
+            "name": "Dagobert",
+            "genders": "M"
+        },
+        {
+            "name": "Elio",
+            "genders": "M"
+        },
+        {
+            "name": "Euphraise",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Eusæbius",
+            "genders": "M"
+        },
+        {
+            "name": "Galaad",
+            "genders": "M"
+        },
+        {
+            "name": "Gauvin",
+            "genders": "M"
+        },
+        {
+            "name": "Haggo",
+            "genders": "M"
+        },
+        {
+            "name": "Hemera",
+            "genders": "F"
+        },
+        {
+            "name": "Hyperion",
+            "genders": "M"
+        },
+        {
+            "name": "Hysope",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Iago",
+            "genders": "M"
+        },
+        {
+            "name": "Kadosh",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Krios",
+            "genders": "M"
+        },
+        {
+            "name": "Kronos",
+            "genders": "M"
+        },
+        {
+            "name": "Labusi",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Lamorak",
+            "genders": "M"
+        },
+        {
+            "name": "Lanzelet",
+            "genders": "M"
+        },
+        {
+            "name": "Linaigrette",
+            "genders": "F"
+        },
+        {
+            "name": "Loel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Lumazi",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Lupin",
+            "genders": "M"
+        },
+        {
+            "name": "Magnus",
+            "genders": "M"
+        },
+        {
+            "name": "Magog",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Mephistopheles",
+            "genders": "M"
+        },
+        {
+            "name": "Mercure",
+            "genders": "M"
+        },
+        {
+            "name": "Meririm",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Merlin",
+            "genders": "M"
+        },
+        {
+            "name": "Murmus",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Myrddin",
+            "genders": "M"
+        },
+        {
+            "name": "Nabu",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Narcisse",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Neroli",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Ophrys",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Orcus",
+            "genders": "M"
+        },
+        {
+            "name": "Orla",
+            "genders": "F"
+        },
+        {
+            "name": "Orrin",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Otis",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Pâquerette",
+            "genders": "F"
+        },
+        {
+            "name": "Pellinor",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Pépin",
+            "genders": "M"
+        },
+        {
+            "name": "Perzival",
+            "genders": "M"
+        },
+        {
+            "name": "Petrus",
+            "genders": "M"
+        },
+        {
+            "name": "Phoebus",
+            "genders": "M"
+        },
+        {
+            "name": "Pontus",
+            "genders": "M"
+        },
+        {
+            "name": "Pryderi",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Rampel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Rhosyn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Rimezin",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Saga",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Salem",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Selmy",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Sisera",
+            "genders": "F"
+        },
+        {
+            "name": "Sosol",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Taliesin",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Thémis",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Tilli",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Tristam",
+            "genders": "M"
+        },
+        {
+            "name": "Vel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Zarobi",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Aderyn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Alys",
+            "genders": "F"
+        },
+        {
+            "name": "Branwen",
+            "genders": "M"
+        },
+        {
+            "name": "Cerys",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Eleri",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Medeni",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Modron",
+            "genders": "M"
+        },
+        {
+            "name": "Nefyn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Nia",
+            "genders": "F"
+        },
+        {
+            "name": "Seren",
+            "genders": "F"
+        },
+        {
+            "name": "Taryn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Teleri",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Elfinn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Finn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Emyr",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Gwydion",
+            "genders": "M"
+        },
+        {
+            "name": "Heilyn",
+            "genders": "F"
+        },
+        {
+            "name": "Llyr",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Macsen",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Merfyn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Owain",
+            "genders": "M"
+        },
+        {
+            "name": "Rhys",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Perceval",
+            "genders": "M"
+        },
+        {
+            "name": "Tegwyn",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Viktor",
+            "genders": "M"
+        },
+        {
+            "name": "Ambrose",
+            "genders": "M"
+        },
+        {
+            "name": "Phineas",
+            "genders": "M"
+        },
+        {
+            "name": "Yvette",
+            "genders": "F"
+        },
+        {
+            "name": "Juliotte",
+            "genders": "F"
+        },
+        {
+            "name": "Charme",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Lierre",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Agathe",
+            "genders": "F"
+        },
+        {
+            "name": "Enracine",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Kaven",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Lala",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Lillai",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Majaris",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Miri",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Ladin",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Titi",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Olius",
+            "genders": "M"
+        },
+        {
+            "name": "Matthem",
+            "genders": "M"
+        },
+        {
+            "name": "Pauel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Herard",
+            "genders": "M"
+        },
+        {
+            "name": "Arnus",
+            "genders": "M"
+        },
+        {
+            "name": "Tiel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Hardus",
+            "genders": "M"
+        },
+        {
+            "name": "Albert",
+            "genders": "M"
+        },
+        {
+            "name": "Coppert",
+            "genders": "M"
+        },
+        {
+            "name": "Compère",
+            "genders": "M"
+        },
+        {
+            "name": "Alebette",
+            "genders": "F"
+        },
+        {
+            "name": "Maris",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Lelie",
+            "genders": "F"
+        },
+        {
+            "name": "Pieteris",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Hersen",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Emme",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Marga",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Berna",
+            "genders": "F"
+        },
+        {
+            "name": "Amelia",
+            "genders": "F"
+        },
+        {
+            "name": "Nell",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Hodis",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Ada",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Alma",
+            "genders": "F"
+        },
+        {
+            "name": "Blanche",
+            "genders": "F"
+        },
+        {
+            "name": "Briar",
+            "genders": "M"
+        },
+        {
+            "name": "Cora",
+            "genders": "F"
+        },
+        {
+            "name": "Effie",
+            "genders": "F"
+        },
+        {
+            "name": "Eleanor",
+            "genders": "F"
+        },
+        {
+            "name": "Hariet",
+            "genders": "F"
+        },
+        {
+            "name": "Josephine",
+            "genders": "F"
+        },
+        {
+            "name": "Mabel",
+            "genders": "F"
+        },
+        {
+            "name": "Augustus",
+            "genders": "M"
+        },
+        {
+            "name": "Boaz",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Caius",
+            "genders": "M"
+        },
+        {
+            "name": "Cassius",
+            "genders": "M"
+        },
+        {
+            "name": "Everett",
+            "genders": "M"
+        },
+        {
+            "name": "Harold",
+            "genders": "M"
+        },
+        {
+            "name": "Ivor",
+            "genders": "M"
+        },
+        {
+            "name": "Merrit",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Oscar",
+            "genders": "M"
+        },
+        {
+            "name": "Simeon",
+            "genders": "M"
+        },
+        {
+            "name": "Alden",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Alfred",
+            "genders": "M"
+        },
+        {
+            "name": "Batilda",
+            "genders": "F"
+        },
+        {
+            "name": "Marguerite",
+            "genders": "F"
+        },
+        {
+            "name": "Pâquerette",
+            "genders": "F"
+        },
+        {
+            "name": "Fay",
+            "genders": "F"
+        },
+        {
+            "name": "Millard",
+            "genders": "M"
+        },
+        {
+            "name": "Osbert",
+            "genders": "M"
+        },
+        {
+            "name": "Baran",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Caspar",
+            "genders": "M"
+        },
+        {
+            "name": "Dario",
+            "genders": "M"
+        },
+        {
+            "name": "Darius",
+            "genders": "M"
+        },
+        {
+            "name": "Estera",
+            "genders": "F"
+        },
+        {
+            "name": "Irma",
+            "genders": "F"
+        },
+        {
+            "name": "Philocrates",
+            "genders": "M"
+        },
+        {
+            "name": "Margaux",
+            "genders": "F"
+        },
+        {
+            "name": "Jean",
+            "genders": "M"
+        },
+        {
+            "name": "Bertille",
+            "genders": "F"
+        },
+        {
+            "name": "Pierre",
+            "genders": "M"
+        },
+        {
+            "name": "Égide",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Richard",
+            "genders": "M"
+        },
+        {
+            "name": "Sylvestre",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Annette",
+            "genders": "F"
+        },
+        {
+            "name": "Marion",
+            "genders": "F"
+        },
+        {
+            "name": "Suzon",
+            "genders": "F"
+        },
+        {
+            "name": "Ninon",
+            "genders": "F"
+        },
+        {
+            "name": "Louisette",
+            "genders": "F"
+        },
+        {
+            "name": "Marceline",
+            "genders": "F"
+        },
+        {
+            "name": "Sidonie",
+            "genders": "F"
+        },
+        {
+            "name": "Thérèsa",
+            "genders": "F"
+        },
+        {
+            "name": "Modestie",
+            "genders": "F"
+        },
+        {
+            "name": "Constance",
+            "genders": "F"
+        },
+        {
+            "name": "Anatalie",
+            "genders": "F"
+        },
+        {
+            "name": "Anatolie",
+            "genders": "F"
+        },
+        {
+            "name": "Olympe",
+            "genders": "F"
+        },
+        {
+            "name": "Pénélope",
+            "genders": "F"
+        },
+        {
+            "name": "Céleste",
+            "genders": "F"
+        },
+        {
+            "name": "Anasthasia",
+            "genders": "F"
+        },
+        {
+            "name": "Capucine",
+            "genders": "F"
+        },
+        {
+            "name": "Albertine",
+            "genders": "F"
+        },
+        {
+            "name": "Odette",
+            "genders": "F"
+        },
+        {
+            "name": "Cunégonde",
+            "genders": "F"
+        },
+        {
+            "name": "Henriette",
+            "genders": "F"
+        },
+        {
+            "name": "Gabriel",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Claire",
+            "genders": "F"
+        },
+        {
+            "name": "Prudence",
+            "genders": "F"
+        },
+        {
+            "name": "Toinette",
+            "genders": "F"
+        },
+        {
+            "name": "Léonard",
+            "genders": "M"
+        },
+        {
+            "name": "George",
+            "genders": "M"
+        },
+        {
+            "name": "Etienne",
+            "genders": "M"
+        },
+        {
+            "name": "Augustin",
+            "genders": "M"
+        },
+        {
+            "name": "César",
+            "genders": "M"
+        },
+        {
+            "name": "Isidore",
+            "genders": "M"
+        },
+        {
+            "name": "Marius",
+            "genders": "M"
+        },
+        {
+            "name": "Amédée",
+            "genders": "M"
+        },
+        {
+            "name": "Perrin",
+            "genders": "M"
+        },
+        {
+            "name": "Casimir",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Hyppolyte",
+            "genders": "M"
+        },
+        {
+            "name": "Anthelme",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Parfait",
+            "genders": "M"
+        },
+        {
+            "name": "Marcellin",
+            "genders": "M"
+        },
+        {
+            "name": "Gustave",
+            "genders": "M"
+        },
+        {
+            "name": "Maturin",
+            "genders": "M"
+        },
+        {
+            "name": "Roland",
+            "genders": "M"
+        },
+        {
+            "name": "Charles",
+            "genders": "M"
+        },
+        {
+            "name": "Martin",
+            "genders": "M"
+        },
+        {
+            "name": "Simon",
+            "genders": "M"
+        },
+        {
+            "name": "Norbert",
+            "genders": "M"
+        },
+        {
+            "name": "Auguste",
+            "genders": "M"
+        },
+        {
+            "name": "Planturin",
+            "genders": "M"
+        },
+        {
+            "name": "Eugène",
+            "genders": "M"
+        },
+        {
+            "name": "Aristide",
+            "genders": [
+                "F",
+                "M"
+            ]
+        },
+        {
+            "name": "Rémi",
+            "genders": "M"
+        },
+        {
+            "name": "Constantin",
+            "genders": "M"
+        },
+        {
+            "name": "Amaury",
+            "genders": "M"
+        }
+    ],
+    "surnames": {
+        "prefix": [
+            "Chape",
+            "Ester",
+            "Fort",
+            "Fran",
+            "Halle",
+            "Har",
+            "Haste",
+            "Hourd",
+            "Lanter",
+            "Manne",
+            "Mor",
+            "Or",
+            "Pré",
+            "Riche",
+            "Rive",
+            "Sang",
+            "Tierce",
+            "Triste",
+            "Trouble",
+            "Ver",
+            "Dar",
+            "Ben",
+            "Le",
+            "La",
+            "Son",
+            "Uste",
+            "Vol",
+            "Mer",
+            "Hurle",
+            "Cache",
+            "Chasse",
+            "Nar",
+            "Chant",
+            "Sourd",
+            "Ra",
+            "Brame",
+            "Mal",
+            "Havre",
+            "Mon",
+            "Vieil",
+            "Castel",
+            "Four",
+            "Bré",
+            "Veuve",
+            "Ronce",
+            "Folle",
+            "Roche",
+            "Roc",
+            "Arbre",
+            "Glace",
+            "Char",
+            "Vest",
+            "Ou",
+            "Sau",
+            "Syl",
+            "Aube",
+            "Sou",
+            "Car",
+            "Brune",
+            "Brume",
+            "Rose",
+            "Sor",
+            "Vaten",
+            "Fon",
+            "Fan",
+            "É",
+            "Maison",
+            "Hôte",
+            "Vil",
+            "Hante",
+            "Change",
+            "Her",
+            "Ton",
+            "Co",
+            "Té",
+            "Éper",
+            "Songe",
+            "Li",
+            "Cor",
+            "Bourg",
+            "Mont",
+            "Noir",
+            "Vau",
+            "Lou",
+            "Ours",
+            "Paon",
+            "Corne",
+            "Cloche",
+            "Cage",
+            "Pa",
+            "Feinte",
+            "Oust",
+            "Rouille",
+            "Bronze",
+            "Gris",
+            "Hame"
+        ],
+        "sufix": [
+            "dérésie",
+            "errion",
+            "faide",
+            "faucre",
+            "fleur",
+            "follis",
+            "gueules",
+            "hospes",
+            "lin",
+            "logis",
+            "moineau",
+            "novale",
+            "omon",
+            "paire",
+            "panage",
+            "pleige",
+            "port",
+            "terrier",
+            "val",
+            "zin",
+            "cy",
+            "net",
+            "ban",
+            "rune",
+            "dard",
+            "satyr",
+            "sonne",
+            "vent",
+            "pot",
+            "traille",
+            "dent",
+            "coeur",
+            "delourd",
+            "velours",
+            "telle",
+            "bosse",
+            "boise",
+            "liotte",
+            "vage",
+            "loup",
+            "venue",
+            "sac",
+            "tordu",
+            "pierre",
+            "tronc",
+            "marais",
+            "haigne",
+            "poussière",
+            "dechouette",
+            "deloup",
+            "linotte",
+            "paces",
+            "grue",
+            "faucon",
+            "brigand",
+            "fosse",
+            "ronce",
+            "perdu",
+            "sang",
+            "chêne",
+            "bon",
+            "oubli",
+            "limbe",
+            "aube",
+            "phe",
+            "pir",
+            "casse",
+            "hulotte",
+            "guerre",
+            "terre",
+            "mer",
+            "drière",
+            "tôme",
+            "cine",
+            "close",
+            "lin",
+            "ligne",
+            "line",
+            "mine",
+            "ton",
+            "lombe",
+            "nèbre",
+            "vier",
+            "songe",
+            "père",
+            "ixir",
+            "neille",
+            "vert",
+            "pendu",
+            "delours",
+            "bouc",
+            "corne",
+            "diable",
+            "passe",
+            "rêve",
+            "aupie",
+            "fume",
+            "pique",
+            "deboeuf",
+            "ceur",
+            "coton",
+            "neige",
+            "sauge",
+            "gris",
+            "brouillard",
+            "cuir",
+            "orage",
+            "clairière",
+            "bourasque",
+            "revert",
+            "seigle",
+            "blé",
+            "raisin",
+            "raison",
+            "recueil",
+            "logis",
+            "refuge"
+        ]
+    },
+    "attitude": [
+        "Ambitieux",
+        "Fermé d'esprit",
+        "Capricieux",
+        "Prudent",
+        "Compatissant",
+        "Trompeur",
+        "Peureux",
+        "Bruyant",
+        "Avide",
+        "Indécis",
+        "Curieux",
+        "Fainéant",
+        "Loyal",
+        "Observateur",
+        "Patient",
+        "Fier",
+        "Méprisant",
+        "Timide",
+        "Entêté",
+        "Courageux",
+        "Colérique",
+        "Jovial",
+        "Charmant",
+        "Passif",
+        "Distant",
+        "Affectueux",
+        "Généreux",
+        "Suffisant",
+        "Intelligent",
+        "Sociable",
+        "Charismatique",
+        "Audacieux",
+        "Jaloux",
+        "Suspicieux",
+        "Coeur de pierre",
+        "Talentueux",
+        "Expérimenté",
+        "Agressif",
+        "Vaniteux",
+        "Sévère",
+        "Dépendant",
+        "Indépendant",
+        "Perspicace",
+        "Bizarre",
+        "Enjoué",
+        "Cinglant",
+        "Insensible",
+        "Sauvage",
+        "Aigri",
+        "Rusé",
+        "Gentil",
+        "Plein de remords",
+        "Inconscient",
+        "Tête en l'air",
+        "Critique",
+        "Débrouillard",
+        "Blessé",
+        "Cruel",
+        "Silencieux",
+        "Honnête",
+        "Confus",
+        "Détendu",
+        "Sûr de lui",
+        "Amical",
+        "Impassible",
+        "Mou",
+        "Egoïste",
+        "Violent",
+        "Obsédé",
+        "Chaste",
+        "Humble",
+        "Juste",
+        "Aime chanter",
+        "Vulgaire",
+        "Adore la magie",
+        "Se trompe souvent de mot",
+        "Fait des blagues nulles",
+        "Pessimiste",
+        "Optimiste",
+        "Addicte",
+        "Solitaire",
+        "Gros dur",
+        "Envieux",
+        "Muet",
+        "Pieux",
+        "Évite les miroirs",
+        "Proche de sa famille",
+        "Aime faire de belles phrases",
+        "A peur de la magie",
+        "A eu une révélation divine",
+        "Amnésique",
+        "Antipathique",
+        "A des hallucinations",
+        "Mégalomane",
+        "Parano",
+        "Claustrophobe",
+        "Hydrophobe",
+        "Pyrophobe",
+        "Pyromane",
+        "A peur d'un animal"
+    ],
+    "appearance": [
+        "Regard fou",
+        "Peau peinte",
+        "Sauvage",
+        "Elégant",
+        "Mal habillé",
+        "Coquet",
+        "Cicatrices",
+        "Lunettes",
+        "Caché sous une cape",
+        "Voix douce",
+        "Bien coiffé, bien rasé ou barbe bien entretenue",
+        "Air fatigué",
+        "Sportif",
+        "Mal rasé ou mal coiffé",
+        "Voix criarde",
+        "Voix grave",
+        "Voix énervante",
+        "Yeux magnifiques",
+        "Très maigre",
+        "Peau très pâle",
+        "Peau très sombre",
+        "Cheveux lisses",
+        "Cheveux frisés",
+        "Très moche",
+        "Physique passe-partout",
+        "Mauvaise odeur",
+        "Bonne odeur",
+        "Yeux globuleux",
+        "Air majestueux",
+        "Brûlures",
+        "Air dangereux",
+        "Défiguré",
+        "Mourrant",
+        "Handicapé",
+        "se ronge les ongles",
+        "Porte beaucoup de bijoux et/ou grigri",
+        "Doigt en moins",
+        "Tatouage",
+        "Couleur de peau hors norme",
+        "Albinos",
+        "Étrange",
+        "Cliché",
+        "Blond",
+        "Brun",
+        "Roux",
+        "Grand",
+        "Petit",
+        "Géant",
+        "Imberbe",
+        "Se donne l'air plus vieux",
+        "Très masculin",
+        "Yeux vairons",
+        "Lent",
+        "Malade",
+        "En forme",
+        "Très féminin",
+        "Sourir ravageur",
+        "Cheveux long",
+        "Cheveux court",
+        "Tâche de vin",
+        "Porte des vêtements hors de la norme (de la région, de sa race, etc.)",
+        "Dent en moins",
+        "Tâche de naissance",
+        "Charme indescriptible",
+        "Robuste",
+        "Tout petit",
+        "Yeux bleus",
+        "Yeux verts",
+        "Yeux marrons",
+        "Yeux sombres",
+        "Yeux clairs",
+        "Air pincé",
+        "Cool",
+        "Amusant",
+        "Marche avec une canne",
+        "Chauve",
+        "Cicatrice au visage",
+        "Nez cassé",
+        "Gros",
+        "Obèse",
+        "Princier",
+        "Jambe de bois",
+        "Cache oeil",
+        "Grand chapeau",
+        "Chapeau de paille",
+        "En bonne santé, mais un regard et des mains ridées",
+        "En surpoid",
+        "Très poilu",
+        "Se donne l'air plus jeune",
+        "Repoussant",
+        "Tête de rat",
+        "Canin",
+        "Félin",
+        "Moche",
+        "Beau",
+        "Normal",
+        "Etonnant",
+        "Démodé",
+        "Tête d'oiseau",
+        "Tatouage de criminel ou d'esclave"
+    ],
+    "motivations": {
+        "noun": [
+            "La richesse",
+            "Les riches",
+            "Rêves",
+            "Gourmandise",
+            "Conseils",
+            "Difficultés",
+            "Le peuple",
+            "Discrétion",
+            "Péché",
+            "Propagande",
+            "Abondance",
+            "Ennemis",
+            "Amour",
+            "Envie",
+            "Science",
+            "Ressources",
+            "Le public",
+            "La liberté",
+            "La cupidité",
+            "Le savoir",
+            "La prospérité",
+            "Religion",
+            "Douleur",
+            "Paresse",
+            "Communications",
+            "Pauvreté",
+            "Les pauvres",
+            "Foi",
+            "Colère",
+            "Mensonges",
+            "Opulence",
+            "Famille",
+            "Esclavage",
+            "Fierté",
+            "Mythes",
+            "Privation",
+            "L'élite",
+            "Illumination",
+            "Pureté",
+            "Enigmes",
+            "Succès",
+            "Académie",
+            "Racisme",
+            "Modération",
+            "Histoires",
+            "Détresse",
+            "Abandonnés",
+            "Douceur",
+            "Vigilance",
+            "Légendes",
+            "La contrebande",
+            "La loi",
+            "La dissonance",
+            "Le zèle",
+            "L'industrie",
+            "Musique",
+            "Le gouvernement",
+            "Paix",
+            "Calme",
+            "Nouvelle religion",
+            "Littérature",
+            "Les opprimés",
+            "Discrimination",
+            "Charité",
+            "Progrès",
+            "Technologie",
+            "Amis",
+            "Incrédulité",
+            "Modestie",
+            "Animaux",
+            "Drogue",
+            "Criminels",
+            "Plaisir",
+            "Atrocités",
+            "Fantômes",
+            "Médicaments",
+            "Alliés",
+            "Haine",
+            "Lâcheté",
+            "Magie",
+            "Beauté",
+            "Société secrète",
+            "Bonheur",
+            "Narcissisme",
+            "Nature",
+            "Puissance",
+            "Le monde",
+            "servitude",
+            "Compassion",
+            "Vieille religion",
+            "Intelligence",
+            "Militaire",
+            "Harmonie",
+            "Valeur",
+            "Expertise",
+            "Force",
+            "L'Eglise",
+            "Justice",
+            "Patience",
+            "Esprit"
+        ],
+        "verb": [
+            "Conseiller",
+            "Eclairer",
+            "Prendre",
+            "Travailler",
+            "Gérer",
+            "Obtenir",
+            "Abuser",
+            "Découvrir",
+            "Accompagner",
+            "Supprimer",
+            "Tenter",
+            "Livrer",
+            "Dissuader",
+            "Offenser",
+            "Proclamer",
+            "Gâcher",
+            "Chroniquer",
+            "Acquérir",
+            "Guider",
+            "Exploiter",
+            "Opprimer",
+            "Accomplir",
+            "Abîmer",
+            "Apprendre",
+            "Accéder",
+            "Interagir",
+            "Conduire",
+            "Faire connaître",
+            "Persécuter",
+            "Affiner",
+            "Créer",
+            "Réviser",
+            "Charger",
+            "Communiquer",
+            "Composer",
+            "Enlever",
+            "Aider",
+            "Défendre",
+            "Saisir",
+            "Ruiner",
+            "Promouvoir",
+            "Suivre",
+            "Mettre en oeuvre",
+            "Signaler",
+            "Expliquer",
+            "Concevoir",
+            "Avancer",
+            "Comprendre",
+            "Développer",
+            "Décourager",
+            "Ravager",
+            "Protéger",
+            "Collaborer",
+            "Voler",
+            "Assister",
+            "Progresser",
+            "Vaincre",
+            "S'efforcer",
+            "Suggérer",
+            "Détecter",
+            "Inquiéter",
+            "Entraver",
+            "Terminer",
+            "Affaiblir",
+            "Exécuter",
+            "Posséder",
+            "Piller",
+            "Contraindre",
+            "Atteindre",
+            "Maintenir",
+            "Enregistrer",
+            "Construire",
+            "Rejoindre",
+            "Sécuriser",
+            "Réaliser",
+            "Embrasser",
+            "Encourager",
+            "Aider",
+            "Informer",
+            "Transmettre",
+            "Contacter",
+            "Agoniser",
+            "Souiller",
+            "Patronniser",
+            "Voler",
+            "Poursuivre",
+            "Appréhender",
+            "Produire",
+            "Déprimer",
+            "Établir",
+            "Associer",
+            "Administrer",
+            "Instituer",
+            "Déterminer",
+            "Renverser",
+            "Préparer",
+            "Relier",
+            "Compter",
+            "Rechercher",
+            "Soutenir"
+        ]
+    },
+    "focus": [
+        "Scène actuelle",
+        "Dernière histoire",
+        "Équipement",
+        "Parents",
+        "Histoire",
+        "Paiement",
+        "Richesse",
+        "Reliques",
+        "Dernière action",
+        "Capacités",
+        "Supérieurs",
+        "Gloire",
+        "Aventure",
+        "Action future",
+        "Amis",
+        "Alliés",
+        "Dernière scène",
+        "Contacts",
+        "Défaut",
+        "Antagoniste",
+        "Récompenses",
+        "Expérience",
+        "Connaissance",
+        "Scène récente",
+        "Communauté",
+        "Trésor",
+        "Le personnage joueur",
+        "L'histoire actuelle",
+        "Famille",
+        "Pouvoir",
+        "Armes",
+        "Scène précédente",
+        "Enemies"
+    ],
+    "archetype": {
+        "role": [
+            "Sorcier",
+            "Marchand",
+            "Expert",
+            "Roturier",
+            "Juge",
+            "Garde forestier",
+            "Occultiste",
+            "Religieux",
+            "Voyou",
+            "Vagabond",
+            "Compagnon",
+            "Homme d'État",
+            "Astrologue",
+            "Duelliste",
+            "Touche-à-tout",
+            "Aristocrate",
+            "Artisans",
+            "Prédicateur",
+            "Missionnaire",
+            "Paria",
+            "Mercenaire",
+            "Gardien",
+            "Hermite",
+            "Orateur",
+            "Chef",
+            "Pionnier",
+            "Cambrioleur",
+            "Vicaire",
+            "Officier",
+            "Explorateur",
+            "Directeur",
+            "Hors-la-loi",
+            "Adepte",
+            "Clochard",
+            "Enchanteur",
+            "Paysan",
+            "Maître",
+            "Villageois",
+            "Mage",
+            "Conscrit",
+            "Travailleur",
+            "Acteur",
+            "Héraut",
+            "Bandit de grand chemin",
+            "Chasseur de trésor",
+            "Gouverneur",
+            "Combattant",
+            "Moine",
+            "Parent au foyer",
+            "Reclus",
+            "Intendant",
+            "Mathématicien",
+            "Magicien",
+            "Voyageur",
+            "Vagabond",
+            "Apprenti",
+            "Médiateur",
+            "Fripouille",
+            "Civil",
+            "Activiste",
+            "Héros",
+            "Champion",
+            "Clerc",
+            "Esclave",
+            "Soldat",
+            "Voyante",
+            "Patriarche",
+            "Commerçant",
+            "Vieillard",
+            "Aventurier",
+            "Vétéran",
+            "Artiste",
+            "Artisan",
+            "Scientifique",
+            "Ascète",
+            "Interprète",
+            "Magistère",
+            "Serf",
+            "Brute",
+            "Inquisiteur",
+            "Seigneur",
+            "Scélérat",
+            "Professeur",
+            "Serviteur",
+            "Charmeur",
+            "Globe-trotter",
+            "Guide",
+            "Courtisan",
+            "Prêtre",
+            "Marchand",
+            "Tueur à gages",
+            "Charlatan",
+            "Mendiant",
+            "Marchand",
+            "Gitan"
+        ],
+        "descriptor": [
+            "Inutile",
+            "Accro",
+            "Conformiste",
+            "Infâme",
+            "Sensé",
+            "Incompétent",
+            "Romantique",
+            "Déraisonnable",
+            "Qualifié",
+            "Négligent",
+            "Animé",
+            "Franc",
+            "Idéaliste",
+            "Décourageant",
+            "Rationnel",
+            "Grossier",
+            "Idiot",
+            "Rusé",
+            "Délicieux",
+            "Inepte",
+            "Banal",
+            "Logique",
+            "Subtil",
+            "Réputé",
+            "Méchant",
+            "Paresseux",
+            "Pessimiste",
+            "Solennel",
+            "Habituel",
+            "Doux",
+            "Serviable",
+            "Indifférent",
+            "Généreux",
+            "Docile",
+            "Joyeux",
+            "Pragmatique",
+            "Serein",
+            "Réfléchi",
+            "Agréable",
+            "Sans-cœur",
+            "Noble",
+            "Inexpérimenté",
+            "Indiscret",
+            "Inconscient",
+            "Raffiné",
+            "Indispensable",
+            "Érudit",
+            "Conventionnel",
+            "Grossier",
+            "Volontaire",
+            "Indifférent",
+            "Volage",
+            "Âgé",
+            "Immoral",
+            "Naïf",
+            "Privilégié",
+            "Maussade",
+            "Léthargique",
+            "Provocateur",
+            "Odieux",
+            "Perspicace",
+            "Sans tact",
+            "Fanatique",
+            "Plébéien",
+            "Enfantin",
+            "Pieux",
+            "Illettré",
+            "Étourdi",
+            "Cultivé",
+            "Révoltant",
+            "Curieux",
+            "Susceptible",
+            "Collant",
+            "Digne",
+            "Insistant",
+            "Gentil",
+            "Jovial",
+            "Débrouillard",
+            "Tolérant",
+            "Obéissant",
+            "Démuni",
+            "Complice",
+            "Prudent",
+            "Charmant",
+            "Débile",
+            "Optimiste",
+            "Riche",
+            "Découragé",
+            "Idiot",
+            "Passionné",
+            "Dévoué",
+            "Établi",
+            "Inconvenant",
+            "Juste",
+            "Fiable"
+        ],
+        "animal": [
+            {
+                "name": "Aigle",
+                "modificators": "Volonté +5",
+                "traits": "Ambitieux, Autoritaire, Discipliné, Hautain, Impitoyable, Loyal, Pragmatique, Prétentieux, Suspicieux, Sûr de soi",
+                "url": "./images/Animal/aigle.jpg"
+            },
+            {
+                "name": "Chat",
+                "modificators": "Mouvement +5, Discrétion +5, Force ou Volonté -5",
+                "traits": "Cruel, Curieux, Dépravé, Égoïste, Élégant, Hautain, Moqueur, Paresseux, Rusé, Séducteur",
+                "url": "./images/Animal/chat.jpg"
+            },
+            {
+                "name": "Chien",
+                "modificators": "Endurance ou Perception +5, Sociabilité +5, Discrétion -5",
+                "traits": "Altruiste, Courageux, Crédule, Gentil, Jaloux, Loyal, Optimiste, Passionnel, Sensible, Spontané ",
+                "url": "./images/Animal/chien.jpg"
+            },
+            {
+                "name": "Coq",
+                "modificators": "Combat +5, Sociabilité +5, Discrétion ou Connaissances -5",
+                "traits": "Agressif, Autoritaire, Courageux, Impulsif, Intolérant, Jaloux, Passionnel, Prétentieux, Séducteur, Sûr de soi",
+                "url": "./images/Animal/coq.png"
+            },
+            {
+                "name": "Corbeau",
+                "modificators": "Discrétion ou Survie +5, Volonté +5, Sociabilité -5",
+                "traits": "Critique, Cruel, Distant, Intimidant, Mystérieux, Pragmatique, Rancunier, Sarcastique, Solitaire, Spirituel",
+                "url": "./images/Animal/corbeau.jpg"
+            },
+            {
+                "name": "Fourmi",
+                "modificators": "Habileté +5, Volonté +5, Endurance -5",
+                "traits": "Conservateur, Débrouillard, Discipliné. Inventif, Loyal, Méticuleux, Rationnel, Suiveur, Travailleur, Donneur de leçon",
+                "url": "./images/Animal/fourmi.png"
+            },
+            {
+                "name": "Hibou",
+                "modificators": "Connaissances +5",
+                "traits": "Critique, Curieux, Donneur de leçon, Insatisfait, intellectuel, Inventif, Patient, Raisonneur, Rationnel, Sérieux ",
+                "url": "./images/Animal/hibou.png"
+            },
+            {
+                "name": "Lapin",
+                "modificators": "Discrétion +5, Mouvement +5, Perception +5, Combat -5, Force -5 ",
+                "traits": "Amical, Courtois, Crédule, Curieux, Gentil, Lâche, Pereux, Réservé, Sensible, Suspicieux",
+                "url": "./images/Animal/lapin.jpg"
+            },
+            {
+                "name": "Lion",
+                "modificators": "Combat +5, Force +5, Sociabilité +5, Connaissances -5, Discrétion -5 ",
+                "traits": "Ambitieux, Autoritaire, Charismatique, Courageux, Égoïste, Fier, Jaloux, Paresseux, Sanguinaire, Sûr de soi",
+                "url": "./images/Animal/lion.jpg"
+            },
+            {
+                "name": "Loup",
+                "modificators": "Combat +5, Perception ou Survie +5, Sociabilité -5",
+                "traits": "Cynique, Débrouillard, Distant, Honorable, Passionnel, Pragmatique, Rancunier, Sérieux, Solitaire, Violent",
+                "url": "./images/Animal/loup.jpg"
+            },
+            {
+                "name": "Mouton",
+                "modificators": "Habileté +5, Perception +5, Sociabilité +5, Combat -5, Volonté -5 ",
+                "traits": "Suiveur, Réservé, Conservateur, Attentif, Conformiste, Courtois, Raisonneur, Travailleur, Amical, Suspicieux",
+                "url": "./images/Animal/mouton.jpg"
+            },
+            {
+                "name": "Ours",
+                "modificators": "Force +10, Sociabilité -5",
+                "traits": "Amical, Attentif, Conservateur, Courageux, Curieux, Intimidant, Loyal, Protecteur, Réservé, Sentimental",
+                "url": "./images/Animal/ours.png"
+            },
+            {
+                "name": "Porc",
+                "modificators": "Force +5. Endurance +5, Mouvement ou Connaissances -5",
+                "traits": "Amical, Autoritaire, Dépravé, Fort en gueule, Grossier, Intolérant, Jaloux, Libidineux, Sale, Spontané",
+                "url": "./images/Animal/porc.jpg"
+            },
+            {
+                "name": "Rat",
+                "modificators": "Discrétion +5, Volonté ou Survie +5, Force -5",
+                "traits": "Avare, Cruel, Courtois, Débrouillard, Déloyal, Froid, Inventif, Lâche, Malhonnête, Rancunier",
+                "url": "./images/Animal/rat.jpg"
+            },
+            {
+                "name": "Renard",
+                "modificators": "Mouvement +5, Sociabilité +5, Combat ou Force -5 ",
+                "traits": "Amical, Courtois, Débrouillard, Déloyal, Égoïste, Inventif, Malhonnête, Moqueur, Rusé, Spontané",
+                "url": "./images/Animal/renard.jpg"
+            },
+            {
+                "name": "Serpent",
+                "modificators": "Connaissances ou Sociabilité +5, Volonté +5 Mouvement -5 ",
+                "traits": "Déloyal, Discipliné, Froid, Pragmatique, Manipulateur, Mystérieux, Patient, Spirituel, Suspicieux",
+                "url": "./images/Animal/serpent.jpg"
+            },
+            {
+                "name": "Singe",
+                "modificators": "Mouvement +5, Sociabilité +5, Combat ou Volonté -5",
+                "traits": "Curieux, Débrouillard, Déloyal, Infantile, Jovial, Peureux, Rebelle, Rusé, Sarcastique, Spontané",
+                "url": "./images/Animal/singe.png"
+            },
+            {
+                "name": "Souris",
+                "modificators": "Discrétion +10, Sociabilité +5, Combat -5, Force -5",
+                "traits": "Altruiste, Courtois, Gentil, Infantile, Inventif, Loyal, Peureux, Réservé, Sensible, Suiveur",
+                "url": "./images/Animal/souris.png"
+            },
+            {
+                "name": "Taureau",
+                "modificators": "Combat +5. Force +10, Discrétion -5, Connaissances -5",
+                "traits": "Agressif, Dépravé, Fier, Grossier, Honorable. Intimidant. Jovial, Optimiste, Spontané, Têtu",
+                "url": "./images/Animal/taureau.png"
+            },
+            {
+                "name": "Vautour",
+                "modificators": "Connaissances +5, Endurance +5, Sociabilité -5",
+                "traits": "Critique, Cruel, Intimidant, Moqueur, Mystérieux, Patient, Pragmatique, Rancunier, Sarcastique, Suspicieux",
+                "url": "./images/Animal/vautour.jpg"
+            },
+            {
+                "name": "Âne",
+                "modificators": "Endurance +5, Survie ou Volonté +5, Combat ou Tir -5",
+                "traits": "Altruiste, Amical, Courageux, Crédule, Loyal, Pacifique, Prudent, Sensible, Sérieux, Suiveur, Timide, Travailleur",
+                "url": "./images/Animal/ane.jpg"
+            },
+            {
+                "name": "Cerf",
+                "modificators": "Sociabilité +5, Volonté +5, Discrétion ou Tir -5",
+                "traits": "Ambitieux, Conservateur, Courageux, Courtois, Critique, Exigeant, Intolérant, Loyal, Narcissique, Prétentieux, Séducteur, Volontaire",
+                "url": "./images/Animal/cerf.png"
+            },
+            {
+                "name": "Hyène",
+                "modificators": "Combat ou Tir +5, Discrétion +5, Force ou Volonté -5",
+                "traits": "Bavard, Cruel, Envieux, Moqueur, Nerveux, Patibulaire, Peureux, Insensible, Intolérant, Prudent, Rancunier, Suiveur",
+                "url": "./images/Animal/hyene.png"
+            },
+            {
+                "name": "Paon",
+                "modificators": "Connaissances ou Perception +5, Sociabilité +5, Combat ou Force -5",
+                "traits": "Bavard, Courtois, Critique, Curieux, Envieux, Futile, Menteur, Moqueur, Narcissique, Prudent, Séducteur, Susceptible",
+                "url": "./images/Animal/paon.jpg"
+            }
+        ]
+    },
+    "speciality": [
+        {
+            "name": "Appétit d'ogre",
+            "desc": "4 repas par jour sont nécessaires à ce personnage, mais son estomac est bien plus résistant pour tout ce qui concerne les intoxications et les poisons (+20% aux tests d’END)."
+        },
+        {
+            "name": "Nyctalopie",
+            "desc": "Capacité de voir dans la nuit sans malus, mais pas dans le noir total."
+        },
+        {
+            "name": "Résistance à la magie",
+            "desc": "Dans les tests d'opposition à la magie, le personnage gagne toujours un bonus de +10% pour résister au sort"
+        },
+        {
+            "name": "Mutation",
+            "type": [
+                {
+                    "name": "Phobie",
+                    "desc": "Choisissez une phobie (foule, vide, insectes volants, araignées, endroits clos, serpents, feu…). A chaque fois que vous serez confronté à cette peur, vous devrez réussir un test de VOL régulièrement pour ne pas subir -10% à toutes vos actions. Un échec critique provoquera une crise et vous resterez paralysé par la peur."
+                },
+                {
+                    "name": "Albinos",
+                    "desc": "Vous avez la peau blanchâtre et les yeux rouges. De constitution fragile, vous perdez 5% en END, et subirez un - 5% en PER lorsque la lumière sera vive."
+                },
+                {
+                    "name": "Bec",
+                    "desc": "Votre nez et votre bouche se tordent pour former un bec. Votre alimentation devra s’y adapter, et vous devrez le dissimuler pour ne pas être chassé. Vous pouvez attaquer avec votre bec qui fait des dégâts de BF-1."
+                },
+                {
+                    "name": "Bossu",
+                    "desc": "Vous souffrez d’une déformation du thorax et de la colonne vertébrale qui forme une bosse sur votre dos. Vous perdez 10% en SOC. De plus, vous serez régulièrement moqué et suspecté de malice par vos contemporains."
+                },
+                {
+                    "name": "Court sur pattes ou nanisme",
+                    "desc": "Vous rapetissez, vos jambes se rétractent et perdez 10% en MVT, et 5% en COM."
+                },
+                {
+                    "name": "Crises vomitives ou diarrhéiques",
+                    "desc": "chaque jour, à un moment décidé par le MJ, vous devrez tester votre END pour ne pas subir immédiatement une crise vomitive ou une diarrhée aigüe. En combat, vous perdrez votre action, mais cela peut aussi surprendre ou dégoûter votre adversaire."
+                },
+                {
+                    "name": "Défaut de prononciation",
+                    "desc": "il peut s’agir d’un bégaiement, d’un nasillement, d’un zozotement, d’un zézaiement, d’une blésité… Vous perdez 5% en SOC."
+                },
+                {
+                    "name": "Dépendance",
+                    "desc": "Votre corps doit consommer une substance chaque jour pour ne pas perdre 1PV par jour d’abstinence. Lancez un d10 pour la connaître : 1-2: du sang; 3-4: de l’alcool; 4-5: de l’urine ou des déjections ; 5-6: des insectes; 7-8: une plante; 9: un animal; 0 : au choix"
+                },
+                {
+                    "name": "Doigts atrophiés",
+                    "desc": "quelques doigts de vos mains se sont atrophiés et sont inutilisables. Vous perdez 10% en HAB."
+                },
+                {
+                    "name": "Excroissance de chair",
+                    "desc": "de la chair a poussé sur votre corps pour former un amas étrange. Il peut s’agir d’une couronne de chair, des kystes palpitants, une crête sur la nuque et le dos… Si elle est visible, vous perdez 10% sur vos tests de SOC."
+                },
+                {
+                    "name": "Flatulences incontrôlées",
+                    "desc": "cette mutation vous afflige d’un malus de 10% en SOC, et d’une réputation désastreuse. Cependant, en réussissant un test d’END, vous pourrez vous retenir pendant une heure maximum."
+                },
+                {
+                    "name": "Fragilité des os",
+                    "desc": "vos os sont moins solides que la moyenne et peuvent se briser plus facilement en cas de choc. Vous perdez 5% en FOR, et chaque fois que vous obtiendrez un échec critique dans une action physique, vous vous briserez un os."
+                },
+                {
+                    "name": "Frère/Sœur siamois",
+                    "desc": "un être vivant s’extirpe de votre corps et vous ressemble beaucoup. Il peut être une version miniature de vous d’une trentaine de centimètres, comme un véritable frère siamois faisant votre taille. Il dispose de 5PV qui vous sont prélevés définitivement. S’il meurt, vous reperdrez 5 PV de façon permanente."
+                },
+                {
+                    "name": "Furoncles, verrues",
+                    "desc": "des furoncles violacés recouvrent une partie de votre corps. Lancez un d10 pour la déterminer : 1 : les pieds, 2 : une jambe, 3 : les mains, 4 : un bras, 5: le ventre, 6: la poitrine, 7: le dos, 8 : le cou, 9: le visage, 0: partout sur le corps."
+                },
+                {
+                    "name": "Groin / museau",
+                    "desc": "votre bouche et votre nez se fondent en un groin porcin, ou un museau de chien. Vous devez impérativement le dissimuler en société, mais vous gagnez +20% aux tests de PER basés sur l’odorat."
+                },
+                {
+                    "name": "Hyperphagie, boulimie",
+                    "desc": "vous avez l’appétit de trois ou quatre hommes. Manger est votre obsession, et chaque jour où vous ne vous nourrissez pas suffisamment vous infligera la perte d’1PV. Vous pouvez être aussi bien obèse que maigre."
+                },
+                {
+                    "name": "Langage inconnu",
+                    "desc": "du jour au lendemain, vous vous êtes mis à vous exprimer dans un langage inconnu. Vous devez réussir un test de CNS à chaque fois que vous voudrez reparler dans votre ancienne langue, car vous ne la maîtrisez plus."
+                },
+                {
+                    "name": "Langue étrange",
+                    "desc": "votre langue a muté pour devenir noire, bifide, ou très longue."
+                },
+                {
+                    "name": "Long cou",
+                    "desc": "votre cou s’allonge de 1d10 cm. Il y a 50% de chances que sa nouvelle composition vous permette de tourner votre tête à 180°. Cependant, si vous subissez un coup critique, vous ajoutez 2 points aux dégâts subis, car votre long cou attire."
+                },
+                {
+                    "name": "Maigreur",
+                    "desc": "votre corps semble fondre pour ne vous laisser que la peau sur les os. Quelle que soit la nourriture que vous ingurgitez, vous resterez d’une maigreur maladive. Vous perdez définitivement 10% en FOR, 5% en END et 5% en SOC."
+                },
+                {
+                    "name": "Membre mort supplémentaire",
+                    "desc": "un membre supplémentaire a poussé sur votre corps, mais s’est atrophié, rabougri et n’est plus utilisable. Lancez un d10 pour le déterminer : 1-2: un bras, 2 : une queue, 3 : un œil, 4-5: des doigts, 6: des ailes, 7: un organe sexuel, 8 : un sein, 9: un nez ou une oreille , 0: une petite tête. Procéder à son amputation vous fera perdre définitivement 3 PV. Ce membre pourra potentiellement repousser (et devenir utilisable, ou se rabougrir encore)."
+                },
+                {
+                    "name": "Membres déformés",
+                    "desc": "certains de vos membres se sont déformés et sont difficilement utilisables. Lancez un d10 pour le(s) déterminer : 1-2: quelques doigts; 3-4: une main; 5: un bras entier; 6-7: un pied; 8: une oreille; 9: un œil; 9: au choix du joueur. Appliquez un malus de 10% aux tests en conséquence (PER, HAB, MVT, TIR…)."
+                },
+                {
+                    "name": "Obésité",
+                    "desc": "votre poids est doublé, et tout ce surplus est en graisse. Vous vous essoufflez très vite, et vous avez du mal à avancer avec ce nouveau poids. Vous perdez définitivement 15% en MVT. Et tous vos tests de souffle subissent un malus de 20%."
+                },
+                {
+                    "name": "Odeur bizarre",
+                    "desc": "votre odeur est étrange ou inhabituelle. Cela peut être une odeur de soufre, d’animal, ou d’un parfum fort qu’on reconnaît immédiatement. De plus cette odeur se maintient de longues minutes après votre passage dans une pièce, si bien qu’on sait que vous êtes passé."
+                },
+                {
+                    "name": "Pattes d’oiseau ou sabots",
+                    "desc": "vos pieds mutent pour prendre l’apparence de sabots ou de pattes d’oiseau. Aucune botte ne peut cacher cette mutation, et vous devez impérativement cacher vos pieds sous une robe ample, si vous ne voulez pas être chassé à vue. Cependant vous gagnez +5% en MVT."
+                },
+                {
+                    "name": "Peau tachetée",
+                    "desc": "votre peau est constellée de petites taches brunes ou rougeâtres. Vous perdez 5% en SOC. Ces taches peuvent aussi attirer l’attention."
+                },
+                {
+                    "name": "Peau translucide",
+                    "desc": "votre peau peut laisser apparaître vos muscles et vos nerfs, selon les moments de la journée (20% de chances par jour). Votre apparence sera alors monstrueuse, et il vous sera impossible de passer pour un humain."
+                },
+                {
+                    "name": "Perte de membre",
+                    "desc": "un de vos membres s’est racorni et a dû être retiré/amputé pour ne pas que la mutation se propage sur tout le corps. Lancez un d10 pour le déterminer : 1-2: un pied, 3-4: une jambe (sous le genou), 5-6: une main, 7-8: un bras, 9-0: un œil ou le nez"
+                },
+                {
+                    "name": "Perte des ongles ou des dents",
+                    "desc": "vos ongles sont tombés ou vos dents se sont déchaussées. Vous perdez 20% en SOC. Si on vous implante de nouvelles dents (en or par exemple), vous pourrez regagner 10% en SOC."
+                },
+                {
+                    "name": "Plaies purulentes",
+                    "desc": "votre corps est constellé de petites croûtes qui suintent. Si elles sont visibles par votre interlocuteur, vous subissez un -10% en SOC, et -30% dans les tests de séduction. Cependant vous gagnez +10% aux tests pour éviter une saisie."
+                },
+                {
+                    "name": "Plumes",
+                    "desc": "une bonne partie de vos flancs s’est recouvert de plumes. Votre peau a aussi changé en devenant flasque à ces endroits."
+                },
+                {
+                    "name": "Putréfaction",
+                    "desc": "votre corps semble se décomposer mais régénère à d’autres endroits. Vous exhalez une odeur de mort, et subissez un -20% en SOC si vous n’arrivez pas à dissimuler cette odeur par le truchement de parfums ou d’encens."
+                },
+                {
+                    "name": "Pyromanie",
+                    "desc": " le feu vous fascine. Lorsque la situation s’y prête, un test de VOL sera nécessaire pour ne pas céder à vos pulsions incendiaires."
+                },
+                {
+                    "name": "Retard mental",
+                    "desc": "votre mutation a atteint vos capacités cognitives. Vous perdez définitivement 20% en CNS."
+                },
+                {
+                    "name": "Sensible aux poisons",
+                    "desc": "tous vos tests d’END pour résister aux poisons subissent un malus de 10%."
+                },
+                {
+                    "name": "Sens sous-développé",
+                    "desc": "un ou plusieurs de vos sens sont déficients. Vous subirez un malus de -20% à chaque fois qu’un de ces sens sera sollicité. Lancez un dé pour déterminer le (ou les) sens amoindri(s) : 1-3: la vue, 4-6: l’ouïe, 7-8: l’odorat et le goût, 9 : la vue et l’ouïe, 0 : tous."
+                },
+                {
+                    "name": "Système immunitaire déficient",
+                    "desc": "Tous vos tests d’END pour résister aux maladies subissent un malus de 10%."
+                },
+                {
+                    "name": "Tentacule",
+                    "desc": "un de vos bras se tord et devient un long tentacule recouvert de ventouses collantes. Vous subissez un -30% en HAB avec ce bras, et devrez le cacher pour ne pas être chassé. Cependant vous gagnez +5% pour les tests d’immobilisation."
+                },
+                {
+                    "name": "Tête difforme ou énorme",
+                    "desc": "atteint d’hydrocéphalie ou d’une autre déformation, vous perdez définitivement 20% en SOC. Vous subissez en outre un malus de 20% pour les tests de séduction. Votre mutation est très visible et il vous faudra la faire passer pour un accident pour ne pas être chassé à vue."
+                },
+                {
+                    "name": "Traînée de bave",
+                    "desc": "votre corps est constellé de petits pores qui suintent une bave visqueuse. Vous pouvez dissimuler cet aspect sous des vêtements, des bottes et des gants, mais votre accoutrement humide pourra attirer l’attention."
+                },
+                {
+                    "name": "Tumeur énorme",
+                    "desc": "une tumeur de plusieurs kilos a poussé sur votre dos, sous l’aisselle ou sur votre nuque. Vous perdez 5% en MVT, et 10% en SOC si elle est visible par votre interlocuteur."
+                },
+                {
+                    "name": "Vers sous la peau",
+                    "desc": "des vers courent sous votre peau et peuvent être visibles par votre entourage. Ils ne vous gênent pas outre mesure, mais les parties nues de votre corps pourront dégoûter vos interlocuteurs si des vers sont visibles à ce moment-là (-20 aux tests de SOC ou fuite immédiate). Si vous êtes précautionneux et que vous ne laissez apparaître que vos mains et votre visage par exemple, les vers ne seront visibles que si vous obtenez un doublé sur votre test de SOC."
+                },
+                {
+                    "name": "Vieillissement prématuré du corps",
+                    "desc": "votre corps vieillit deux fois plus vite que la normale. Selon l’âge de votre corps, appliquez ces malus physiques : À un âge vieux : -5 en PER, HAB et ﻿TIR, -10 en MVT, FOR, END, COM. À un âge vénérable : -10 en PER, HAB et ﻿TIR, -15 en MVT, FOR, END, COM."
+                },
+                {
+                    "name": "Vieillissement prématuré du visage",
+                    "desc": "votre visage vieillit deux fois plus vite que la normale. Tenez en compte dans vos relations sociales, car si à 20 ans vous en paraîtrez 40, il n’en sera pas de même à 35, quand votre visage en paraîtra 70."
+                },
+                {
+                    "name": "Agile",
+                    "desc": "votre mutation vous a rendu particulièrement souple. Vous pouvez vous tordre de façon étrange, et vous disposez d’un meilleur équilibre. Vous gagnez +10% en MVT, et un bonus de +20% automatique aux tests de contorsion."
+                },
+                {
+                    "name": "Ailes membraneuses",
+                    "desc": "de petites ailes membraneuses ont poussé le long de vos bras et sur vos flancs. Vous ne pouvez pas prendre votre envol, mais pouvez planer et diriger votre vol descendant, même à des hauteurs vertigineuses. Il est nécessaire que vos vêtements soient coupés sur les côtés pour laisser passer vos ailes."
+                },
+                {
+                    "name": "Arme dissimulée",
+                    "desc": "vous pouvez faire sortir de votre corps une arme d’os , qui infligera des dégâts de BF+0."
+                },
+                {
+                    "name": "Attaque mentale",
+                    "desc": "vous pouvez écraser l’esprit de votre adversaire sur un test d’opposition VOL/VOL. En cas de réussite, vous infliger RU (Résultat Unité) dégâts temporaires. En cas d’échec, vous subissez RU/2 (arrondi à l’inférieur) dégâts temporaires."
+                },
+                {
+                    "name": "Branchies",
+                    "desc": "des branchies ont poussé dans votre cou, mais ne remplacent pas votre système respiratoire actuel. Vous pouvez donc respirer sur terre comme dans l’eau."
+                },
+                {
+                    "name": "Caméléon",
+                    "desc": "votre peau semble s’adapter à son environnement et en copie l’aspect. Il vous faut rester immobile une minute pour que votre peau change de teinte, et vous gagnez alors +20% à vos tests de DIS."
+                },
+                {
+                    "name": "Combustion",
+                    "desc": "vous pouvez enflammer des objets, des tissus, des constructions, par la seule force de votre esprit, sur un test réussi de VOL. Chaque échec vous laisse des marques de brûlure sur la peau et vous fait perdre 1PV."
+                },
+                {
+                    "name": "Contact électrique",
+                    "desc": "votre peau peut déclencher une attaque électrique. Si vous êtes au contact avec un (voire plusieurs) individu(s) et que vous réussissez un test d’END, votre cible subira (RU (Résultat Unité) +1) points de dégâts, et devra immédiatement vous lâcher."
+                },
+                {
+                    "name": "Contrôle des animaux",
+                    "desc": "si vous regardez un animal dans les yeux, et réussissez un test de VOL, vous pouvez en prendre le contrôle pendant (RU (Résultat Unité)) heures. Il vous obéira totalement et pourra même mettre sa vie en danger pour vous."
+                },
+                {
+                    "name": "Cornes",
+                    "desc": "votre crâne s’est solidifié sur le dessus, et des cornes d’1d10 cm ont poussé. Vos dégâts en cas de coup de tête ont un modificateur de -1. Vous devez dissimuler cette mutation sous un couvre-chef sous peine d’être considéré comme un démon."
+                },
+                {
+                    "name": "Crocs",
+                    "desc": "vos dents se sont transformées en crocs. Solides et pointus, ces crocs infligent des dégâts de BF -1 en cas de morsure. Cependant, votre SOC baisse de 5%."
+                },
+                {
+                    "name": "Croissance",
+                    "desc": "vous gagnez 1d10+2 cm, et gagnez autant de kilos et autant de points en FOR et en END."
+                },
+                {
+                    "name": "Dard de scorpion",
+                    "desc": "une queue de scorpion longue comme une de vos jambes a poussé dans le bas de votre dos. Le dard suinte de poison. Si vous attaquez avec, son modificateur de dégâts est de 0, et si vous touchez avec une réussite 30+, l’adversaire sera empoisonné. Il devra réussir un test d’END pour ne pas être pris de convulsions et mourir dans la minute. Vous devez bien sûr cacher cette mutation coûte que coûte."
+                },
+                {
+                    "name": "Devin",
+                    "desc": "vous avez des prémonitions. Une fois par jour, sur un test de VOL réussi, vous pouvez avoir des visions, des flashs, ou des rêves qui répondront à vos questions. Ces réponses peuvent être très précises comme très vagues (au bon vouloir du MJ)."
+                },
+                {
+                    "name": "Énergie magique",
+                    "desc": "vous gagnez +10% en MAG. Vous pouvez maintenant apprendre des sortilèges et développer cette caractéristique, car votre don s’est éveillé."
+                },
+                {
+                    "name": "Épines",
+                    "desc": "votre corps se couvre d’épines noires. Vous gagnez la capacité PEUR(1), et tous ceux qui réussissent une passe d’armes au contact contre vous perdront 1PV (sauf s’ils sont à bonne distance grâce à une arme d’hast par exemple). Vous pouvez aussi projeter ces épines en réussissant un test de TIR (mod. aux dégâts : BF -2)."
+                },
+                {
+                    "name": "Fourrure",
+                    "desc": "une fourrure d’animal vous recouvre le corps. Si vous ne voulez pas être traité comme un monstre, il vous faudra vous raser les parties visibles (visage et mains principalement). Cependant, vous gagnez +30% à tous vos tests pour résister au froid, et 1 point de protection naturelle sur tout le corps."
+                },
+                {
+                    "name": "Force accrue",
+                    "desc": "vos muscles grossissent et font apparaître vos veines qui palpitent sous votre peau. Vous gagnez +15% en FOR."
+                },
+                {
+                    "name": "Garou",
+                    "desc": "sur un test de VOL réussi, vous pouvez vous métamorphoser en un animal. Lancez un d10 pour le déterminer : 1: une nuée de rats; 2: un corbeau; 3: un nuage de mouches; 4-5: un loup noir; 6: un ours; 7: un chat; 8: un serpent; 9: une araignée géante; 0: un dragonnet"
+                },
+                {
+                    "name": "Griffes",
+                    "desc": "vous disposez de griffes rétractiles. Elles infligent des dégâts de BF -1."
+                },
+                {
+                    "name": "Langue fouet",
+                    "desc": "vous pouvez allonger votre langue à volonté. Elle peut atteindre 3 mètres et inflige des dégâts de BF-2."
+                },
+                {
+                    "name": "Lévitation",
+                    "desc": "en réussissant un test de VOL, vous pouvez léviter horizontalement ou verticalement sur RU (Résultat Unité) mètres. Chaque échec vous fait perdre 1PV."
+                },
+                {
+                    "name": "Magie instable",
+                    "desc": "la magie n’a pas les mêmes effets sur vous que sur les autres. Tout sortilège lancé sur vous (bénéfique ou maléfique) subit un changement. Lancez un d10 pour le déterminer : 1-3: l’effet reste identique mais le mage perd (votre VOL/10) PV; 4-6: le RU (Résultat Unité) du sort est divisé par deux (arrondi à l’inférieur) ; 7-9: le sort mute en un autre, du même mage; 0: le sort est annulé, purement et simplement."
+                },
+                {
+                    "name": "Mains guérisseuses",
+                    "desc": "vous semblez disposer d’un don pour soigner autrui. Une fois par jour, sur un test de VOL réussi, vous pouvez au choix faire regagner (RU (Résultat Unité)) PV, soit guérir une maladie bénigne. Vous ne pouvez pas vous soigner vous-même."
+                },
+                {
+                    "name": "Mémoire eidétique",
+                    "desc": "votre mémoire est infaillible. Vous gagnez un bonus de +40% à tous les tests de CNS concernant la mémoire des faits, des noms, des nombres, des rues, aussi bien visuelle et auditive qu’olfactive… Vous vous souvenez de tout."
+                },
+                {
+                    "name": "Peau malléable",
+                    "desc": "votre peau et vos replis de graisse sont si malléables que vous pouvez dissimuler des objets à l’intérieur (ne dépassant pas la taille de votre cuisse)."
+                },
+                {
+                    "name": "Phéromones",
+                    "desc": "votre corps produit des phéromones puissantes qui vous procurent un magnétisme animal. Vous gagnez +10% en SOC."
+                },
+                {
+                    "name": "Pince",
+                    "desc": "un de vos avant-bras s’est transformé en une pince monstrueuse. Vous subissez un malus de 30% en HAB avec cette pince, et devrez la dissimuler à tout prix. Cependant, elle inflige des dégâts de BF+1, et sur une réussite 30+, vous pouvez désarmer votre adversaire en lui saisissant son arme (et en réussissant un test d’opposition FOR/FOR) ou détruire l’arme si celle-ci comporte un manche en bois."
+                },
+                {
+                    "name": "Plaques épidermiques",
+                    "desc": "Votre peau est devenue très épaisse et vous gagnez 2 points de protection sur tout le corps."
+                },
+                {
+                    "name": "Poison",
+                    "desc": "vous sécrétez dans vos glandes un venin que vous pouvez utiliser une fois par jour. Lancez 1d10 pour le déterminer : 1-3: poison paralysant; 4-6: poison virulent; 7-9: poison lent; 0: au choix. Vous pouvez enduire une lame de ce poison, ou en conserver d’avance."
+                },
+                {
+                    "name": "Puanteur contrôlée",
+                    "desc": "en réussissant un test d’END, vous pouvez provoquer un gaz à la puanteur suffocante, qui gênera toutes les personnes autour de vous dans un rayon de 3 mètres. Il leur faudra réussir un test d’END pour ne pas subir un malus de 10% à toutes leurs actions pendant deux tours ."
+                },
+                {
+                    "name": "Queue préhensile",
+                    "desc": "une queue longue de deux mètres et suffisamment fine pour tenir dans un pantalon bouffant, et saisir des objets, a poussé en bas de votre dos. Si vous lui donnez une arme (type poignard), cela pourra vous donner un +5% en COM."
+                },
+                {
+                    "name": "Regard hypnotique",
+                    "desc": "vous avez la capacité d’hypnotiser une cible si vous la regardez dans les yeux pendant une minute. Vous ne pouvez pas utiliser cette capacité en combat (car le stress et l’agressivité empêche tout hypnose), et devez réussir un test d’opposition VOL/VOL. En cas de réussite, la cible vous obéira pendant une heure. Cette capacité ne fonctionne pas sur les animaux."
+                },
+                {
+                    "name": "Régénération",
+                    "desc": "vos blessures physiques se régénèrent au rythme d’1 PV/heure. Cette régénération n’a aucun effet sur les maladies, les poisons ou les sortilèges, et ne permet pas de faire repousser un membre coupé."
+                },
+                {
+                    "name": "Résistance au feu",
+                    "desc": "tous les dégâts liés au feu sont diminués de moitié sur vous. Deplus vous gagnez +30% aux tests d’END liés au feu (asphyxie, brûlures…)."
+                },
+                {
+                    "name": "Résistance aux maladies",
+                    "desc": "vous gagnez +30% aux tests d’END liés aux maladies."
+                },
+                {
+                    "name": "Résistance aux poisons",
+                    "desc": "vous gagnez +30% aux tests d’END liés aux poisons."
+                },
+                {
+                    "name": "Sécrétion acide",
+                    "desc": "vous sécrétez un acide puissant, que vous pouvez cracher sur un adversaire en utilisant votre END. En cas de succès, l’acide inflige (RU (Résultat Unité)) points de dégâts. Il rongera ensuite la chair ou l’armure de la cible au rythme d’1 point (de vie ou de protection) par tour."
+                },
+                {
+                    "name": "Sens améliorés",
+                    "desc": "un (ou plusieurs) de vos sens se sont améliorés, et vous gagnez +20% aux tests de PER quand ce sens entre en jeu. Lancez un d10 : 1: l’odorat et le goût; 2-4: la vue; 5-7: l’ouïe; 8-9: la vue et l’ouïe; 0: tous les sens."
+                },
+                {
+                    "name": "Spores",
+                    "desc": "sur un test d’END réussi, vous crachez un nuage de spores qui viendra gêner un maximum (RU (Résultat Unité)) adversaires, qui subiront -5% à toutes leurs actions jusqu’à la fin du combat."
+                },
+                {
+                    "name": "Squelette renforcé",
+                    "desc": "vos os sont très solides. Vous ajoutez 1 point à tous vos dégâts à mains nues et vous divisez par deux tous les dégâts reçus par une arme contondante."
+                },
+                {
+                    "name": "Télékinésie",
+                    "desc": "vous pouvez déplacer par la pensée des objets ne dépassant pas votre VOL/10 kilos. Pour cela, vous devez réussir un test de VOL, et l’effet ne dure qu’une minute. Chaque échec vous fait perdre 1PV."
+                },
+                {
+                    "name": "Télépathie",
+                    "desc": "vous pouvez communiquer par la pensée avec des individus se trouvant à une distance maximale d’1 km. Pour ce faire, vous devez réussir un test de VOL et l’effet ne dure qu’une minute. Chaque échec vous fait perdre 1PV."
+                },
+                {
+                    "name": "Terrifiant",
+                    "desc": "votre visage est si horrible (peau en lambeaux, yeux supplémentaires aveugles, asticots gras se baladant dans votre tête, bubons purulents, tête déformée…) que vous disposez de la capacité PEUR (2). Votre SOC tombe à 0 quand on voit votre apparence, et vous devez dissimuler votre figure derrière un masque, ou un heaume."
+                },
+                {
+                    "name": "Vampire",
+                    "desc": "vous avez développé une fragilité au soleil, et subissez un malus de -5% à toutes vos actions pendant la journée (le malus est doublé en cas de grand soleil, et annulé en cas de temps très couvert). Cependant, vous pouvez régénérer toutes vos blessures en absorbant le sang d’êtres vivants (animaux ou humanoïdes), au rythme d’1PV récupéré pour 2PV prélevés sur la cible."
+                },
+                {
+                    "name": "Ventouses",
+                    "desc": "votre corps est constellé de minuscules ventouses que vous pouvez faire « éclore » quand bon vous semble. Elles vous donnent un bonus de +30% aux tests de MVT liés à l’escalade, et vous donne la possibilité de grimper aux murs."
+                },
+                {
+                    "name": "Vision nocturne",
+                    "desc": "vous pouvez voir de nuit sans malus, mais pas dans le noir total."
+                },
+                {
+                    "name": "Yeux multiples",
+                    "desc": "vous gagnez 1d10/2 yeux supplémentaires à placer sur votre corps. Cela vous permet de ne jamais subir d’attaque par surprise, et de gagner +5% par œil supplémentaire aux tests de PER liés à la vue. S’ils sont visibles, toute interaction sociale est impossible, et vous serez chassé à vue."
+                }
+            ]
+        }
+    ],
+    "images": [
+        {
+            "url": "./images/Avatar/e1f667135bc66e64da64ade6ccc9de04.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/0c6cabbabd1b4f9f8bb51b6a2c4e55c8.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["religious", "scar"]
+            }
+        },
+        {
+            "url": "./images/Avatar/01a004750a972d431a7aecc0cb5045f2.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class"],
+                "other": ["worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/1a96713e125f5b62ec432ec9b51a8e6f.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["ceremony", "soldier"]
+            }
+        },
+        {
+            "url": "./images/Avatar/1c30a77c31d7465eb30f9937be9febb0.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/1ea4b687729889730acfd3268e79874f.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/1fa01eb2cf956c319735f76c0c535b13.jpg",
+            "tags": {
+                "age": "child",
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["cooking", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/2ae1759dbbf992ef818b223e9bd5fc09.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/2bb96eaf40c25285f55c1f48ddccebe4.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/2bc08825e5797088de2e9598ccade60e.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["mysterious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/2ca8b2dfa4b85d07880f24a63c7939df.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "cooking", "smiling"]
+            }
+        },
+        {
+            "url": "./images/Avatar/2e1d1e9620e607b316c7a8a9ae300f13.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["traveller", "serious", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/2ed49495ab2370a9af3e390afb41974a.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/2f33a524cf14c75b99a3b187867bd0e1.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["serious", "thoughtful"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3c0ff514b7566ba81ef73cd039581788.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["scar", "ceremony", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3c69765ec5ad3899c52f212dc1e42410.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["townsperson", "glasses"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3f70ef96df5fdd232d553e552b97f9eb.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["student", "books"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3f0889bb5d752da38955efc231e3fdf7.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "wicked", "ceremony", "soldier"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4aaa31512ebe717a403d64c59bb4a39e.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["ceremony", "leader", "soldier"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4b58f7d18f398627ffee31289054b7c3.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["religious", "student", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4ba87f981d1a51df656018621ca25e65.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["books", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4ca8118269103ada500c8f48a041c96c.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["religious", "ceremony", "among others"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4e051eb58e4af9cef05511b6f7dc242f.jpg",
+            "tags": {
+                "age": "child",
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["magician", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4e93de2aeaa8b47f0146deaf2fe797a2.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["wicked", "jester"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4f008018808e60c3d6b06f80c931eb8b.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["poor", "middle class"],
+                "other": ["glasses", "lantern"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4fc05515c18ab4b9117b95745df6f143.jpg",
+            "tags": {
+                "age": ["young adult", "adult", "old"],
+                "gender": ["M", "F"],
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["scar", "mysterious", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5b56c6ca220317bf62379150392fc93f.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich"],
+                "other": ["painter", "worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5b64a6fbcdd606de4b136bc29247ea00.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["potions", "sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5bf028c75c76523e911fd8a4944fed73.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["inventor", "worker", "potions", "glasses", "happy", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5d3c1b385ff53e6977cde74f6cb70ee7.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["scar", "key", "mysterious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5d90f00c76c602877d19ec0477f946e2.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["pauper", "poor"],
+                "other": ["serious", "worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5e11c25037ae76e48110f492a5676f8a.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich"],
+                "other": ["glasses", "beard", "tired", "harry potter"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5e060d0bb4db17b5f28d7691ebf8ad28.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "cape"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5f7ae3c0b517d172fc2bf904324edf31.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/6aa06657c6fc924d51d748425d2c39af.jpg",
+            "tags": {
+                "age": "child",
+                "gender": ["F", "M"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/6b72409eee82f290aaf9df0680de561d.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "scar", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/6c671364bd4b15af5597b50a37be4d78.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "thoughtful"]
+            }
+        },
+        {
+            "url": "./images/Avatar/6d5d62886c43846988fbf1800de86ec1.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["cat", "concerned", "traveller"]
+            }
+        },
+        {
+            "url": "./images/Avatar/6d9cc7651c30075a7249fda4d5244367.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony", "religious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/6f348fedf9471ef8a48da67e073132db.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "happy", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/7c482dd16f692ceec45d13305646d453.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["student", "glasses"]
+            }
+        },
+        {
+            "url": "./images/Avatar/7c846a34122958761007b2b3e7b884de.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/7cf7ace10370dc33fe6bebac967e8009.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/7d4c41cf30a183e634165321a218016a.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["middle class", "rich"],
+                "other": ["soldier", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/7d39cf307fb1d01e14aa43fd8a5bdbb9.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "serious", "lion"]
+            }
+        },
+        {
+            "url": "./images/Avatar/7dc0fdcc17558d819ef766a0064d6b2a.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["wicked", "mysterious", "fighter"]
+            }
+        },
+        {
+            "url": "./images/Avatar/07fc81b6e51c29c382fadae9294fbf73.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["religious", "ceremony", "student", "books"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8a48cf38858f97b611598b7ec2412c17.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["mysterious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8bbe6a89cf32b244e3de8ae2c6accb8f.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["glasses", "mysterious", "intense", "strange"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8c948de7ea4975b5ad183224d85489f6.jpg",
+            "tags": {
+                "age": ["child", "teen"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8cd94354c91e503bb630e13350524286.jpg",
+            "tags": {
+                "age": ["child", "teen"],
+                "gender": ["F", "M"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8d506d6bc04c33af21bffc2128fb0c48.jpg",
+            "tags": {
+                "age": "child",
+                "gender": ["M", "F"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony", "soldier", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8e2e2245b0f8466a894c9424b924f1c6.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "nature", "thoughtful"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8f4dcce588f267d03e2565c91c2bfc4a.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": ["M", "F"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["mysterious", "religious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9aa85c58405e19466fd643f329047456.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["traveller", "nature", "concerned", "fighter"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9ada62a370535b9ef67972a73d2222e6.jpg",
+            "tags": {
+                "age": ["child", "teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["sad", "soldier", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9b954b1321572d87876607e507185926.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class","rich", "elite"],
+                "other": ["ceremony", "scar", "sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9bbc77caec9f5b78af4f7951a11f7210.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9bc236939061f37a984ffcf0925636c7.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9c24b783041ebecc0028853c3b8cad71.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["worker", "farmer", "sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9cd9b553e2811fc65051774bb9fa9eb4.jpg",
+            "tags": {
+                "age": ["child", "teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["soldier"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9e8463843faee1aa2df4062303d13262.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "soldier", "ceremony", "crown", "serene"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9eedeb4a5b19146a8b2e19b4cbaa146e.jpg",
+            "tags": {
+                "age": ["child", "teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["ceremony", "mysterious", "religious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9fdea03445b4a61a322291fa0d975994.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["leader", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/13c707457ffbe1513f607dfc1f9e4dd1.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich"],
+                "other": ["worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/16db3d5d5685010132ce4f45f49aed1a.jpg",
+            "tags": {
+                "age": ["child", "teen"],
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/17d3aa29b0f9f84a85d896754552eedf.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/18f0839399eb2411e55141e605fa75f0.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["magician", "mysterious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/0019cd474d29ad533dc2dabe617ae8a7.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/20db63e4d725f648db10473816cb56c2.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["mysterious", "religious", "crow"]
+            }
+        },
+        {
+            "url": "./images/Avatar/22b53254bf331d30f04a2ce9015c88e0.jpg",
+            "tags": {
+                "age": ["child", "teen", "young adult", "adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["intense", "concerned", "donkey"]
+            }
+        },
+        {
+            "url": "./images/Avatar/23f2cf4fbf2df9f213046fce53cfa254.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["potions", "student", "concerned", "glasses", "healer"]
+            }
+        },
+        {
+            "url": "./images/Avatar/28baf4bed0264d4e0e2d7d6f85772862.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "leader", "intense", "among others"]
+            }
+        },
+        {
+            "url": "./images/Avatar/29f452160cdd119b25bba2d75fadd141.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/30d6640e9bb3442ee7999eae59c0dbb5.jpg",
+            "tags": {
+                "age": "child",
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["sad", "potions"]
+            }
+        },
+        {
+            "url": "./images/Avatar/32f8768dc67610b7c6021c7045dad20a.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "fighter", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/036da9f044d03c82a69c0b1e49ee7c51.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "merchant"]
+            }
+        },
+        {
+            "url": "./images/Avatar/38b42b30a60c76ca9c164d5fd0ee66fa.jpg",
+            "tags": {
+                "age": ["child", "teen", "young adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["concerned", "sea"]
+            }
+        },
+        {
+            "url": "./images/Avatar/38beadf50abe6864b719e4830577af72.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["religious", "mysterious", "strange", "intense", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/43d131ce3a75c0a475b557f99cdf4f97.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/59d1469bf095a00a65039fb6e8288b47.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["moustache", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/65da9dba172a1cbd28151323616a4ab4.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["musician", "happy", "worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/68e61c448c623c8c65b7b1d093d00b2e.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "serious", "intense"]
+            }
+        },
+        {
+            "url": "./images/Avatar/71ba6657bad1428116e749bebe267b04.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "happy", "drinking"]
+            }
+        },
+        {
+            "url": "./images/Avatar/84e452d283805783dd26a0b32b231d99.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["merchant", "jewels"]
+            }
+        },
+        {
+            "url": "./images/Avatar/86be961bb7fd241c9390e97a41ffa40d.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "leader", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/86ceb0969de8c398c0b5278bce036b21.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["concerned", "soldier"]
+            }
+        },
+        {
+            "url": "./images/Avatar/087a73ed6c90eb916153af6effe482c3.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["mysterious", "intense", "concerned", "traveller"]
+            }
+        },
+        {
+            "url": "./images/Avatar/89b21660e3528b125cb1cddc2e1cd3dc.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["serious", "drinking"]
+            }
+        },
+        {
+            "url": "./images/Avatar/90ab9707a00a75ecdbea892a1e23008f.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "intense", "sad", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/90f445701d14715be9a0402b24993202.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["beard", "traveller", "nature", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/95baea7b0a3b7e8de6d858f36aa19411.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/95f3204796b41e14cb8ddbb116fbad47.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class"],
+                "other": ["chickens", "worker", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/142d1e0434ad955a3277195f6079b26a.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["leader", "happy", "wicked", "pirate"]
+            }
+        },
+        {
+            "url": "./images/Avatar/227eda4c7b23dbbf71903a19b5e9169b.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["scar", "glasses", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/249c79daebbf7cbdff9ad0baf161818d.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["concerned", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/257b17a92f86a77a3cfa8f864c40d71d.jpg",
+            "tags": {
+                "age": ["child", "teen"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["townsperson"]
+            }
+        },
+        {
+            "url": "./images/Avatar/301bc0b0e342c7e51c2897935f606bc0.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["soldier", "scar", "fighter", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/319fd378fbde423a8c9509d852fe71ac.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["townsperson", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/373c0b57f6e6185cfc4081c2fba66bfe.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["ceremony", "sad", "crown"]
+            }
+        },
+        {
+            "url": "./images/Avatar/396a61d44714c623881f9a9526b45c04.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult", "old"],
+                "gender": ["M", "F"],
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["student", "glasses", "potions", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/0468bbf678853694247fa26e3091ef4e.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["sad", "scar"]
+            }
+        },
+        {
+            "url": "./images/Avatar/535b4e84bfc3f7f4f274b8fa69d53fc7.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/577ac61af60e255bec7c2f6fbb73eb5b.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/603b00a22183c59a4e669d92c3b302e4.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["student", "glasses", "serious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/654df9aaee250025de9b520ee35409be.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["happy", "nature", "dragon"]
+            }
+        },
+        {
+            "url": "./images/Avatar/686fa34fd0bdfbde8971b6e020d45fd1.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "drinking", "serious", "tired"]
+            }
+        },
+        {
+            "url": "./images/Avatar/734d73daab6c4abc94ff7b370aa1db68.jpg",
+            "tags": {
+                "age": "child",
+                "gender": ["M", "F"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/777ff9cd16c2424aa26f51bc81d31b38.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["student", "potions", "serene"]
+            }
+        },
+        {
+            "url": "./images/Avatar/801b3e15756de57a5682a8949fd8d474.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["happy", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/841fd0c11d8399e9c73de5aac9e8c215.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["pirate", "sailor", "serious", "tired", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/897d04d1946ddb71ba2b83358a76c72b.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony", "concerned", "leader", "crown"]
+            }
+        },
+        {
+            "url": "./images/Avatar/951b28729235e12fac24691d86943753.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "blacksmith", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/987c892a77fa5f4bdeab8b1c151148ff.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["happy", "worker", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/1364efe0678d36c635c7c11fcbcf5d7a.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich"],
+                "other": ["soldier", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/1947aa80b3bfb9ec16eda6b0517b4517.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult", "old"],
+                "gender": ["M", "F"],
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "among others", "intense", "religious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3139ab2e86ad2a1dd274c5aef335b0a1.jpg",
+            "tags": {
+                "age": ["young adult", "adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["archer", "fighter", "focused", "among others", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3167dd9ba01e5f13018882535ed7313e.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "tired", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3433cddf34988a58bb422f1f442ae5f3.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["horse", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3728bd7f750fe9777e2ac126b91ad9f3.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["wicked"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4758aad815e39cbb6df6cc83194d0672.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["merchant", "angry"]
+            }
+        },
+        {
+            "url": "./images/Avatar/4890ce694c89cdd7577ba1898e516ecf.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "among others", "focused", "among others", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/5199b4dc38ce297056404edb8b2c100c.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["scar", "handicapped", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/8215f7e4672b95c324b32589331dcd7e.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "magician", "happy", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9805fb5857d109f483d3da06e38e616f.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor"],
+                "other": ["strange", "handicapped"]
+            }
+        },
+        {
+            "url": "./images/Avatar/9806c2465a1b959651f7a4d84dc415a5.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["religious", "ceremony", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/17903fd90ea3a5d4490835196a1c5264.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "concerned", "scar"]
+            }
+        },
+        {
+            "url": "./images/Avatar/25457f1ff4de327a0052e236bcbe2ed9.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["leader", "concerned", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/43980e7222aed9a1f4519f8787dfe40a.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["merchant", "happy", "serene"]
+            }
+        },
+        {
+            "url": "./images/Avatar/048416d0e2090c3c0e2076f39dd70b2e.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich"],
+                "other": ["soldier", "angry", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/55690f41c9c79da7c24e161d98a74910.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["ceremony", "leader", "crown", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/63735f97eca7e3ac52eff07d1572b2ba.jpg",
+            "tags": {
+                "age": ["child", "teen"],
+                "gender": ["F", "M"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["musician", "intense", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/64649c746a56031de984de3e46b830d3.jpg",
+            "tags": {
+                "age": "child",
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["merchant", "traveller", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/69757a1efdee2ed0d9ebdb5c8ba5f1af.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["middle class", "rich"],
+                "other": ["worker", "intense", "innkeeper", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/99102b1e38812ea60195bce1baac53d0.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["sad", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/99334f620fe9eee952720136302ce908.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["beard", "focused", "nature", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/99992dbcf7303940b9ee065fc7ac93ee.jpg",
+            "tags": {
+                "age": ["child", "teen"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["thoughtful"]
+            }
+        },
+        {
+            "url": "./images/Avatar/367748c9084a4fab0ab3c7da472b6417.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["scar", "angry", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/550851c8a3ca9eaccc3e3cda3f6be3bc.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "student"]
+            }
+        },
+        {
+            "url": "./images/Avatar/561294d4f7bd910c26f9af45949bfcc4.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor","middle class", "rich", "elite"],
+                "other": ["thoughtful", "traveller"]
+            }
+        },
+        {
+            "url": "./images/Avatar/0769453e29661d08ca54f0dad4507df8.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "archer", "fighter", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/777369abdc4f14695498d808f2912fef.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/850693bfe3b1a4003eec4e293fa9f988.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["concerned", "sad", "innkeeper", "blood"]
+            }
+        },
+        {
+            "url": "./images/Avatar/3471780deb83e2d96ce8829a647ceee4.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["happy", "drinking", "fighter"]
+            }
+        },
+        {
+            "url": "./images/Avatar/51570052adf1d559ba1a037641436f40.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["baker", "worker", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/303855991f0a3402e126cff289ae82ba.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/452053843e8b0e2cc68b2b6145a4dfb3.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["traveller", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/936474628163c10fbc300352cd5e43d0.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["merchant", "angry", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/907213284186737959871a2ddd1d592f.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["worker", "farmer", "nature", "serene"]
+            }
+        },
+        {
+            "url": "./images/Avatar/a2ef062ae989d35d3b6402444f43c33a.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["farmer", "worker", "nature", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/a7a66090e317b7dc92cef22fbe60391d.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["ceremony", "magician", "mysterious", "intense", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/a8c645470b9ff4647e3a68f06fff370c.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["worker", "farmer", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/a14ee13bacb9e1aacafc5100c9450b8e.jpg",
+            "tags": {
+                "age": ["child", "teen", "young adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/a8613e8a896f82f5f767e2055d488099.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "inventor", "potions", "student", "glasses", "focused", "healer"]
+            }
+        },
+        {
+            "url": "./images/Avatar/a523595a82d6e61a7173790fb15c94c5.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["traveller", "books", "leader", "magician"]
+            }
+        },
+        {
+            "url": "./images/Avatar/a5073530f5318f2cc3bba996317b8d54.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "concerned", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/aa1bf4f2bc3850ba546e592eee418139.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["merchant", "scar", "serene", "worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/aa4a9fbc9b9b918f47b0996f702a2f68.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["ceremony", "leader", "serene", "merchant"]
+            }
+        },
+        {
+            "url": "./images/Avatar/aac9e540f6eabdef9254236e307d4b89.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "strange", "mysterious", "ceremony"]
+            }
+        },
+        {
+            "url": "./images/Avatar/ab69cc9d37a0c88d4322f338d5e7ed63.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "concerned", "beard", "drinking", "sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/ab57859e19b0ccf6bc4a8bd8d5f0330c.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "focused", "angry", "innkeeper"]
+            }
+        },
+        {
+            "url": "./images/Avatar/ad7fb8b6722609c855605280b5f02b7f.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["traveller", "crow", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/ae73205813807c33e1c04fe78aea337e.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["merchant", "worker", "townsperson"]
+            }
+        },
+        {
+            "url": "./images/Avatar/af01584dae7f0faf4ce20372e4553832.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["serene", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/afe0b3b90a4b37b0e8b38179065a46c1.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["worker", "farmer", "cow", "nature", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b0df7aaa44721cce3d9fb811f98ab386.jpg",
+            "tags": {
+                "age": "child",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["fighter", "concerned", "sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b5df4241f6a6255387aa4c8eb5374933.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "angry", "intense"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b8a4d820ab5c15e3ea3f18958e313cbb.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b17d698ec1666b157b8f9c458862cf6e.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["worker", "merchant", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b36b6181e41706572cc4521edd9ace7c.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["magician", "intense", "mysterious", "angry"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b76d9861a5718820fec1a40f7ffc58c8.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["worker", "concerned", "tired"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b123ac7d5d70d0be251584fb832f893a.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["sailor", "pirate", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b886b0024e10cd8ee767c8b1d06eff7f.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "sea", "student", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b876088dd2a729e0a6b5b9474a65ce9b.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["religious", "ceremony", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/b16248816f64086dee525a5287d56b69.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "dog", "concerned", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/bb6b1f95fd3de78ee8dabe41a6fa3161.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["merchant", "leader", "sailor", "pirate", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/bca11970bb49d736228c70aa30a5c73f.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["student", "beard", "serene"]
+            }
+        },
+        {
+            "url": "./images/Avatar/bd5c97f76c3080405c31a1109f95acd0.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "leader", "religious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/bdf8b68214853fe48d4ed94006023916.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "fighter", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/be450421239a69f15b6c983a99e67aab.jpg",
+            "tags": {
+                "age": ["teen","young adult", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["traveller", "mysterious", "soldier", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c3e821735945e2d25061c63b705c7ad5.jpg",
+            "tags": {
+                "age": ["child", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["happy", "serene", "painter", "worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c5ce203cf50ca77791602fe16d5e2639.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["blacksmith", "worker", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c5627e4d802070a350938fb1d4d2899f.jpg",
+            "tags": {
+                "age": "child",
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["angry", "fighter", "intense"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c9026cb3ce87a27a41a7b15f6551b82d.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "intense", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c66834d17f06fc8f2e5938b5e8e2a9e8.jpg",
+            "tags": {
+                "age": "old",
+                "gender": ["F", "M"],
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["strange", "religious", "ceremony", "mysterious", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c09788415ab8fbdb7ad3be1fe74ff15e.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "innkeeper", "happy", "drinking", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c899439049d5a0e40e993a58bcd6b619.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["fighter", "concerned", "sad"]
+            }
+        },
+        {
+            "url": "./images/Avatar/c6665690535aca3b44e0f21117ce9475.jpg",
+            "tags": {
+                "age": "old",
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "nature", "mysterious", "among others", "leader", "magician"]
+            }
+        },
+        {
+            "url": "./images/Avatar/ca4d00896dba93bfc02cd7f555424dd5.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["worker", "cook", "happy", "potions"]
+            }
+        },
+        {
+            "url": "./images/Avatar/cd2d22e0a8a6210101f1011d45d92a15.jpg",
+            "tags": {
+                "age": "adult",
+                "gender":["F", "M"],
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["student", "inventor", "focused", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/cf8f49c7e8ff7e41eb1949fbe643bfef.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["magician", "inventor", "student", "cook", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d3baef59206a2de26d7130720633eb36.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "angry", "blood", "intense"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d7ab222fef9ee1aa50e8f3e40f77a6cb.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["student", "inventor", "nature", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d8bd1bedd3cceffb81377151018e6cc8.jpg",
+            "tags": {
+                "age": "child",
+                "gender": ["F", "M"],
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["among others", "horse", "pig", "nature", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d13ac37fe27167557d6dccd14841f598.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["mysterious", "soldier", "fighter", "intense", "handicapped"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d38c4aad0ac8e0065b778f50d8f771c9.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": ["F", "M"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["leader", "intense", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d39efe509f1a392a5aa324e60e51da0c.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["leader", "concerned", "intense"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d54fbeea1648279affab1383b5b7762e.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["sea", "sailor", "concerned", "traveller"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d64cddcb51f80c79a05f2f385c62a32e.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["student", "serene", "townsperson"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d184efa0dc3c4a9d6fe2582ba997f15c.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["student", "happy", "worker"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d260e968424a5eb69addc1533b50647e.jpg",
+            "tags": {
+                "age": "child",
+                "gender": ["F", "M"],
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "sad", "concerned", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d619e5aae2156d4da499e6e1ccf67757.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["worker", "farmer", "nature", "cow"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d894b2f3634d532005f116bb1ff4bfac.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["leader", "religious", "among others", "serene"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d6496df7f1bc6e840fa79171cef68429.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "cook"]
+            }
+        },
+        {
+            "url": "./images/Avatar/d0555520c67179e3c3001c88918d809c.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["rich", "elite"],
+                "other": ["crown", "leader", "concerned", "ceremony"]
+            }
+        },
+        {
+            "url": "src/NPCgenerator/images/Avatar/da6fc4d065b744402fb096d69ff45ca9.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["worker", "farmer", "concerned", "dragon"]
+            }
+        },
+        {
+            "url": "./images/Avatar/dbba03031b9efd97719aaa6808b432fd.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["merchant", "drinking", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/de0c483726c876cae899614cd5f9ba9e.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["mysterious", "magician", "ceremony", "strange", "scar"]
+            }
+        },
+        {
+            "url": "./images/Avatar/e0e34f8928bea383fa8a4351702b4b19.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult", "old"],
+                "gender": ["F", "M"],
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["magician", "mysterious", "potions"]
+            }
+        },
+        {
+            "url": "./images/Avatar/e1f667135bc66e64da64ade6ccc9de04.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["worker", "innkeeper", "traveller", "merchant"]
+            }
+        },
+        {
+            "url": "./images/Avatar/e5a9904fed6c34a767ad70e0376944fb.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["cat", "books", "student", "glasses", "strange", "mysterious", "scar"]
+            }
+        },
+        {
+            "url": "./images/Avatar/e7f8f1477728baef6011841e2f18e1e9.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["leader", "soldier", "beard", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/e77e9f91fd28cb2f75f80e6a830f13bd.jpg",
+            "tags": {
+                "age": ["young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["mysterious", "concerned", "fighter"]
+            }
+        },
+        {
+            "url": "./images/Avatar/e196f2bc7c14f14dad6e46b95d2b4066.jpg",
+            "tags": {
+                "age": ["child", "teen"],
+                "gender": "F",
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["soldier", "sad", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/e723cf587b2ee1cc083952d6dcd64974.jpg",
+            "tags": {
+                "age": "adult",
+                "gender": "M",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["soldier", "fighter", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/eada2137ed1903838c63a0d785df24e6.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["M", "F"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["strange", "books", "nature", "mysterious", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/eaf7d4a22f2e629857c376d198045266.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony", "leader", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/ed2c910a805639183573a7fb169d2b21.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["fighter", "soldier", "nature", "focused", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/eee2126c26465079e532f00a41f57656.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult", "old"],
+                "gender": ["M", "F"],
+                "socialClass": ["pauper", "poor", "middle class", "rich", "elite"],
+                "other": ["mysterious", "horse", "hooded", "ceremony", "among others", "cape", "thoughtful"]
+            }
+        },
+        {
+            "url": "./images/Avatar/f02b43e315b01e91eb3c87de913189c1.jpg",
+            "tags": {
+                "age": "child",
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich"],
+                "other": ["cat", "farmer", "serene", "nature"]
+            }
+        },
+        {
+            "url": "./images/Avatar/f5bb44b115f0b9f968f0a03d073ee0dd.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["sailor", "worker", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/f6bf7b350094fa87275d32b56b224c78.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["traveller", "merchant", "mysterious"]
+            }
+        },
+        {
+            "url": "./images/Avatar/f56d1357a41e2d9cc9824423e5c33b53.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["worker", "potions", "merchant", "happy", "beard"]
+            }
+        },
+        {
+            "url": "./images/Avatar/f60d0f13d1719f6bcfae745f472ef5b8.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["ceremony", "religious", "intense", "strange"]
+            }
+        },
+        {
+            "url": "./images/Avatar/f63db05cd4835382dba533b24232f16c.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class", "rich"],
+                "other": ["soldier", "fighter", "happy"]
+            }
+        },
+        {
+            "url": "./images/Avatar/fa2375d62d8c2daec6cda44c76c4f4d1.jpg",
+            "tags": {
+                "age": ["teen", "young adult"],
+                "gender": "M",
+                "socialClass": ["rich", "elite"],
+                "other": ["intense", "merchant", "leader"]
+            }
+        },
+        {
+            "url": "./images/Avatar/fbf636917f643786eb606b71d3bdd8b2.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["books", "student", "magician", "focused"]
+            }
+        },
+        {
+            "url": "./images/Avatar/fdc5ebab590d085b3695d8e9fed2d6b5.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": ["F", "M"],
+                "socialClass": ["middle class", "rich", "elite"],
+                "other": ["soldier", "crown", "leader", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/fe8a2647dc5281de34fb6f3486b538b1.jpg",
+            "tags": {
+                "age": ["teen", "young adult", "adult"],
+                "gender": "F",
+                "socialClass": ["poor", "middle class", "rich", "elite"],
+                "other": ["magician", "innkeeper", "owl", "mysterious", "concerned"]
+            }
+        },
+        {
+            "url": "./images/Avatar/ff96e9e765d68f7889207da720a4a770.jpg",
+            "tags": {
+                "age": ["adult", "old"],
+                "gender": "M",
+                "socialClass": ["pauper", "poor", "middle class"],
+                "other": ["traveller", "nature", "dog", "concerned"]
+            }
+        }
+    ]
+}
