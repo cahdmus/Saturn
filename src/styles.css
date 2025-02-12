@@ -17,9 +17,9 @@
 
 :root {
   --background-color: hsl(0, 0%, 91%);
-  --font-color: hsl(112, 65%, 7%);
+  --font-color: hsl(54, 32%, 30%);
   --accent-font-color: hsl(0, 0%, 53%);
-  --accent-color: hsl(46, 100%, 45%);
+  --accent-color: hsl(46, 47%, 50%);
   --secondary-accent-color: hsl(9, 81%, 47%);
   --border-color: hsl(0, 4%, 84%);
 
@@ -30,7 +30,6 @@
 body {
   background: #F7C759;
   background: radial-gradient(at left top, #F7C759, #2AB184);
-  display: flex;
 }
 
 /* reset
@@ -39,10 +38,12 @@ body {
   box-sizing: inherit;
   /* Uncomment next line when you're lost */
   /* border: 1px dotted red; */
+  scrollbar-color: var(--accent-color) var(--border-color);
+  scrollbar-width: thin;
 }
 
 html, body {
-  height: 100%;
+  /* height: 100%; */
 }
 
 html {
@@ -95,8 +96,28 @@ input, button, textarea, select {
 /* styling
 ------------------------ */
 h1 {
-  font-size: 1rem;
+  font-size: .9rem;
   padding: 1rem;
+  margin: -.5rem auto -1rem auto;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: .5rem;
+  letter-spacing: .1rem;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+  font-size: .6rem;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  background-color: var(--border-color);
+  border: none;
 }
 
 /* HEADER
@@ -104,16 +125,132 @@ h1 {
 
 /* CONTENT
 ----------------------------------------------- */
+#content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .module {
   background-color: var(--background-color);
-  width: 55%;
   border-radius: 1rem;
   overflow: hidden;
   -webkit-box-shadow: 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
   -moz-box-shadow: 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
   box-shadow: 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
+  margin: 1rem auto;
 }
 
+/* NPC GENERATOR */
 .npcGenerator {
-  display: grid;
+  text-align: center;
+  width: 14rem;
+  padding-bottom: 1rem;
+}
+
+/* NPC GENERATOR -- avatar */
+.avatarContainer {
+  height: 14rem;
+  overflow: hidden;
+}
+
+/* NPC GENERATOR -- animal archetype */
+.animalArchetype {
+  margin: .5rem 1rem;
+}
+
+.animalArchetype > .title {
+  width: fit-content;
+  padding: .1rem .5rem 0 .5rem;
+  background-color: var(--accent-color);
+  border-radius: .5rem .5rem 0 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--background-color);
+  margin-left: .35rem;
+}
+
+.animalDesc {
+  border-radius: .2rem;
+  overflow: hidden;
+  font-size: .2rem;
+  position: relative;
+}
+
+.animalDesc:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 1rem 1rem 0;
+  border-style: solid;
+  border-color: var(--border-color) var(--border-color) var(--background-color) var(--background-color);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.2);
+  /* Firefox 3.0 damage limitation */
+  display: block;
+  width: 0;
+}
+
+.animalTextContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: var(--border-color);
+}
+
+.animalDesc:hover .animalTextContainer {
+  opacity: 1;
+}
+
+.animalTextContainer > p {
+  padding: .5rem;
+  overflow-y: scroll;
+}
+
+/* NPC GENERATOR -- info table */
+table {
+  border-collapse: collapse;
+  font-size: .6rem;
+  width: 80%;
+  margin: auto;
+}
+
+table .title {
+  text-align: left;
+  font-family: var(--accent-font);
+  /* text-transform: uppercase; */
+}
+
+table .value {
+  text-align: right;
+  font-weight: bold;
+}
+
+tr {
+  border: 1px solid var(--border-color);
+  border-right: none;
+  border-left: none;
+}
+
+tr:first-child {
+  border-top: none;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.smallTable{
+  margin-top: .5rem;
+  width: 70%;
+  border: 1px solid var(--border-color);
 }

@@ -2,8 +2,8 @@ import NPCdata from './NPCdata.json' assert { type: 'json' };
 import { roll, getMoney } from "/src/utils.js";
 
 class NPC {
-    constructor(firstName, surname, gender, socialClass, age, attitude, motivations,
-        focus, archetypes, speciality, avatar) {
+    constructor(firstName, surname, gender, socialClass, age, attitude, appearance, motivations,
+        focus, archetypes, speciality) {
 
         this.firstName = firstName;
         this.surname = surname;
@@ -11,11 +11,12 @@ class NPC {
         this.socialClass = socialClass;
         this.age = age;
         this.attitude = attitude;
+        this.appearance = appearance;
         this.motivations = motivations;
         this.focus = focus;
         this.archetypes = archetypes;
         this.speciality = speciality;
-        this.avatar = avatar;
+        // this.avatar = avatar;
     }
 }
 
@@ -27,15 +28,16 @@ const NPCgenerator = {
         this.socialClass = this.getSocialClass();
         this.age = this.getAge();
         this.attitude = this.getAttitude();
+        this.appearance = this.getAppearance();
         this.motivations = this.getMotivations();
         this.focus = this.getFocus();
         this.archetypes = this.getArchetypes();
         this.speciality = this.getSpeciality();
-        this.avatar = this.getAvatar(this.gender, this.socialClass.socialClass);
+        // this.avatar = this.getAvatar(this.gender, this.socialClass.socialClass);
 
         return new NPC(this.firstName, this.surname, this.gender[0], this.socialClass, 
-            this.age, this.attitude, this.motivations, this.focus, this.archetypes, 
-            this.speciality, this.avatar)
+            this.age, this.attitude, this.appearance, this.motivations, this.focus, this.archetypes, 
+            this.speciality)
     },
     getGender() {
         const chance = roll.d100();
@@ -111,6 +113,9 @@ const NPCgenerator = {
     getAttitude() {
         return roll.from(NPCdata.attitude)
     },
+    getAppearance() {
+        return roll.from(NPCdata.appearance)
+    },
     getMotivations() {
         const verb = roll.from(NPCdata.motivations.verb)
         const noun = roll.from(NPCdata.motivations.noun)
@@ -120,8 +125,8 @@ const NPCgenerator = {
         return roll.from(NPCdata.focus)
     },
     getArchetypes() {
-        const getAnimal = roll.from(NPCdata.archetype.animal);
-        const animal = `${getAnimal.name} : ${getAnimal.traits}`
+        const animal = roll.from(NPCdata.archetype.animal);
+        // const animal = `${getAnimal.name} : ${getAnimal.traits}`
 
         const role = roll.from(NPCdata.archetype.role);
         const descriptor = roll.from(NPCdata.archetype.descriptor);
