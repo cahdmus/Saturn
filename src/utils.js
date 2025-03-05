@@ -81,6 +81,19 @@ const create = {
                             : element;
 
         return element
+    },
+    row(table, title, value, position){
+        const row = table.insertRow(position);
+        const titleCell = row.insertCell(0);
+        titleCell.classList.add('title');
+        titleCell.innerHTML = title;
+        const descCell = row.insertCell(1);
+        descCell.classList.add('value');
+        descCell.innerHTML = value;
+    },
+    hr(container) {
+        const hr = document.createElement('hr');
+        container.appendChild(hr);
     }
 }
 

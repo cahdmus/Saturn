@@ -1,6 +1,6 @@
 import { NPCgenerator } from "./NPCmodule";
-import avatar from "/home/cahdmus/vscode/Saturn/src/NPCgenerator/images/Avatar/9c24b783041ebecc0028853c3b8cad71.jpg"
-import animal from "/home/cahdmus/vscode/Saturn/src/NPCgenerator/images/Animal/coq.png"
+import avatar from "/home/cahdmus/repos/Saturn/src/NPCgenerator/images/Avatar/9c24b783041ebecc0028853c3b8cad71.jpg"
+import animal from "/home/cahdmus/repos/Saturn/src/NPCgenerator/images/Animal/coq.png"
 
 const displayNPC = {
     NPC: NPCgenerator.init(),

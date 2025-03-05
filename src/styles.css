@@ -96,6 +96,7 @@ input, button, textarea, select {
 /* styling
 ------------------------ */
 h1 {
+  text-align: center;
   font-size: .9rem;
   padding: 1rem;
   margin: -.5rem auto -1rem auto;
@@ -222,7 +223,7 @@ table {
   border-collapse: collapse;
   font-size: .6rem;
   width: 80%;
-  margin: auto;
+  margin: .8rem auto;
 }
 
 table .title {
@@ -295,7 +296,7 @@ tr:last-child {
   text-align: center;
 }
 
-#yesOrNo #result, #opposition #result {
+#yesOrNo #result, #opposition #result, #sceneGenerator #result {
   font-size: 1.1rem;
   padding: .5rem;
 }
