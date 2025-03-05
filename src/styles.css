@@ -128,7 +128,7 @@ hr {
 #content {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 
@@ -139,7 +139,8 @@ hr {
   -webkit-box-shadow: 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
   -moz-box-shadow: 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
   box-shadow: 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
-  margin: 1rem auto;
+  margin: 1rem;
+  width: 12rem;
 }
 
 /* NPC GENERATOR */
@@ -249,8 +250,79 @@ tr:last-child {
   border-bottom: none;
 }
 
-.smallTable{
+.smallTable {
   margin-top: .5rem;
   width: 70%;
   border: 1px solid var(--border-color);
+}
+
+
+/* DICE ROLL MODULE */
+.dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice button, .dice input {
+  border: none;
+  border-radius: .5rem;
+}
+
+.dice input {
+  width: 2.5rem;
+  margin: .1rem;
+  color: var(--font-color)
+}
+
+.dice > button {
+  margin-bottom: .5rem;
+  padding: .1rem 1rem;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.dice button:hover {
+  -webkit-box-shadow: inset 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
+  -moz-box-shadow: inset 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
+  box-shadow: inset 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
+  cursor: pointer;
+}
+
+.dice #result {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#yesOrNo #result, #opposition #result {
+  font-size: 1.1rem;
+  padding: .5rem;
+}
+
+.dice #result span {
+  font-size: .6rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+
+#odds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pseudoRadio {
+  background-color: var(--border-color);
+  font-size: .45rem;
+  text-transform: uppercase;
+  margin: .1rem .2rem;
+  padding: .1rem .2rem;
+  color: var(--font-color);
+}
+
+.checked {
+  background-color: var(--accent-color);
+  color: var(--background-color);
 }

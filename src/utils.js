@@ -64,4 +64,24 @@ function getMoney(socialClass) {
     return multiplier * roll.d4() * value - roll.d10();
 }
 
-export { roll, getMoney }
+const create = {
+    moduleBox(name) {
+        const moduleBox = document.createElement('div');
+        moduleBox.classList.add('module', name);
+
+        return moduleBox;
+    },
+    element(type, id, content, container) {
+        const element = document.createElement(type);
+        (id.length > 0) ? element.setAttribute('id', id)
+                            : element;
+        (content != undefined) ? element.innerHTML = content 
+                            : element;
+        (container != undefined) ? container.appendChild(element) 
+                            : element;
+
+        return element
+    }
+}
+
+export { roll, getMoney, create }
