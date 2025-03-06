@@ -15,7 +15,7 @@ const displayDice = {
         this.module.setAttribute('id', 'basicDice');
         
         // INPUT
-        this.title = create.element('h1', '', 'Roll a d', this.module);
+        this.title = create.element('h1', '', 'Lancer un d', this.module);
         this.dice = create.element('input', 'dice', '', this.title);
         this.dice.setAttribute('type', 'text')
         this.dice.value = '100'

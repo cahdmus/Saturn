@@ -1,7 +1,7 @@
 import { roll, create } from "/src/utils.js";
 
 const opposition = {
-    odd: 'neutral',
+    odd: 'Neutre',
     init() {
         this.cacheDOM();
         this.generateDOM();
@@ -16,27 +16,29 @@ const opposition = {
         this.module = create.moduleBox('dice');
         this.module.setAttribute('id', 'opposition');
         this.title = create.element('h1', '', 'Simple opposition', this.module);
+        create.hr(this.module)
         this.stats = create.element('div', 'stats', '', this.module);
-
+        
         // INPUT
-        this.player = create.element('h3', '', 'Player score ', this.stats);
+        this.player = create.element('h3', '', 'Score joueur ', this.stats);
         this.playerStat = create.element('input', 'opponent', '', this.player);
         this.playerStat.setAttribute('type', 'text')
         this.playerStat.value = '50'
 
-        this.opponent = create.element('h3', '', 'Opponent score ', this.stats);
+        this.opponent = create.element('h3', '', 'Score adversaire', this.stats);
         this.opponentStat = create.element('input', 'opponent', '', this.opponent);
         this.opponentStat.setAttribute('type', 'text')
         this.opponentStat.value = '00'
 
+        create.hr(this.module)
         // ODDS
-        this.oddsTitle = create.element('h3', '', 'Odds', this.module);
+        this.oddsTitle = create.element('h3', '', 'Chances', this.module);
         this.odds = create.element('div', 'odds', '', this.module);
-        const oddsValues = ['Incredibly simple', 'Very easy', 'Easy', 'Neutral', 'Tricky', 'Hard', 'Very hard', 'Almost impossible']
+        const oddsValues = ['Incroyablement simple', 'Très facile', 'Facile', 'Neutre', 'Complexe', 'Difficile', 'Très difficile', 'Presque impossible']
         oddsValues.forEach((value) => {
             const el = create.element('button', value, value, this.odds);
             el.classList.add('pseudoRadio');
-            (value === 'Neutral') ? el.classList.add('checked') : el;
+            (value === 'Neutre') ? el.classList.add('checked') : el;
         })
 
         // RESULT and BUTTON
@@ -68,28 +70,28 @@ const opposition = {
         const opponentBonus = (this.opponentStat.value != 0) ? 50 - parseInt(this.opponentStat.value) : 0;
         let bonus;
         switch (this.odd) {
-            case 'Incredibly simple':
+            case 'Incroyablement simple':
                 bonus = 30;
                 break;
-            case 'Very easy':
+            case 'Très facile':
                 bonus = 20;
                 break;
-            case 'Easy':
+            case 'Facile':
                 bonus = 10;
                 break;
-            case 'Neutral':
+            case 'Neutre':
                 bonus = 0;
                 break;
-            case 'Tricky':
+            case 'Complexe':
                 bonus = -5;
                 break;
-            case 'Hard':
+            case 'Difficile':
                 bonus = -10;
                 break;
-            case 'Very hard':
+            case 'Très difficile':
                 bonus = -20;
                 break;
-            case 'Almost impossible':
+            case 'Presque impossible':
                 bonus = -30;
                 break;
             default: 
@@ -109,33 +111,33 @@ const opposition = {
     },
     getText(gap, chance, limit) {
         if (gap == 0) {
-            return 'Success by a hair !'
+            return 'Réussite de justesse !'
         } else if (chance != 0 && chance < limit && chance%10 == 0) {
-            return 'Critical success !'
+            return 'Réussite critique !'
         } else if (chance > limit && chance%10 == 0) {
-            return 'Critical failure !'
+            return 'Échec critique !'
         } else if (gap > 0 && gap <= 10) {
-            return 'Disappointing success'
+            return 'Réussite décevante'
         } else if (gap > 10 && gap <= 20) {
-            return 'Delightful success'
+            return 'Réussite satisfaisante'
         } else if (gap > 20 && gap <= 30) {
-            return 'Brilliant success'
+            return 'Réussite brillante'
         } else if (gap > 30 && gap <= 40) {
-            return 'Fantastic success'
+            return 'Réussite épatante'
         } else if (gap > 40) {
-            return 'Massive success'
+            return 'Réussite éblouissante !'
         } else if (gap == -1) {
-            return 'Frustrating failure'
+            return 'Échec rageant !'
         } else if (gap > -10 && gap <= -1) {
-            return 'Failure...'
+            return 'Échec ...'
         } else if (gap > -20 && gap <= -10) {
-            return 'Vexing failure'
+            return 'Échec vexant'
         } else if (gap > -30 && gap <= -20) {
-            return 'Obvious failure'
+            return 'Échec flagrant'
         } else if (gap > -40 && gap <= -30) {
-            return 'Resounding failure'
+            return 'Échec cuisant'
         } else if (gap <= -40) {
-            return 'Roaring failure'
+            return 'Échec retantissant'
         }
     }
 }

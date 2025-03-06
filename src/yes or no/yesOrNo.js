@@ -2,7 +2,7 @@ import yesOrNoData from './yesOrNoData.json' assert { type: 'json' };
 import { roll, create } from "/src/utils.js";
 
 const yesOrNo = {
-    odd: 'Equal',
+    odd: 'Egal',
     init() {
         this.cacheDOM();
         this.generateDOM();
@@ -16,22 +16,25 @@ const yesOrNo = {
         // THE BOX
         this.module = create.moduleBox('dice');
         this.module.setAttribute('id', 'yesOrNo');
-        this.title = create.element('h1', '', 'Yes or No ?', this.module);
+        this.title = create.element('h1', '', 'Oui ou non ?', this.module);
 
+        create.hr(this.module)
         // CHAOS
         this.chaosTitle = create.element('h3', '', 'Chaos', this.module);
         this.chaos = create.element('input', 'chaos', '', this.chaosTitle);
         this.chaos.setAttribute('type', 'text')
         this.chaos.value = '5'
 
+        create.hr(this.module)
+
         // ODDS
-        this.oddsTitle = create.element('h3', '', 'Odds', this.module);
+        this.oddsTitle = create.element('h3', '', 'Chances', this.module);
         this.odds = create.element('div', 'odds', '', this.module);
-        const oddsValues = ['Impossible', 'Implausible', 'Unlikely', 'Equal', 'Maybe', 'Possible', 'Certain']
+        const oddsValues = ['Impossible', 'Improbable', 'Peu de chance', 'Egal', 'Peut-être', 'Possible', 'Certain']
         oddsValues.forEach((value) => {
             const el = create.element('button', value, value, this.odds);
             el.classList.add('pseudoRadio');
-            (value === 'Equal') ? el.classList.add('checked') : el;
+            (value === 'Egal') ? el.classList.add('checked') : el;
         })        
 
         // RESULT and BUTTON
