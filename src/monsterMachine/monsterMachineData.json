@@ -1,19 +1,19 @@
 {
     "type": {
-        "D'un autre monde": [
+        "other": [
             "Poisson",
             "Puant",
             "Tentacule",
-            "Rouler sur le tableau animal",
+            {"Roll": "animal"},
             "Membres supplémentaires",
             "Habillé",
             "Cauchemar",
             "Multi-yeux",
             "Dégoulinant",
-            "Rouler sur le tableau bête surnat.",
+            {"Roll": "supernatural"},
             "Lévitation",
             "Insecte",
-            "Rouleau sur table à insectes",
+            {"Roll": "insect"},
             "Vermifuge",
             "Regard humanoïde",
             "Osseux",
@@ -21,7 +21,7 @@
             "Serpent",
             "Aquatique"
         ],
-        "Animal": [
+        "animal": [
             "Velu",
             "Griffes",
             "Dents pointues",
@@ -40,19 +40,19 @@
             "Aquatique",
             "Amphibie",
             "Ailé",
-            "Cornes/Bois"
+            "Cornes ou bois"
         ],
-        "Machine": [
+        "machine": [
             "Humanoïde",
-            "Rouler sur le tableau Humanoïde",
+            {"Roll": "humanoid"},
             "En bois",
             "Fait de pierre",
             "A des symboles sur son corps",
             "Dégage de la vapeur ou de la fumée",
             "Fait d'objets communs",
             "On dirait un animal",
-            "Rouler sur le tableau animal",
-            "Rouler sur le tableau insecte",
+            {"Roll": "animal"},
+            {"Roll": "insect"},
             "Fait d'une substance inhabituelle",
             "Manie une arme",
             "Yeux brillants",
@@ -63,16 +63,16 @@
             "En lévitation",
             "Robotique"
         ],
-        "Elémental": [
+        "elemental": [
             "Air",
-            "Rouler sur le tableau d'un autre monde",
-            "Rouler sur le tableau humanoïde",
+            {"Roll": "other"},
+            {"Roll": "humanoid"},
             "Feu",
-            "Rouler sur le tableau informe",
+            {"Roll": "shapeless"},
             "Comme un nuage",
             "Eau",
             "Lévite/vole",
-            "Rouleau sur le tableau machine",
+            {"Roll": "machine"},
             "Terre",
             "Terrestre",
             "Substance inhabituelle",
@@ -84,10 +84,10 @@
             "Liquide",
             "Composé de petits objets"
         ],
-        "Humanoïde": [
+        "humanoid": [
             "Très laid",
-            "Rouler sur le tableau animaux",
-            "Rouler sur le tableau bête surnat.",
+            {"Roll": "animal"},
+            {"Roll": "supernatural"},
             "Beaucoup de dents",
             "Primitif",
             "A des défenses",
@@ -97,7 +97,7 @@
             "Manie une arme",
             "Porte une armure",
             "A cornes",
-            "Rouler sur le tableau autre monde",
+            {"Roll": "other"},
             "Couleur de peau étrange",
             "Très intelligent",
             "Stupide",
@@ -105,11 +105,11 @@
             "Queue",
             "Très beau"
         ],
-        "Bête surnaturelle": [
-            "Rouler sur le tableau animal",
-            "Rouler sur le tableau autre monde",
-            "Rouler sur le tableau élémentaire",
-            "Rouler sur le tableau insecte",
+        "supernatural": [
+            {"Roll": "animal"},
+            {"Roll": "other"},
+            {"Roll": "elemental"},
+            {"Roll": "insect"},
             "Dents pointues",
             "Yeux brillants",
             "Combo d'animaux",
@@ -126,9 +126,9 @@
             "Membres supplémentaires",
             "Velu"
         ],
-        "Informe": [
+        "shapeless": [
             "Liquide",
-            "Rouler sur le tableau élémentaire",
+            {"Roll": "elemental"},
             "Amorphe",
             "A plusieurs yeux",
             "Collant",
@@ -136,7 +136,7 @@
             "A cloques",
             "Comme un nuage",
             "Transparent",
-            "Flotte/lévite",
+            "Flotte ou lévite",
             "Noir d'encre",
             "Vert",
             "Mauve",
@@ -147,10 +147,10 @@
             "Palpite",
             "Rampant"
         ],
-        "Plante": [
+        "plant": [
             "Arbre",
-            "Vignes/tentacules",
-            "Rouler sur le tableau informe",
+            "Vignes ou tentacules",
+            {"Roll": "shapeless"},
             "Champignon",
             "Couvert d'aiguilles",
             "Coloré",
@@ -168,30 +168,30 @@
             "Recouvert d'écorce",
             "Champignon"
         ],
-        "Mort-vivant": [
+        "undead": [
             "Pourri",
             "Squelettique",
             "Incorporel",
             "Comme une ombre",
             "Froid",
-            "Rouler sur le tableau humanoïde",
+            {"Roll": "humanoid"},
             "Nauséabond",
             "Silencieux",
             "Sale",
             "Semble vivant",
-            "Rouler sur le tableau animal",
+            {"Roll": "animal"},
             "Humain tordu",
             "Momifié",
             "Yeux brillants",
-            "Hurle/grogne",
+            "Hurle ou grogne",
             "Griffes",
             "Crocs",
             "Macabre",
             "Décharné"
         ],
-        "Insecte": [
+        "insect": [
             "Ressemble à un insecte",
-            "Rouler sur le tableau autre monde",
+            {"Roll": "other"},
             "Carapace",
             "Ressemble à un nuisible",
             "Velu",
@@ -199,7 +199,7 @@
             "Jambes multiples",
             "Ressemble à un ver",
             "Humanoïde",
-            "Pinces/griffes",
+            "Pinces ou griffes",
             "Rampant",
             "Yeux sur les tiges",
             "Yeux multiples",

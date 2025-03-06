@@ -1,5 +1,6 @@
 import { roll, create } from "/src/utils.js";
 import monsterMachineData from './monsterMachineData.json' assert { type: 'json'};
+import { capacity } from "../capacity/capacity";
 
 const monsterGenerator = {
     init() {
@@ -25,6 +26,11 @@ const monsterGenerator = {
         create.row(this.infoTable, `Niveau`, '', 4);
         this.module.appendChild(this.infoTable);
 
+        create.hr(this.module)
+
+        // CAPACITY STATS
+        capacity.init(this.module)
+
         // BUTTON
         this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
 
@@ -38,21 +44,84 @@ const monsterGenerator = {
         })
     },
     roll() {
-        const type = this.getType()
-
-        this.infoTable.rows[0].cells[1].innerHTML = type[0];
-        this.infoTable.rows[1].cells[1].innerHTML = type[1];
+        const monsterType = this.getType()
+        this.infoTable.rows[0].cells[1].innerHTML = monsterType.type;
+        this.infoTable.rows[1].cells[1].innerHTML = monsterType.desc;
         this.infoTable.rows[2].cells[1].innerHTML = this.getSize();
         this.infoTable.rows[3].cells[1].innerHTML = this.getQuantity();
         this.infoTable.rows[4].cells[1].innerHTML = this.getLevel();
     },
     getType() {
         const types = Object.keys(monsterMachineData.type)
-        const type = roll.from(types);
+        const rollType = roll.from(types);
+        
+        let rollDesc = this.getDesc(rollType);
+        let text = rollDesc.text;
+        let creatureDesc = rollDesc.desc;
+        
+        
+        while (typeof creatureDesc === 'object') {
+            const newType = Object.values(creatureDesc).toString();
+            const newDesc = this.getDesc(newType)
+            creatureDesc = newDesc.desc;
+        }
+        
+        return {
+            type: text,
+            desc: creatureDesc
+        }
+    },
+    rollDesc() {
+        return {
+            other: roll.from(monsterMachineData.type.other),
+            animal: roll.from(monsterMachineData.type.animal),
+            machine : roll.from(monsterMachineData.type.machine),
+            elemental : roll.from(monsterMachineData.type.elemental),
+            humanoid : roll.from(monsterMachineData.type.humanoid),
+            supernatural : roll.from(monsterMachineData.type.supernatural),
+            shapeless : roll.from(monsterMachineData.type.shapeless),
+            plant : roll.from(monsterMachineData.type.plant),
+            undead : roll.from(monsterMachineData.type.undead),
+            insect : roll.from(monsterMachineData.type.insect)
+        } 
+    },
+    getDesc(type) {
+        let text; 
+        let desc;
 
-        const desc = 'sup'
+        if (type == 'other') {
+            text = `D'un autre monde`;
+            desc = this.rollDesc().other;
+        } else if (type == 'animal') {
+            text = `Animal`;
+            desc = this.rollDesc().animal;
+        } else if (type == 'machine') {
+            text = `Machine`;
+            desc = this.rollDesc().machine;
+        } else if (type == 'elemental') {
+            text = `Elémental`;
+            desc = this.rollDesc().elemental;
+        } else if (type == 'humanoid') {
+            text = `Humanoïde`;
+            desc = this.rollDesc().humanoid;
+        } else if (type == 'supernatural') {
+            text = `Bête surnaturelle`;
+            desc = this.rollDesc().supernatural;
+        } else if (type == 'shapeless') {
+            text = `Informe`;
+            desc = this.rollDesc().shapeless;
+        } else if (type == 'plant') {
+            text = `Plante`;
+            desc = this.rollDesc().plant;
+        } else if (type == 'undead') {
+            text = `Mort-vivant`;
+            desc = this.rollDesc().undead;
+        } else if (type == 'insect') {
+            text = `Insecte`;
+            desc = this.rollDesc().insect;
+        } 
 
-        return { type, desc }
+        return { text, desc }
     },
     getSize() {
         const chance = roll.d100();

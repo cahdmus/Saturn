@@ -71,17 +71,17 @@ const yesOrNo = {
         // console.log(`Because the odds are ${this.odd}, chaos is ${this.chaos.value}, and I rolled a ${chance}, which is between ${range.No1.min} and ${range.No1.max} I got...`)
         
         if (chance >= range.Yes1.min && chance <= range.Yes1.max) {
-            return 'Yes, and...';
+            return 'Oui, et...';
         } else if (chance >= range.Yes2.min && chance <= range.Yes2.max) {
-            return 'Yes';
+            return 'Oui';
         } else if (chance >= range.Yes3.min && chance <= range.Yes3.max) {
-            return 'Yes, but...';
+            return 'Oui, mais...';
         } else if (chance >= range.No3.min && chance <= range.No3.max) {
-            return 'No, but...';
+            return 'Non, mais...';
         } else if (chance >= range.No2.min && chance <= range.No2.max) {
-            return 'No';
+            return 'Non';
         } else if (chance >= range.No1.min && chance <= range.No1.max) {
-            return 'No, and...';
+            return 'Non, et...';
         }
     }
 }

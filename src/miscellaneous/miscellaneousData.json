@@ -226,11 +226,11 @@
         "Satisfait"
     ],
     "attitude": [
-        "Hostile (-20)",
-        "Froid (-10)",
-        "Indifférent (0)",
-        "Amical (+10)",
-        "Serviable (+20)"
+        "Hostile (bonus -20)",
+        "Froid (bonus -10)",
+        "Indifférent (bonus 0)",
+        "Amical (bonus +10)",
+        "Serviable (bonus +20)"
     ],
     "sens": {
         "hearing": [

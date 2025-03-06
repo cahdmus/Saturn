@@ -1,6 +1,7 @@
 import { NPCgenerator } from "./NPCmodule";
 import avatar from "/home/cahdmus/repos/Saturn/src/NPCgenerator/images/Avatar/9c24b783041ebecc0028853c3b8cad71.jpg"
 import animal from "/home/cahdmus/repos/Saturn/src/NPCgenerator/images/Animal/coq.png"
+import { capacity } from "../capacity/capacity";
 
 const displayNPC = {
     NPC: NPCgenerator.init(),
@@ -84,32 +85,7 @@ const displayNPC = {
         
         // STATS
         this.appendSeparator();
-        this.stats = document.createElement('h1');
-        this.stats.innerHTML = 'Caractéristiques';
-        this.module.appendChild(this.stats);
-        
-        this.infoTable = document.createElement('table');
-        this.createRow(this.infoTable, `Combat`, 'uc', 0);
-        this.createRow(this.infoTable, `Connaisances`, 'uc', 1);
-        this.createRow(this.infoTable, `Discrétion`, 'uc', 2);
-        this.createRow(this.infoTable, `Endurance`, 'uc', 3);
-        this.createRow(this.infoTable, `Force`, 'uc', 4);
-        this.createRow(this.infoTable, `Habileté`, 'uc', 5);
-        this.createRow(this.infoTable, `Magie`, 'uc', 6);
-        this.createRow(this.infoTable, `Mouvement`, 'uc', 7);
-        this.createRow(this.infoTable, `Perception`, 'uc', 8);
-        this.createRow(this.infoTable, `Sociabilité`, 'uc', 9);
-        this.createRow(this.infoTable, `Survie`, 'uc', 10);
-        this.createRow(this.infoTable, `Tir`, 'uc', 11);
-        this.createRow(this.infoTable, `Volonté`, 'uc', 12);
-        this.module.appendChild(this.infoTable);
-        
-        this.scoreTable = document.createElement('table');
-        this.scoreTable.classList.add('smallTable');
-        this.createRow(this.scoreTable, `Niveau`, 'uc', 0);
-        this.createRow(this.scoreTable, `Points de vie`, 'uc', 1);
-        this.createRow(this.scoreTable, `Bonus de force`, 'uc', 2);
-        this.module.appendChild(this.scoreTable);
+        capacity.init(this.module)
         
         this.webPage.appendChild(this.module);
     },
