@@ -3,7 +3,7 @@ import { roll, getMoney } from "/src/utils.js";
 
 class NPC {
     constructor(firstName, surname, gender, socialClass, age, attitude, appearance, motivations,
-        focus, archetypes, speciality) {
+        focus, archetypes, speciality, level) {
 
         this.firstName = firstName;
         this.surname = surname;
@@ -16,6 +16,7 @@ class NPC {
         this.focus = focus;
         this.archetypes = archetypes;
         this.speciality = speciality;
+        this.level = level;
         // this.avatar = avatar;
     }
 }
@@ -33,11 +34,12 @@ const NPCgenerator = {
         this.focus = this.getFocus();
         this.archetypes = this.getArchetypes();
         this.speciality = this.getSpeciality();
+        this.level = this.getLevel();
         // this.avatar = this.getAvatar(this.gender, this.socialClass.socialClass);
 
         return new NPC(this.firstName, this.surname, this.gender[0], this.socialClass, 
             this.age, this.attitude, this.appearance, this.motivations, this.focus, this.archetypes, 
-            this.speciality)
+            this.speciality, this.level)
     },
     getGender() {
         const chance = roll.d100();
@@ -154,6 +156,9 @@ const NPCgenerator = {
         const avatar = roll.from(socialFilteredList);
         
         return avatar.url
+    },
+    getLevel() {
+        return roll.from(NPCdata.level)
     }
 }
 

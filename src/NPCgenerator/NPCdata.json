@@ -4759,5 +4759,10 @@
                 "other": ["traveller", "nature", "dog", "concerned"]
             }
         }
+    ],
+    "level": [
+        "Faible",
+        "Normal",
+        "Héroïque"
     ]
 }

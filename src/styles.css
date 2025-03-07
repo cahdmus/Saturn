@@ -250,6 +250,12 @@ tr:last-child {
   border-bottom: none;
 }
 
+.value > span {
+  font-size: .4rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+
 .smallTable {
   margin-top: .5rem;
   width: 70%;
@@ -325,4 +331,10 @@ tr:last-child {
 .checked {
   background-color: var(--accent-color);
   color: var(--background-color);
+}
+
+.statGenerator {
+  width: 100%;
+  margin: none;
+  text-align: center;
 }

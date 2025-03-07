@@ -16,6 +16,8 @@ const monsterGenerator = {
         // THE BOX
         this.module = create.moduleBox('dice');
         this.module.setAttribute('id', 'monsterMachine');
+        this.webPage.appendChild(this.module);
+        
         this.title = create.element('h1', '', 'Machine à Monstres', this.module);
         
         this.infoTable = document.createElement('table');
@@ -23,18 +25,15 @@ const monsterGenerator = {
         create.row(this.infoTable, `Description`, '', 1);
         create.row(this.infoTable, `Taile`, '', 2);
         create.row(this.infoTable, `Quantité`, '', 3);
-        create.row(this.infoTable, `Niveau`, '', 4);
+        // create.row(this.infoTable, `Niveau`, '', 4);
         this.module.appendChild(this.infoTable);
-
-        create.hr(this.module)
+        
+        // BUTTON
+        this.rollBtn = create.element('button', 'monsterRollBtn', 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
 
         // CAPACITY STATS
-        capacity.init(this.module)
-
-        // BUTTON
-        this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
-
-        this.webPage.appendChild(this.module);
+        capacity.init(this.module, 'monster')
     },
     bindEvents() {
         this.cacheDOM();
@@ -49,7 +48,7 @@ const monsterGenerator = {
         this.infoTable.rows[1].cells[1].innerHTML = monsterType.desc;
         this.infoTable.rows[2].cells[1].innerHTML = this.getSize();
         this.infoTable.rows[3].cells[1].innerHTML = this.getQuantity();
-        this.infoTable.rows[4].cells[1].innerHTML = this.getLevel();
+        // this.infoTable.rows[4].cells[1].innerHTML = this.getLevel();
     },
     getType() {
         const types = Object.keys(monsterMachineData.type)
@@ -163,9 +162,6 @@ const monsterGenerator = {
 
         return quantity
     },
-    getLevel() {
-        return roll.from(monsterMachineData.level)
-    }
 }
 
 export { monsterGenerator }
