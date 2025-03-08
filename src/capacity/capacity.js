@@ -14,14 +14,16 @@ const capacity = {
         this.archetype = document.querySelector('.animalArchetype .title').innerHTML;
         this.npcStats = document.querySelector('#npcGeneratorInfo');
         this.npcScore = document.querySelector('#npcGeneratorScore');
+        this.npcLevel = document.querySelector('#npcGeneratorLevel');
         this.monsterStats = document.querySelector('#monsterMachineInfo');
-        this.monsterScore = document.querySelector('#npcGeneratorScore');
+        this.monsterScore = document.querySelector('#monsterMachineScore');
+        this.monsterLevel = document.querySelector('#monsterMachineLevel');
     },
     generateDOM() {
         this.module = create.element('div', `${this.container.id}Box`, '', this.container);
         this.module.classList.add('statGenerator');
         this.stats = create.element('h1', '', 'Caractéristiques', this.module);
-        this.subtitle = create.element('h3', '', '', this.module);
+        this.subtitle = create.element('h3', `${this.container.id}Level`, '', this.module);
 
         this.infoTable = document.createElement('table');
         this.infoTable.setAttribute('id', `${this.container.id}Info`);
@@ -52,18 +54,21 @@ const capacity = {
             btn.addEventListener('click', () => {
                 if (btn.id === 'npcRollBtn') {
                     this.type = 'npc';
-                    this.roll(this.npcStats, this.npcScore);
+                    this.roll(this.npcStats, this.npcScore, this.npcLevel);
                 } else if (btn.id === 'monsterRollBtn') {
                     this.type='monster'
-                    this.roll(this.monsterStats, this.monsterScore);
+                    this.roll(this.monsterStats, this.monsterScore, this.monsterLevel);
                 }
             });
         })
     },
-    roll(infoTable, scoreTable) {
+    roll(infoTable, scoreTable, levelTitle) {
         this.getStats();
         (infoTable === undefined) ? infoTable = this.infoTable : infoTable;
         (scoreTable === undefined) ? scoreTable = this.scoreTable : scoreTable;
+        
+        (levelTitle === undefined) ? levelTitle = this.subtitle : scoreTable;
+
 
         infoTable.rows[0].cells[1].innerHTML = this.COM.value
         infoTable.rows[1].cells[1].innerHTML = this.CNS.value
