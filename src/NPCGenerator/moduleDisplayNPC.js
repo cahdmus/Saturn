@@ -11,6 +11,7 @@ const displayModuleNPC = {
         this.generateDOM();
         this.roll();
         this.bindEvents();
+        console.log(this.content.avatar)
     },
     cacheDOM() {
         this.webPage = document.querySelector('#content');

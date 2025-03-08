@@ -26,6 +26,17 @@ class NPC {
         return `${this.firstName.value} ${this.surname.value}`
     }
 
+    get avatar() {
+        const gender = this.gender.value.short;
+        const socialClass = this.socialClass.value.en;
+        const allImages = NPCdata.images;
+        let genderedList = allImages.filter((image) => image.tags.gender.includes(gender));
+        let socialFilteredList = genderedList.filter((image) => image.tags.socialClass.includes(socialClass));
+        const avatar = roll.from(socialFilteredList);
+        
+        return avatar.url
+    }
+
     // METHODS
     rollGender() {
         const chance = roll.d100();
