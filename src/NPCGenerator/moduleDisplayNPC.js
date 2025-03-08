@@ -1,7 +1,29 @@
 import { NPC } from "./NPCGenerator";
 import { create } from "../utils";
 import avatar from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Avatar/9c24b783041ebecc0028853c3b8cad71.jpg"
-import animal from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/rat.jpg"
+import Aigle from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/aigle.jpg"
+import Âne from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/ane.jpg"
+import Cerf from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/cerf.png"
+import Chat from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/chat.jpg"
+import Chien from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/chien.jpg"
+import Coq from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/coq.png"
+import Corbeau from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/corbeau.jpg"
+import Fourmi from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/fourmi.png"
+import Hibou from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/hibou.png"
+import Hyène from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/hyene.png"
+import Lapin from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/lapin.jpg"
+import Lion from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/lion.jpg"
+import Loup from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/loup.jpg"
+import Mouton from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/mouton.jpg"
+import Ours from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/ours.png"
+import Paon from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/paon.jpg"
+import Porc from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/porc.jpg"
+import Rat from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/rat.jpg"
+import Renard from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/renard.jpg"
+import Serpent from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/serpent.jpg"
+import Souris from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/souris.png"
+import Taureau from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/taureau.png"
+import Vautour from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/vautour.jpg"
 
 const displayModuleNPC = {
     init(title, id) {
@@ -11,7 +33,7 @@ const displayModuleNPC = {
         this.generateDOM();
         this.roll();
         this.bindEvents();
-        console.log(this.content.avatar)
+        // console.log(this.content.avatar)
     },
     cacheDOM() {
         this.webPage = document.querySelector('#content');
@@ -47,7 +69,8 @@ const displayModuleNPC = {
 
         // -- animal image
         this.animalImg = create.element('img', '', '', this.animalDesc)
-        this.animalImg.setAttribute('src', animal);
+        // this.animalImg.setAttribute('src', Ours);
+
 
         // -- animal text
         this.animalTextContainer = create.element('div', '', '', this.animalDesc)
@@ -117,6 +140,7 @@ const displayModuleNPC = {
 
         this.animalTitle.innerHTML = this.content.archetypes.value.animal.name
         this.animalText.innerHTML = this.content.archetypes.value.animal.traits
+        this.animalImg.setAttribute('src', this.getArchetypeImg());
 
         this.infoTable.rows[0].cells[1].innerHTML = this.content.age.value.fr
         this.infoTable.rows[1].cells[1].innerHTML = this.content.gender.value.full
@@ -152,6 +176,79 @@ const displayModuleNPC = {
             return speciality
         } else {
             return `${speciality.name}<br><span>${speciality.desc}</span>`
+        }
+    },
+    getArchetypeImg() {
+        switch (this.content.archetypes.value.animal.name) {
+            case 'Aigle': {
+                return Aigle
+            }
+            case 'Âne': {
+                return Âne
+            }
+            case 'Cerf': {
+                return Cerf
+            }
+            case 'Chat': {
+                return Chat
+            }
+            case 'Chien': {
+                return Chien
+            }
+            case 'Coq': {
+                return Coq
+            }
+            case 'Corbeau': {
+                return Corbeau
+            }
+            case 'Fourmi': {
+                return Fourmi
+            }
+            case 'Hibou': {
+                return Hibou
+            }
+            case 'Hyène': {
+                return Hyène
+            }
+            case 'Lapin': {
+                return Lapin
+            }
+            case 'Lion': {
+                return Lion
+            }
+            case 'Loup': {
+                return Loup
+            }
+            case 'Mouton': {
+                return Mouton
+            }
+            case 'Ours': {
+                return Ours
+            }
+            case 'Paon': {
+                return Paon
+            }
+            case 'Porc': {
+                return Porc
+            }
+            case 'Rat': {
+                return Rat
+            }
+            case 'Renard': {
+                return Renard
+            }
+            case 'Serpent': {
+                return Serpent
+            }
+            case 'Souris': {
+                return Souris
+            }
+            case 'Taureau': {
+                return Taureau
+            }
+            case 'Vautour': {
+                return Vautour
+            }
         }
     }
 }
