@@ -277,7 +277,7 @@ class NPC {
 
         const avatar = roll.from(socialFilteredList);
 
-        return (avatar.url === undefined) ? 'e0e34f8928bea383fa8a4351702b4b19.jpg': avatar.url;
+        return (avatar === undefined) ? 'e0e34f8928bea383fa8a4351702b4b19.jpg': avatar.url;
     }
 }
 

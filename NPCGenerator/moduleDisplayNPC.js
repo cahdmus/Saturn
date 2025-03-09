@@ -110,7 +110,7 @@ const displayModuleNPC = {
     roll() {
         this.content = new NPC;
 
-        console.log(this.content)
+        // console.log(this.content)
         this.avatarImg.setAttribute('src', `NPCGenerator/images/Avatar/${this.content.avatar}`);
         this.name.innerHTML = this.content.fullname
         this.mainArchetype.innerHTML = this.content.archetypes.value.main

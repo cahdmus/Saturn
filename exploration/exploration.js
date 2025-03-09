@@ -128,13 +128,13 @@ const explorationGenerator = {
         return houses
     },
     getImage() {
-        console.log(this.type)
+        // console.log(this.type)
         const allImages = explorationData.images;
         let filteredList = allImages.filter((image) => image.tags.includes(this.type));
         const image = roll.from(filteredList);
-        console.log(filteredList)
+        // console.log(filteredList)
 
-        return (image.url === undefined) ? '2d33eab85deaef8ccc9a5f48186ccb1e.jpg': image.url;
+        return (image === undefined) ? '2d33eab85deaef8ccc9a5f48186ccb1e.jpg': image.url;
     }
 }
 
