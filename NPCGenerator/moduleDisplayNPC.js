@@ -21,6 +21,7 @@ import Porc from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/porc
 import Rat from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/rat.jpg"
 import Renard from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/renard.jpg"
 import Serpent from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/serpent.jpg"
+import Singe from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/singe.png"
 import Souris from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/souris.png"
 import Taureau from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/taureau.png"
 import Vautour from "/home/cahdmus/repos/Saturn/src/NPCGenerator/images/Animal/vautour.jpg"
@@ -239,6 +240,9 @@ const displayModuleNPC = {
             }
             case 'Serpent': {
                 return Serpent
+            }
+            case 'Singe': {
+                return Singe
             }
             case 'Souris': {
                 return Souris
