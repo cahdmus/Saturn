@@ -151,8 +151,9 @@ hr {
 }
 
 /* NPC GENERATOR -- avatar */
-.avatarContainer {
-  max-height: 16rem;
+/* EXPLORATION MODULE -- image */
+.avatarContainer, .imageContainer {
+  max-height: 18rem;
   overflow: hidden;
 }
 

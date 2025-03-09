@@ -20,6 +20,7 @@ const explorationGenerator = {
         this.infoTable.rows[4].cells[1].innerHTML = this.getDesc();
         this.infoTable.rows[5].cells[1].innerHTML = this.getCitySpot();
         this.infoTable.rows[6].cells[1].innerHTML = this.getCountrySpot();
+        this.exploImg.setAttribute('src', `exploration/images/${this.getImage()}`);
     },
     bindEvents() {
         this.cacheDOM();
@@ -34,12 +35,9 @@ const explorationGenerator = {
         this.module.setAttribute('id', 'sceneGenerator');
 
         // IMAGE
-        this.imageContainer = document.createElement('div');
+        this.imageContainer = create.element('div', '', '', this.module);
         this.imageContainer.classList.add('imageContainer');
-        this.exploImg = document.createElement('img');
-        this.exploImg.setAttribute('src', '');
-        this.imageContainer.appendChild(this.exploImg);
-        this.module.appendChild(this.imageContainer);
+        this.exploImg = create.element('img', '', '', this.imageContainer);
 
         this.title = create.element('h1', '', 'Exploration', this.module);
 
@@ -73,6 +71,7 @@ const explorationGenerator = {
         let text;
 
         if (type == 'ville') {
+            this.type = 'city';
             const subtype = roll.from(explorationData.type.ville.type);
             const population = this.getPopulation(subtype);
             const houses = this.getHouses(subtype, population)
@@ -80,6 +79,7 @@ const explorationGenerator = {
             text = `${subtype}<br>${Math.round(population)} habitants
                     <br>${Math.round(houses)} maisons`
         } else if (type == 'campagne') {
+            this.type = 'country';
             text = 'Campagne'
         }
 
@@ -126,6 +126,15 @@ const explorationGenerator = {
         }
 
         return houses
+    },
+    getImage() {
+        console.log(this.type)
+        const allImages = explorationData.images;
+        let filteredList = allImages.filter((image) => image.tags.includes(this.type));
+        const image = roll.from(filteredList);
+        console.log(filteredList)
+
+        return (image.url === undefined) ? '2d33eab85deaef8ccc9a5f48186ccb1e.jpg': image.url;
     }
 }
 
