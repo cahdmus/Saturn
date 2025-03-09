@@ -1,4 +1,4 @@
-import { roll, create } from "/src/utils.js";
+import { roll, create } from "/utils.js";
 
 const displayDice = {
     init() {

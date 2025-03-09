@@ -1,6 +1,6 @@
-import { roll, create } from "/src/utils.js";
-import explorationData from './explorationData.json' assert { type: 'json' };
-import exploImg from "/home/cahdmus/repos/Saturn/src/exploration/images/80eb8537f42fd7b2abef1bf8f60ae0a1.jpg"
+import { roll, create } from "/utils.js";
+import explorationData from './explorationData.json' with { type: 'json' };
+// import exploImg from "/images/80eb8537f42fd7b2abef1bf8f60ae0a1.jpg"
 
 const explorationGenerator = {
     init() {
@@ -38,7 +38,7 @@ const explorationGenerator = {
         this.imageContainer = document.createElement('div');
         this.imageContainer.classList.add('imageContainer');
         this.exploImg = document.createElement('img');
-        this.exploImg.setAttribute('src', exploImg);
+        this.exploImg.setAttribute('src', '');
         this.imageContainer.appendChild(this.exploImg);
         this.module.appendChild(this.imageContainer);
 

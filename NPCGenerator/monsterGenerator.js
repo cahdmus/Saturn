@@ -1,6 +1,6 @@
-import { roll, getMoney } from "/src/utils.js";
-import { StatBlock } from "./statGenerator";
-import monsterGeneratorData from './monsterGeneratorData.json' assert { type: 'json'};
+import { roll, getMoney } from "/utils.js";
+import { StatBlock } from "./statGenerator.js";
+import monsterGeneratorData from './monsterGeneratorData.json' with { type: 'json'};
 
 class Monster {
     constructor() {

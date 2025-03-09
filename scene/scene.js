@@ -1,5 +1,5 @@
-import { roll, create } from "/src/utils.js";
-import sceneData from './sceneData.json' assert { type: 'json' };
+import { roll, create } from "/utils.js";
+import sceneData from './sceneData.json' with { type: 'json' };
 
 const sceneGenerator = {
     init() {
