@@ -215,7 +215,7 @@ hr {
 
 .animalTextContainer > p {
   padding: .5rem;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 /* NPC GENERATOR -- info table */
