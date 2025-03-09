@@ -8,9 +8,6 @@ import { letterGenerator } from "./letterGenerator/letterGenerator.js";
 import { displayModule } from "./NPCGenerator/moduleDisplay.js";
 import { displayModuleNPC } from "./NPCGenerator/moduleDisplayNPC.js";
 
-
-console.log('sup')
-
 displayModuleNPC.init('', 'NPCGenerator');
 opposition.init();
 yesOrNo.init();

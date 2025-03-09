@@ -16,6 +16,7 @@ class NPC {
         this.archetypes = { name: 'Archétypes', value: this.rollArchetypes() };
         this.speciality = { name: 'Spécialité', value: this.rollSpeciality() };
         this.stats = this.rollStats(this.archetypes.value.animal.name);
+        this.avatar = this.rollAvatar(this.gender.value.short, this.socialClass.value.en, this.age.value.en)
     }
 
     get gold() {
@@ -24,17 +25,6 @@ class NPC {
 
     get fullname() {
         return `${this.firstName.value} ${this.surname.value}`
-    }
-
-    get avatar() {
-        const gender = this.gender.value.short;
-        const socialClass = this.socialClass.value.en;
-        const allImages = NPCdata.images;
-        let genderedList = allImages.filter((image) => image.tags.gender.includes(gender));
-        let socialFilteredList = genderedList.filter((image) => image.tags.socialClass.includes(socialClass));
-        const avatar = roll.from(socialFilteredList);
-        
-        return avatar.url
     }
 
     // METHODS
@@ -277,6 +267,16 @@ class NPC {
         // console.log(skill1)
         // console.log(skill2)
         return (chance === 1) ? this.updateSkill(skill1, bonus) : this.updateSkill(skill2, bonus);
+    }
+    rollAvatar(gender, socialClass, age) {
+        const allImages = NPCdata.images;
+
+        let genderedList = allImages.filter((image) => image.tags.gender.includes(gender));
+        let ageFilteredList = genderedList.filter((image) => image.tags.age.includes(age));
+        let socialFilteredList = ageFilteredList.filter((image) => image.tags.socialClass.includes(socialClass));   
+
+        const avatar = roll.from(socialFilteredList);
+        return avatar.url
     }
 }
 

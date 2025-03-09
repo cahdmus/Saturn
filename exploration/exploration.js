@@ -1,6 +1,5 @@
 import { roll, create } from "/utils.js";
 import explorationData from './explorationData.json' with { type: 'json' };
-// import exploImg from "/images/80eb8537f42fd7b2abef1bf8f60ae0a1.jpg"
 
 const explorationGenerator = {
     init() {

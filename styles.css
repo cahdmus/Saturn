@@ -152,7 +152,7 @@ hr {
 
 /* NPC GENERATOR -- avatar */
 .avatarContainer {
-  height: 14rem;
+  max-height: 16rem;
   overflow: hidden;
 }
 

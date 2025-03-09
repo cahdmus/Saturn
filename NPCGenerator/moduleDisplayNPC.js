@@ -9,7 +9,6 @@ const displayModuleNPC = {
         this.generateDOM();
         this.roll();
         this.bindEvents();
-        console.log(this.content.avatar)
     },
     cacheDOM() {
         this.webPage = document.querySelector('#content');
@@ -111,13 +110,14 @@ const displayModuleNPC = {
     roll() {
         this.content = new NPC;
 
-        this.avatarImg.setAttribute('src', this.content.avatar);
+        console.log(this.content)
+        this.avatarImg.setAttribute('src', `NPCGenerator/images/Avatar/${this.content.avatar}`);
         this.name.innerHTML = this.content.fullname
         this.mainArchetype.innerHTML = this.content.archetypes.value.main
 
         this.animalTitle.innerHTML = this.content.archetypes.value.animal.name
         this.animalText.innerHTML = this.content.archetypes.value.animal.traits
-        this.animalImg.setAttribute('src', '');
+        this.animalImg.setAttribute('src', `NPCGenerator/images/Animal/${this.content.archetypes.value.animal.url}`);
 
         this.infoTable.rows[0].cells[1].innerHTML = this.content.age.value.fr
         this.infoTable.rows[1].cells[1].innerHTML = this.content.gender.value.full
