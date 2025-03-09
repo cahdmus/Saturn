@@ -1,4 +1,4 @@
-import { roll, create } from "/utils.js";
+import { roll, create } from "../utils.js";
 import explorationData from './explorationData.json' with { type: 'json' };
 
 const explorationGenerator = {

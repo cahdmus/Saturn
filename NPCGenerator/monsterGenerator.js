@@ -1,4 +1,4 @@
-import { roll, getMoney } from "/utils.js";
+import { roll, getMoney } from "../utils.js";
 import { StatBlock } from "./statGenerator.js";
 import monsterGeneratorData from './monsterGeneratorData.json' with { type: 'json'};
 

@@ -1,5 +1,5 @@
 import yesOrNoData from './yesOrNoData.json' with { type: 'json' };
-import { roll, create } from "/utils.js";
+import { roll, create } from "../utils.js";
 
 const yesOrNo = {
     odd: 'Egal',

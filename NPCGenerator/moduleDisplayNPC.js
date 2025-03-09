@@ -1,5 +1,5 @@
 import { NPC } from "./NPCGenerator.js";
-import { create } from "/utils.js";
+import { create } from "../utils.js";
 
 const displayModuleNPC = {
     init(title, id) {

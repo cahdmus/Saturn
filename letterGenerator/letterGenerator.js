@@ -1,6 +1,7 @@
 import { roll, create } from "/utils.js";
 import letterData from './letterGeneratorData.json' with { type: 'json' };
-import miscellaneous from '/miscellaneous/miscellaneousData.json' with { type: 'json' };
+import miscellaneous from '../miscellaneous/miscellaneousData.json' with { type: 'json' };
+
 
 const letterGenerator = {
     init() {

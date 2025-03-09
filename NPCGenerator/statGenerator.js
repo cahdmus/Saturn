@@ -1,4 +1,4 @@
-import { roll } from "/utils.js";
+import { roll } from "../utils.js";
 
 class StatBlock {
     constructor(type) {

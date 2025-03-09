@@ -1,5 +1,5 @@
 import { Monster } from "./monsterGenerator.js";
-import { create } from "/utils.js";
+import { create } from "../utils.js";
 
 const displayModule = {
     init(title, id) {
