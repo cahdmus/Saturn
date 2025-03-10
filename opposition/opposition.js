@@ -21,7 +21,7 @@ const opposition = {
         
         // INPUT
         this.player = create.element('h3', '', 'Score joueur ', this.stats);
-        this.playerStat = create.element('input', 'opponent', '', this.player);
+        this.playerStat = create.element('input', 'player', '', this.player);
         this.playerStat.setAttribute('type', 'text')
         this.playerStat.value = '50'
 

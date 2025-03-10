@@ -276,7 +276,7 @@ class NPC {
         let socialFilteredList = ageFilteredList.filter((image) => image.tags.socialClass.includes(socialClass));   
 
         const avatar = roll.from(socialFilteredList);
-
+        // not enough "neutral" of all ages and social class
         return (avatar === undefined) ? 'e0e34f8928bea383fa8a4351702b4b19.jpg': avatar.url;
     }
 }

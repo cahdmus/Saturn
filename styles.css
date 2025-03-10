@@ -76,6 +76,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
   font-family: var(--accent-font);
+  text-align: center;
 }
 
 ol, ul {
@@ -112,6 +113,8 @@ h3 {
 p {
   text-align: justify;
   font-size: .6rem;
+  padding: .5rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 hr {
@@ -213,11 +216,6 @@ hr {
   opacity: 1;
 }
 
-.animalTextContainer > p {
-  padding: .5rem;
-  /* overflow-y: scroll; */
-}
-
 /* NPC GENERATOR -- info table */
 table {
   border-collapse: collapse;
@@ -283,7 +281,7 @@ tr:last-child {
   color: var(--font-color)
 }
 
-.dice > button {
+.dice button {
   margin-bottom: .5rem;
   padding: .1rem 1rem;
   background-color: var(--accent-color);
@@ -338,4 +336,44 @@ tr:last-child {
   width: 100%;
   margin: none;
   text-align: center;
+}
+
+#bestiaryModule p {
+  background-color: var(--border-color);
+  margin: 1rem;
+  -webkit-box-shadow: inset 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
+  -moz-box-shadow: inset 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
+  box-shadow: inset 0px 3px 24px -8px rgba(145, 112, 67, 0.5);
+}
+
+#bestiaryContent {
+  width: 100%;
+}
+ 
+/* SELECT MENU */
+.overlay {
+  background-color: rgba(0,0,0, 0.8);
+  width: 100vw;
+  height: fit-content;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.overlay-content{
+  margin: auto;
+}
+
+.creatureBtn {
+  width: 20rem;
+  display: block;
+  background-color: var(--border-color);
+  color: var(--font-color);
+  margin: .4rem;
+  padding: .2rem .4rem;
+  border-radius: 1rem;
 }
