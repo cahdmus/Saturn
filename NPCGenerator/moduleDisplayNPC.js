@@ -62,10 +62,11 @@ const displayModuleNPC = {
         create.row(this.infoTable, `Classe sociale`, '', 2);
         create.row(this.infoTable, `Pièces d'argent`, '', 3);
         create.row(this.infoTable, `Attitude`, '', 4);
-        create.row(this.infoTable, `Apparence`, '', 5);
-        create.row(this.infoTable, `Motivations`, '', 6);
-        create.row(this.infoTable, `Focus`, '', 7);
-        create.row(this.infoTable, `Spécialité`, '', 8);
+        create.row(this.infoTable, `Mannière`, '', 5);
+        create.row(this.infoTable, `Apparence`, '', 6);
+        create.row(this.infoTable, `Motivations`, '', 7);
+        create.row(this.infoTable, `Focus`, '', 8);
+        create.row(this.infoTable, `Spécialité`, '', 9);
         this.module.appendChild(this.infoTable);
 
         // STATS
@@ -123,11 +124,12 @@ const displayModuleNPC = {
         this.infoTable.rows[1].cells[1].innerHTML = this.content.gender.value.full
         this.infoTable.rows[2].cells[1].innerHTML = this.content.socialClass.value.fr
         this.infoTable.rows[3].cells[1].innerHTML = this.content.gold
-        this.infoTable.rows[4].cells[1].innerHTML = this.content.attitude.value
-        this.infoTable.rows[5].cells[1].innerHTML = this.content.appearance.value
-        this.infoTable.rows[6].cells[1].innerHTML = this.content.motivations.value
-        this.infoTable.rows[7].cells[1].innerHTML = this.content.focus.value
-        this.infoTable.rows[8].cells[1].innerHTML = this.formatSpeciality(this.content.speciality.value)
+        this.infoTable.rows[4].cells[1].innerHTML = this.content.habit.value
+        this.infoTable.rows[5].cells[1].innerHTML = this.content.attitude.value
+        this.infoTable.rows[6].cells[1].innerHTML = this.content.appearance.value
+        this.infoTable.rows[7].cells[1].innerHTML = this.content.motivations.value
+        this.infoTable.rows[8].cells[1].innerHTML = this.content.focus.value
+        this.infoTable.rows[9].cells[1].innerHTML = this.formatSpeciality(this.content.speciality.value)
 
         this.subtitle.innerHTML = this.content.stats.level.text;
 

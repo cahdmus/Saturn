@@ -9,6 +9,9 @@ import { displayModule } from "./NPCGenerator/moduleDisplay.js";
 import { displayModuleNPC } from "./NPCGenerator/moduleDisplayNPC.js";
 import { randomBestiary } from "./bestiary/randomBestiary.js";
 import { bestiary } from "./bestiary/bestiary.js";
+import { quest } from "./quest/quest.js";
+import { proficiency } from "./proficiency/proficiency.js";
+import { combatEmulator } from "./combatEmulator/combatEmulator.js";
 
 displayModuleNPC.init('', 'NPCGenerator');
 opposition.init();
@@ -21,3 +24,6 @@ miscellaneousGenerator.init();
 displayModule.init('Machine à Monstres', 'monsterGenerator');
 randomBestiary.init();
 bestiary.init();
+quest.init();
+proficiency.init()
+combatEmulator.init()

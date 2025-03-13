@@ -10,7 +10,25 @@
         "Événement positif pour le joueur 8",
         "Événement ambigu 8",
         "Événement négatif pour un PNJ 9",
-        "Événement positif pour un PNJ 8"
+        "Événement positif pour un PNJ 8",
+        "Rien de nouveau",
+        "Un léger changement",
+        "Se débarasser de quelque chose",
+        "Créer quelque chose de nouveau",
+        "Un événement ou obstacle négatif",
+        "Un événement neutre ou positif",
+        "Menace, danger ou combat",
+        "Quelque chose interfère avec le joueur",
+        "Un rebomdissement inattendu",
+        "Un joueur ou PNJ change d'attitude",
+        "Un secret est révélé",
+        "Un indice caché est révélé",
+        "Une attaque surprise",
+        "Un allié inattendu fait son apparition",
+        "La météo change soudainement",
+        "Un changement positif et bénéfique",
+        "Quelque chose est bénéfique aux joueurs",
+        "L'issue parfaite"
     ],
     "Key words": {
         "verb": [

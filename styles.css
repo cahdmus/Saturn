@@ -319,17 +319,17 @@ tr:last-child {
 }
 
 .pseudoRadio {
-  background-color: var(--border-color);
+  background-color: var(--border-color) !important;
   font-size: .45rem;
   text-transform: uppercase;
   margin: .1rem .2rem;
   padding: .1rem .2rem;
-  color: var(--font-color);
+  color: var(--font-color) !important;
 }
 
 .checked {
-  background-color: var(--accent-color);
-  color: var(--background-color);
+  background-color: var(--accent-color) !important;
+  color: var(--background-color) !important;
 }
 
 .statGenerator {

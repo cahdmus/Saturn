@@ -15,6 +15,7 @@ class NPC {
         this.focus = { name: 'Focus', value: roll.from(NPCdata.focus) };
         this.archetypes = { name: 'Archétypes', value: this.rollArchetypes() };
         this.speciality = { name: 'Spécialité', value: this.rollSpeciality() };
+        this.habit = { name: 'Manières', value: this.rollHabit() };
         this.stats = this.rollStats(this.archetypes.value.animal.name);
         this.avatar = this.rollAvatar(this.gender.value.short, this.socialClass.value.en, this.age.value.en)
     }
@@ -278,6 +279,9 @@ class NPC {
         const avatar = roll.from(socialFilteredList);
         // not enough "neutral" of all ages and social class
         return (avatar === undefined) ? 'e0e34f8928bea383fa8a4351702b4b19.jpg': avatar.url;
+    }
+    rollHabit() {
+        return roll.from(NPCdata.habit)
     }
 }
 
