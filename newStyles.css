@@ -12,108 +12,197 @@
 
 /* GENERAL
 ----------------------------------------------- */
-/* @import url(); */
+/* @import url(https://fonts.bunny.net/css?family=micro-5:400); */
+@import url(https://fonts.bunny.net/css?family=micro-5:400|silkscreen:400);
 /* usually I get my fonts on https://fonts.bunny.net */
 
 :root {
-    --background-color: hsl(0, 0%, 91%);
-    --font-color: hsl(54, 32%, 30%);
-    --accent-font-color: hsl(0, 0%, 53%);
-    --accent-color: hsl(46, 47%, 50%);
+    --background-color: hsl(43, 26%, 74%);
+    --secondary-background-color: hsl(43, 19%, 86%);
+    --font-color: hsl(280, 2%, 30%);
+    --softer-font-color: hsl(38, 12%, 58%);
+    --accent-color: hsl(42, 43%, 55%);
+    /* --accent-font-color: hsl(0, 0%, 53%);
     --secondary-accent-color: hsl(9, 81%, 47%);
-    --border-color: hsl(0, 4%, 84%);
-  
-    --main-font: Arial, Helvetica, sans-serif;
-    --accent-font: 'Courier New', Courier, monospace;
-  }
-  
-  body {
-    background: #F7C759;
-    background: radial-gradient(at left top, #F7C759, #2AB184);
-  }
-  
-  /* reset
+    --border-color: hsl(0, 4%, 84%); */
+
+    --main-font: 'Courier New', Courier, monospace;
+    --accent-font: 'Silkscreen', display;
+    /* --link-font: 'Micro 5', display; */
+}
+
+body {
+    background: var(--accent-color);
+    /* background: radial-gradient(at left top, #F7C759, #2AB184); */
+}
+
+/* reset
   ------------------------ */
-  *, *:before, *:after {
+*, *:before, *:after {
     box-sizing: inherit;
+    scrollbar-color: var(--accent-color) var(--secondary-background-color);
+    scrollbar-width: thin;
     /* Uncomment next line when you're lost */
     /* border: 1px dotted red; */
-    scrollbar-color: var(--accent-color) var(--border-color);
-    scrollbar-width: thin;
-  }
-  
-  html, body {
+}
+
+html, body {
     height: 100%;
     overflow: hidden;
-  }
-  
-  html {
+}
+
+html {
     box-sizing: border-box;
     font-size: clamp(1rem, 0.75rem + .75vw, 1.5rem);
-  }
-  
-  body {
+}
+
+body {
     font-family: var(--main-font);
     color: var(--font-color);
     line-height: 1.5;
     align-items: center;
     justify-content: center;
-  }
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
-  }
-  
-  p, h1, h2, h3, h4, h5, h6 {
+}
+
+p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
-  }
-  
-  p {
+}
+
+p {
     text-wrap: pretty;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
+}
+
+h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
     font-family: var(--accent-font);
     text-align: center;
-  }
-  
-  ol, ul {
+}
+
+ol, ul {
     list-style: none;
-  }
-  
-  img, picture, video, canvas, svg {
+}
+
+img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
     height: auto;
-  }
-  
-  input, button, textarea, select {
-    font: inherit;
-  }
-  
-  
-  /* styling
-  ------------------------ */
+}
 
-  
-  
-  /* CONTENT
+input, button, textarea, select {
+    font: inherit;
+}
+
+
+/* styling
+  ------------------------ */
+h1, h2 {
+    text-transform: uppercase;
+    margin-bottom: .8rem;
+}
+h1 {
+    font-size: 2rem;
+    line-height: 1.2rem;
+}
+h2 {
+    color: var(--accent-color);
+    text-align: start;
+    line-height: 1rem;
+}
+/* button {
+    border-radius: 1rem;
+    padding: .1rem .5rem;
+    border: .1rem var(--font-color) solid;
+    -webkit-box-shadow: 0 .2rem 0 0 rgba(77, 75, 78, 1);
+    -moz-box-shadow: 0 .2rem 0 0 rgba(77, 75, 78, 1);
+    box-shadow: 0 .2rem 0 0 rgba(77, 75, 78, 1);
+    transition: all 0.3s;
+    margin: .3rem;
+    font-family: var(--accent-font);
+    font-size: .8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--font-color);
+    background-color: var(--secondary-background-color);
+}
+button:hover{
+    transform: translateY(0.1rem);
+    -webkit-box-shadow: 0 .1rem 0 0 rgba(77, 75, 78, 1);
+    -moz-box-shadow: 0 .1rem 0 0 rgba(77, 75, 78, 1);
+    box-shadow: 0 .1rem 0 0 rgba(77, 75, 78, 1);
+} */
+
+
+/* CONTENT
   ----------------------------------------------- */
 #content {
-    background-color: var(--background-color);
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    margin: 1rem;
-    height: calc(100% - 2rem);
-    border-radius: 1rem;
+    /* width: 100%; */
+    height: calc(100% - 4rem);
+    margin: 2rem;
 }
 
 header, main {
-    padding: 1rem;
+    /* padding: 1rem 1.5rem; */
+    /* overflow-y: auto;
+    overflow-x: hidden; */
 }
 
-  /* HEADER
-  ----------------------------------------------- */
+/* HEADER
+----------------------------------------------- */
+header {
+    /* z-index: 1; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    background-color: var(--background-color); */
+    /* scrollbar-color: var(--font-color) var(--background-color); */
+}
+
+header button {
+    z-index: -1;
+    padding: .1rem .6rem .3rem .6rem;
+    margin-right: -.1rem;
+    position: relative;
+    bottom: -.21rem;
+    cursor: pointer;
+    border-radius: 1rem 1rem 0 0;
+    border: .1rem var(--softer-font-color) solid;
+    border-bottom: none;
+    background-color: var(--secondary-background-color);
+    color: var(--softer-font-color);
+    font-family: var(--accent-font);
+    font-size: .8rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+header button:hover {
+    
+}
+
+.selected {
+    z-index: 2;
+    border: .2rem var(--font-color) solid;
+    border-bottom: none;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    
+}
+
+
+/* MAIN
+----------------------------------------------- */
+main {
+    z-index: 1;
+    background-color: var(--background-color);
+    border-radius: 0 1rem 1rem 1rem;
+    /* overflow: hidden; */
+    border: .2rem var(--font-color) solid;
+    padding: 1rem 1.5rem;
+}
