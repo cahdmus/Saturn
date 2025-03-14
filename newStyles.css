@@ -1,0 +1,119 @@
+/*
+    NAME OF THE PROJECT (subtitle)
+    by Cahdmus
+
+    Table of Contents:
+        GENERAL
+            reset
+            styling
+        HEADER
+        CONTENT
+*/
+
+/* GENERAL
+----------------------------------------------- */
+/* @import url(); */
+/* usually I get my fonts on https://fonts.bunny.net */
+
+:root {
+    --background-color: hsl(0, 0%, 91%);
+    --font-color: hsl(54, 32%, 30%);
+    --accent-font-color: hsl(0, 0%, 53%);
+    --accent-color: hsl(46, 47%, 50%);
+    --secondary-accent-color: hsl(9, 81%, 47%);
+    --border-color: hsl(0, 4%, 84%);
+  
+    --main-font: Arial, Helvetica, sans-serif;
+    --accent-font: 'Courier New', Courier, monospace;
+  }
+  
+  body {
+    background: #F7C759;
+    background: radial-gradient(at left top, #F7C759, #2AB184);
+  }
+  
+  /* reset
+  ------------------------ */
+  *, *:before, *:after {
+    box-sizing: inherit;
+    /* Uncomment next line when you're lost */
+    /* border: 1px dotted red; */
+    scrollbar-color: var(--accent-color) var(--border-color);
+    scrollbar-width: thin;
+  }
+  
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: clamp(1rem, 0.75rem + .75vw, 1.5rem);
+  }
+  
+  body {
+    font-family: var(--main-font);
+    color: var(--font-color);
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    font-family: var(--accent-font);
+    text-align: center;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  
+  /* styling
+  ------------------------ */
+
+  
+  
+  /* CONTENT
+  ----------------------------------------------- */
+#content {
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 1rem;
+    height: calc(100% - 2rem);
+    border-radius: 1rem;
+}
+
+header, main {
+    padding: 1rem;
+}
+
+  /* HEADER
+  ----------------------------------------------- */
