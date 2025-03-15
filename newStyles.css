@@ -17,14 +17,13 @@
 /* usually I get my fonts on https://fonts.bunny.net */
 
 :root {
-    --background-color: hsl(43, 26%, 74%);
-    --secondary-background-color: hsl(43, 19%, 86%);
-    --font-color: hsl(280, 2%, 30%);
-    --softer-font-color: hsl(38, 12%, 58%);
-    --accent-color: hsl(42, 43%, 55%);
-    /* --accent-font-color: hsl(0, 0%, 53%);
-    --secondary-accent-color: hsl(9, 81%, 47%);
-    --border-color: hsl(0, 4%, 84%); */
+    --background-color: hsl(40, 20%, 97%);
+    --secondary-background-color: hsl(44, 38%, 92%);
+    --font-color: hsl(48, 28%, 39%);
+    --softer-font-color: hsl(44, 20%, 64%);
+    --accent-color: hsl(28, 88%, 61%);
+
+    --basic-border: .2rem var(--font-color) solid;
 
     --main-font: 'Courier New', Courier, monospace;
     --accent-font: 'Silkscreen', display;
@@ -32,8 +31,7 @@
 }
 
 body {
-    background: var(--accent-color);
-    /* background: radial-gradient(at left top, #F7C759, #2AB184); */
+    background: var(--secondary-background-color);
 }
 
 /* reset
@@ -48,7 +46,6 @@ body {
 
 html, body {
     height: 100%;
-    overflow: hidden;
 }
 
 html {
@@ -101,28 +98,52 @@ input, button, textarea, select {
 
 /* styling
   ------------------------ */
-h1, h2 {
-    text-transform: uppercase;
-    margin-bottom: .8rem;
-}
 h1 {
     font-size: 2rem;
     line-height: 1.2rem;
 }
+
 h2 {
-    color: var(--accent-color);
-    text-align: start;
+    /* color: var(--accent-color); */
+    font-size: 1.2rem;
     line-height: 1rem;
 }
-/* button {
+
+h3 {
+    font-size: .8rem;
+}
+
+h4 {
+    font-size: .6rem;
+    letter-spacing: -.1rem;
+}
+
+p {
+    font-size: .8rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    background-color: var(--softer-font-color);
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: var(--font-color)
+}
+
+.rollBtn{
     border-radius: 1rem;
     padding: .1rem .5rem;
     border: .1rem var(--font-color) solid;
-    -webkit-box-shadow: 0 .2rem 0 0 rgba(77, 75, 78, 1);
-    -moz-box-shadow: 0 .2rem 0 0 rgba(77, 75, 78, 1);
-    box-shadow: 0 .2rem 0 0 rgba(77, 75, 78, 1);
+    -webkit-box-shadow: 0 .2rem 0 0 var(--font-color);
+    -moz-box-shadow: 0 .2rem 0 0 var(--font-color);
+    box-shadow: 0 .2rem 0 0 var(--font-color);
     transition: all 0.3s;
-    margin: .3rem;
+    margin: .5rem;
     font-family: var(--accent-font);
     font-size: .8rem;
     text-transform: uppercase;
@@ -130,79 +151,253 @@ h2 {
     color: var(--font-color);
     background-color: var(--secondary-background-color);
 }
-button:hover{
-    transform: translateY(0.1rem);
-    -webkit-box-shadow: 0 .1rem 0 0 rgba(77, 75, 78, 1);
-    -moz-box-shadow: 0 .1rem 0 0 rgba(77, 75, 78, 1);
-    box-shadow: 0 .1rem 0 0 rgba(77, 75, 78, 1);
-} */
 
+.module input, .module .rollBtn {
+    background-color: var(--background-color);
+}
+
+.rollBtn:hover, .checked {
+    transform: translateY(0.1rem);
+    -webkit-box-shadow: 0 .1rem 0 0 var(--font-color);
+    -moz-box-shadow: 0 .1rem 0 0 var(--font-color);
+    box-shadow: 0 .1rem 0 0 var(--font-color);
+}
+
+.checked {
+    color: var(--background-color) !important;
+    background-color: var(--softer-font-color) !important;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: .6rem;
+    width: 80%;
+    margin: .8rem auto;
+    font-family: var(--accent-font);
+}
+
+table .title {
+    text-align: left;
+}
+
+table .value {
+    text-align: right;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+tr {
+    border: 1px solid var(--softer-font-color);
+    border-right: none;
+    border-left: none;
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.value > span {
+    font-size: .4rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: var(--font-color);
+}
+
+.smallTable {
+    margin-top: .5rem;
+    width: 70%;
+}
+
+input {
+    border: none;
+    border-radius: 1rem;
+    padding: .2rem .5rem;
+    max-width: 4rem;
+    margin: .1rem;
+    color: var(--font-color);
+    background-color: var(--secondary-background-color);
+    border: var(--basic-border);
+}
 
 /* CONTENT
   ----------------------------------------------- */
 #content {
-    /* width: 100%; */
-    height: calc(100% - 4rem);
     margin: 2rem;
-}
-
-header, main {
-    /* padding: 1rem 1.5rem; */
-    /* overflow-y: auto;
-    overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;
 }
 
 /* HEADER
 ----------------------------------------------- */
-header {
-    /* z-index: 1; */
-    /* overflow: hidden; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center;
-    background-color: var(--background-color); */
-    /* scrollbar-color: var(--font-color) var(--background-color); */
-}
-
 header button {
-    z-index: -1;
+    z-index: 1;
     padding: .1rem .6rem .3rem .6rem;
-    margin-right: -.1rem;
+    margin-right: -.2rem;
     position: relative;
-    bottom: -.21rem;
+    bottom: -.2em;
     cursor: pointer;
     border-radius: 1rem 1rem 0 0;
-    border: .1rem var(--softer-font-color) solid;
+    border: .2rem var(--softer-font-color) solid;
     border-bottom: none;
-    background-color: var(--secondary-background-color);
+    background-color: var(--background-color);
     color: var(--softer-font-color);
     font-family: var(--accent-font);
     font-size: .8rem;
     text-transform: uppercase;
     transition: all 0.3s;
+    opacity: 80%;
 }
 
 header button:hover {
-    
+    opacity: 100%;
 }
 
 .selected {
-    z-index: 2;
+    transition: all 0.3s;
+    z-index: 3;
     border: .2rem var(--font-color) solid;
     border-bottom: none;
-    background-color: var(--background-color);
     color: var(--font-color);
-    
+    opacity: 100%;
 }
 
 
 /* MAIN
 ----------------------------------------------- */
 main {
-    z-index: 1;
+    z-index: 2;
+    position: sticky;
     background-color: var(--background-color);
     border-radius: 0 1rem 1rem 1rem;
-    /* overflow: hidden; */
-    border: .2rem var(--font-color) solid;
-    padding: 1rem 1.5rem;
+    border: var(--basic-border);
+    padding: 1rem;
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: var(--secondary-background-color);
+    -webkit-box-shadow: .2rem .2rem 0 0 var(--softer-font-color);
+    -moz-box-shadow: .2rem .2rem 0 0 var(--softer-font-color);
+    box-shadow: .2rem .2rem 0 0 var(--softer-font-color);
+    height: fit-content;
+    margin: .5rem;
+    border: var(--basic-border)
+}
+
+.module {
+    /* max-width: 20rem; */
+    padding: 1rem;
+    text-align: center;
+}
+
+#result {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/* npcs page
+------------------------ */
+.moduleContent {
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr 1.5fr;
+}
+
+#col1, #col2, #col3 {
+    text-align: center;
+}
+
+#avatarContainer {
+    max-height: 18rem;
+    overflow: hidden;
+    border-bottom: var(--basic-border);
+}
+
+#avatarContainer img {
+    min-width: 100%;
+}
+
+#profile {
+    text-align: center;
+    padding: .5rem;
+}
+
+.animalArchetype {
+    margin: .5rem auto;
+    width: 70%;
+}
+
+.animalArchetype p {
+    padding: 0;
+    font-size: .6rem;
+}
+
+.animalArchetype > .title {
+    width: fit-content;
+    padding: 0rem .5rem 0 .5rem;
+    background-color: var(--accent-color);
+    border-radius: .5rem .5rem 0 0;
+    color: var(--background-color);
+    margin-left: .35rem;
+    font-family: var(--accent-font);
+}
+
+.animalDesc {
+    border-radius: .2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.animalDesc:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 1rem 1rem 0;
+    border-style: solid;
+    border-color: var(--secondary-background-color) var(--secondary-background-color) var(--background-color) var(--background-color);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* Firefox 3.0 damage limitation */
+    display: block;
+    width: 0;
+}
+
+.animalTextContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--secondary-background-color);
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.animalDesc:hover .animalTextContainer {
+    opacity: 1;
+}
+
+/* dice page
+------------------------ */
+#odds .rollBtn {
+    font-size: .5rem;
+    margin: .3rem;
+}
+
+#homeContent {
+    display: flex;
+}
+
+#homeContent > * {
+    flex: 1;
 }

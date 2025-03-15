@@ -66,8 +66,8 @@ function getMoney(socialClass) {
 
 const create = {
     moduleBox(name) {
-        const moduleBox = document.createElement('div');
-        moduleBox.classList.add('module', name);
+        const moduleBox = this.element('div', name, '');
+        moduleBox.classList.add('module');
 
         return moduleBox;
     },

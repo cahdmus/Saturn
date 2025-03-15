@@ -9,14 +9,14 @@ const yesOrNo = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#homeContent');
         this.oddsBtns = document.querySelectorAll('#yesOrNo #odds button');
     },
     generateDOM() {
         // THE BOX
-        this.module = create.moduleBox('dice');
-        this.module.setAttribute('id', 'yesOrNo');
-        this.title = create.element('h1', '', 'Oui ou non ?', this.module);
+        this.module = create.moduleBox('yesOrNo');
+        this.module.classList.add('card');
+        this.title = create.element('h2', '', 'Oui ou non ?', this.module);
 
         create.hr(this.module)
         // CHAOS
@@ -33,15 +33,16 @@ const yesOrNo = {
         const oddsValues = ['Impossible', 'Improbable', 'Peu de chance', 'Egal', 'Peut-être', 'Possible', 'Certain']
         oddsValues.forEach((value) => {
             const el = create.element('button', value, value, this.odds);
-            el.classList.add('pseudoRadio');
+            el.classList.add('rollBtn');
             (value === 'Egal') ? el.classList.add('checked') : el;
         })        
-
+        
         // RESULT and BUTTON
         this.result = create.element('div', 'result', '...', this.module);
         this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
 
-        this.webPage.appendChild(this.module);
+        this.content.appendChild(this.module);
     },
     bindEvents() {
         this.cacheDOM();
