@@ -289,8 +289,12 @@ main {
     border: var(--basic-border)
 }
 
+#bestiaryPage .card {
+    width: 80%;
+    margin: auto;
+}
+
 .module {
-    /* max-width: 20rem; */
     padding: 1rem;
     text-align: center;
 }
@@ -400,4 +404,34 @@ main {
 
 #homeContent > * {
     flex: 1;
+}
+
+/* bestiary page
+------------------------ */
+#bestiaryDisplay {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 70vh;
+}
+
+#bestiaryMenu, #bestiaryPage {
+    overflow-y: scroll;
+}
+
+#bestiaryDisplay a {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--accent-font);
+    font-size: .6rem;
+    line-height: 1rem;
+    margin: .2rem;
+}
+
+#bestiaryDisplay a:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+#bestiaryPage {
+    padding: .5rem 1rem;
 }

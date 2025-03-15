@@ -37,7 +37,8 @@ const saturn = {
         this.cacheDOM();
         this.generateDOM();
         this.bindEvents();
-        home.init()
+        bestiary.init()
+        this.bestiary.classList.add('selected')
     },
     cacheDOM() {
         this.header = document.querySelector('header');
@@ -47,12 +48,11 @@ const saturn = {
     generateDOM() {
         // MENU
         this.home = create.element('button', 'home', 'Accueil', this.header);
-        this.home.classList.add('selected')
         this.npcs = create.element('button', 'npcs', 'Personnages', this.header);
         this.explo = create.element('button', 'explo', 'Exploration', this.header);
         this.combat = create.element('button', 'combat', 'Combat', this.header);
         this.rules = create.element('button', 'rules', 'Règles', this.header);
-        this.rules = create.element('button', 'bestiary', 'Bestiaire', this.header);
+        this.bestiary = create.element('button', 'bestiary', 'Bestiaire', this.header);
     },
     bindEvents() {
         this.cacheDOM();
