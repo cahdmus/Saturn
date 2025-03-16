@@ -54,6 +54,7 @@ const rules = {
                 let elDOM
 
                 if (el.type === 'table') {
+                    (el.name != undefined) ? create.element('h3', '', el.name, this.page) : false;
                     elDOM = create.element('table', '', '', this.page);
                     const tableContent = el.value;
                     let index = 0;

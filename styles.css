@@ -12,7 +12,6 @@
 
 /* GENERAL
 ----------------------------------------------- */
-/* @import url(https://fonts.bunny.net/css?family=micro-5:400); */
 @import url(https://fonts.bunny.net/css?family=micro-5:400|silkscreen:400);
 /* usually I get my fonts on https://fonts.bunny.net */
 
@@ -26,8 +25,7 @@
     --basic-border: .2rem var(--font-color) solid;
 
     --main-font: 'Courier New', Courier, monospace;
-    --accent-font: 'Silkscreen', display;
-    /* --link-font: 'Micro 5', display; */
+    --accent-font: 'Silkscreen', 'Micro 5', display;
 }
 
 body {
@@ -177,6 +175,7 @@ table {
     width: 80%;
     margin: .8rem auto;
     font-family: var(--accent-font);
+    gap: .8rem;
 }
 
 table .title {
@@ -187,6 +186,14 @@ table .value {
     text-align: right;
     font-weight: bold;
     color: var(--accent-color);
+}
+
+table .subValue {
+    text-align: center;
+}
+
+table .smallerDesc {
+    font-size: .4rem;
 }
 
 tr {
