@@ -1,30 +1,114 @@
 [
     {
         "id": "scene",
-        "name": "Générateur de scène",
-        "module": "sceneGenerator.init()"
+        "name": "Générateur de scène"
     },
     {
         "id": "proficiency",
-        "name": "Apprendre une spécialisation",
-        "subtitle": "Prix normal d'un entraînement - 2 pièces d'or par jour",
+        "name": "Apprendre une spécialité"
+    },
+    {
+        "id": "capacity",
+        "name": "Les capacités des personnages",
         "desc": [
             {
-                "type": "p",
-                "value": "Une fois que l'on a trouvé un maître et acheté le matériel nécessaire, on détermine le dé de départ. Une fois par jour, le joueur devra lancé ce dé jusqu'à ce qu'il obtienne une réussite. Il passe alors au dé supérieur jusqu'à ce qu'il arrive au dernier dé, avec lequel il doit obtenir un certain nombre de réussite pour devenir spécialiste."
+                "type": "table",
+                "value": [
+                    {
+                        "name": "combat - COM",
+                        "desc": "Capacité à se battre au corps à corps, à mains nues ou armé. C'est la combativité et l'expérience martiale du personnage"
+                    },
+                    {
+                        "name": "Connaissance - CNS",
+                        "desc": "Savoir général du personnage : connaître l'histoire, les légendes, la géographie, les religions, les arts, les lettres, la noblesse, la politique, etc."
+                    },
+                    {
+                        "name": "Discrétion - DIS",
+                        "desc": "Se cacher, se déplacer silencieusement, dissimuler un objet sur soi, suivre quelqu'un, sont autant d'actions qui dépendent de la discrétion du personnage"
+                    },
+                    {
+                        "name": "Endurance - END",
+                        "desc": "L'endurance représente le souffle du personnage, mais aussi son système immunitaire (sa résistance aux maladies et aux poisons)"
+                    },
+                    {
+                        "name": "Force - FOR",
+                        "desc": "Le gabarit, la force, la résistance du personnage et sa capacité à intimider. Un personnage doté d'une haute valeur en force sera un véritable colosse."
+                    },
+                    {
+                        "name":  "Habileté - HAB" ,
+                        "desc": "Dextérité et doigté du personnage. Bricoler, réparer un objet, subtiliser une bourse, crocheter une serrure dépendent de cette capacité."
+                    },
+                    {
+                        "name":  "Magie - MAG" ,
+                        "desc": "Connaissances occultes et pouvoir inné du personnage : sa capacité à lancer des sortilèges, C'est la seule caractéristique qui commence à 0%"
+                    },
+                    {
+                        "name":  "Mouvement - MVT" ,
+                        "desc": "Courir, grimper, nager, sauter, monter à cheval... Un personnage avec une haute valeur de Mouvement est un athlète accompli."
+                    },
+                    {
+                        "name":  "Perception - PER" ,
+                        "desc": "Les cinq sens du personnage, sa vigilance et son sens de l'orientation. C'est aussi la caractéristique utilisée pour fouiller un endroit de fond en comble."
+                    },
+                    {
+                        "name":  "Sociabilité - SOC" ,
+                        "desc": "Persuader, négocier, séduire, baratiner, se renseigner, connaître l'étiquette en société... C'est le bagout et l'aisance sociale du personnage, mais pas son autorité."
+                    },
+                    {
+                        "name":  "Survie - SRV" ,
+                        "desc": "Capacité du personnage à se débrouiller en milieu hostile connaître le climat, la faune et la flore, allumer un feu, pratiquer les premiers soins à un blessé."
+                    },
+                    {
+                        "name":  "Tir - TIR" ,
+                        "desc": "La précision du personnage avec une arme de lancer ou de tir."
+                    },
+                    {
+                        "name":  "Volonté - VOL" ,
+                        "desc": "Force mentale, sang froid, courage et capacité à commander du personnage. La volonté est primordiale pour résister à la peur et aux sortilèges."
+                    }
+                ]
             },
             {
                 "type": "h3",
-                "value": "Ordre des dés"
+                "value": "équivalence des scores"
             },
             {
-                "type": "p",
-                "value": "D20 - D12 - D10 - D8 - D6 - D4"
-            },
-            {"type": "hr"},
-            {
-                "type": "h3",
-                "value": "Score de la capacité associée"
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "< 15",
+                        "desc": "très nul"
+                    },
+                    {
+                        "name": "25",
+                        "desc": "basique"
+                    },
+                    {
+                        "name": "35",
+                        "desc": "capable"
+                    },
+                    {
+                        "name": "45",
+                        "desc": "bon"
+                    },
+                    {
+                        "name": "55",
+                        "desc": "très bon"
+                    },
+                    {
+                        "name": "65",
+                        "desc": "pro"
+                    },
+                    {
+                        "name": "80",
+                        "desc": "incroyablement fort"
+                    },
+                    {
+                        "name": "100",
+                        "desc": "légende"
+                    }
+                ]
             }
         ]
     }

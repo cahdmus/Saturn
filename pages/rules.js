@@ -16,7 +16,7 @@ const rules = {
         create.hr(this.main)
         this.content = create.element('div', 'rulesDisplay', '', this.main);
         this.menu = create.element('div', 'rulesMenu', '', this.content);
-        this.page = create.element('div', 'rulesPage', 'Sélectionner une règles', this.content);
+        this.page = create.element('div', 'rulesPage', '', this.content);
 
         this.fillMenu()
     },
@@ -26,32 +26,48 @@ const rules = {
             ruleBtn.classList.add('creatureBtn');
 
             ruleBtn.addEventListener('click', () => {
-                console.log(rule)
+                // console.log(rule)
                 this.page.innerHTML = '';
-                // this.generateRestOfDOM(rule)
                 this.fillPage(rule)
             })
         })
     },
-    // generateRestOfDOM(rule) {
-        
-    //     this.title = create.element('h2', '', rule.name, this.page);
-    //     (rule.subtitle != undefined) ? this.subtitle = create.element('h4', '', rule.subtitle, this.page) : false;
-
-    //     if (rule.desc != undefined) {
-    //         rule.desc.forEach((element) => {
-    //             create.element(element.type, '', element.value, this.page)
-    //         })
-    //     }
-    // },
     fillPage(rule) {
-        switch(rule.id) {
+        switch (rule.id) {
             case 'scene':
                 sceneGenerator.init()
                 break
             case 'proficiency':
                 proficiency.init()
                 break
+            default:
+                this.generateRestOfDOM(rule)
+                break
+        }
+    },
+    generateRestOfDOM(rule) {
+        this.title = create.element('h2', '', rule.name, this.page);
+        (rule.subtitle != undefined) ? this.subtitle = create.element('h4', '', rule.subtitle, this.page) : false;
+
+        if (rule.desc != undefined) {
+            rule.desc.forEach((el) => {
+                let elDOM
+
+                if (el.type === 'table') {
+                    elDOM = create.element('table', '', '', this.page);
+                    const tableContent = el.value;
+                    let index = 0;
+
+                    tableContent.forEach((item) => {
+                        create.row(elDOM, item.name, item.desc, index);
+                        index++
+                    })
+                } else {
+                    elDOM = create.element(el.type, '', el.value, this.page)
+                }
+
+                (el.class != undefined) ? elDOM.classList.add(el.class) : false;
+            })
         }
     }
 }
