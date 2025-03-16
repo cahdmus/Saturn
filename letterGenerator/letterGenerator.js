@@ -11,13 +11,12 @@ const letterGenerator = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#exploContent');
     },
     generateDOM() {
         // THE BOX
-        this.module = create.moduleBox('dice');
-        this.module.setAttribute('id', 'opposition');
-        this.title = create.element('h1', '', 'Générateurs de document', this.module);
+        this.module = create.moduleBox('opposition');
+        this.title = create.element('h2', '', 'Générateurs de document', this.module);
         
         this.infoTable = document.createElement('table');
         create.row(this.infoTable, `Contenu`, '', 0);
@@ -31,8 +30,9 @@ const letterGenerator = {
 
         // BUTTON
         this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
 
-        this.webPage.appendChild(this.module);
+        this.content.appendChild(this.module);
     },
     bindEvents() {
         this.cacheDOM();

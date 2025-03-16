@@ -13,26 +13,26 @@ const quest = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#exploContent');
     },
     generateDOM() {
         // THE BOX
-        this.module = create.moduleBox('dice');
-        this.module.setAttribute('id', 'quests');
-        this.title = create.element('h1', '', 'Quêtes et rumeurs', this.module);
+        this.module = create.moduleBox('quests');
+        this.module.classList.add('card');
 
-        this.questTitle = create.element('h3', '', 'Quête', this.module);
+        this.questTitle = create.element('h2', '', 'Quête', this.module);
         this.quest = create.element('p', '', '', this.module);
         
         create.hr(this.module)
 
-        this.rumorTitle = create.element('h3', '', 'Rumeur', this.module);
+        this.rumorTitle = create.element('h2', '', 'Rumeur', this.module);
         this.rumor = create.element('p', '', '', this.module);
 
         // BUTTON
         this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
 
-        this.webPage.appendChild(this.module);
+        this.content.appendChild(this.module);
     },
     bindEvents() {
         this.cacheDOM();

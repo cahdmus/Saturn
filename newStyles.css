@@ -289,6 +289,10 @@ main {
     border: var(--basic-border)
 }
 
+.card p {
+    font-size: .6rem;
+}
+
 #bestiaryPage .card {
     width: 80%;
     margin: auto;
@@ -434,4 +438,35 @@ main {
 
 #bestiaryPage {
     padding: .5rem 1rem;
+}
+
+/* exploration page
+------------------------ */
+#exploContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+#imageGenerator {
+    padding: 0;
+    overflow: hidden;
+    max-height: fit-content;
+    position:relative;
+}
+
+.imageContainer {
+    max-height: 22rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.imageContainer img {
+    min-width: 100%;
+}
+
+#imageGenerator button {
+    position: absolute;
+    top: 0;
+    left: 0;
 }

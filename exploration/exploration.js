@@ -9,7 +9,7 @@ const explorationGenerator = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#exploContent');
         this.cells = document.querySelectorAll('#sceneGenerator table .value')
     },
     roll() {
@@ -22,13 +22,13 @@ const explorationGenerator = {
         this.infoTable.rows[6].cells[1].innerHTML = this.getCountrySpot();
         this.infoTable.rows[7].cells[1].innerHTML = roll.from(explorationData.disaster);
         this.infoTable.rows[8].cells[1].innerHTML = this.getDirection();
-        this.exploImg.setAttribute('src', `exploration/images/${this.getImage()}`);
+        // this.exploImg.setAttribute('src', `exploration/images/${this.getImage()}`);
 
-        this.roomTable.rows[0].cells[1].innerHTML = roll.from(explorationData.interior.size);
-        this.roomTable.rows[1].cells[1].innerHTML = roll.from(explorationData.interior.type);
-        this.roomTable.rows[2].cells[1].innerHTML = roll.from(explorationData.interior.doors);
-        this.roomTable.rows[3].cells[1].innerHTML = roll.from(explorationData.interior.behindDoor);
-        this.roomTable.rows[4].cells[1].innerHTML = roll.from(explorationData.interior.stairs);
+        // this.roomTable.rows[0].cells[1].innerHTML = roll.from(explorationData.interior.size);
+        // this.roomTable.rows[1].cells[1].innerHTML = roll.from(explorationData.interior.type);
+        // this.roomTable.rows[2].cells[1].innerHTML = roll.from(explorationData.interior.doors);
+        // this.roomTable.rows[3].cells[1].innerHTML = roll.from(explorationData.interior.behindDoor);
+        // this.roomTable.rows[4].cells[1].innerHTML = roll.from(explorationData.interior.stairs);
     },
     bindEvents() {
         this.cacheDOM();
@@ -39,15 +39,13 @@ const explorationGenerator = {
     },
     generateDOM() {
         // THE BOX
-        this.module = create.moduleBox('dice');
-        this.module.setAttribute('id', 'sceneGenerator');
+        this.module = create.moduleBox('sceneGenerator');
+        this.module.classList.add('card');
 
         // IMAGE
-        this.imageContainer = create.element('div', '', '', this.module);
-        this.imageContainer.classList.add('imageContainer');
-        this.exploImg = create.element('img', '', '', this.imageContainer);
-
-        this.title = create.element('h1', '', 'Exploration', this.module);
+        // this.imageContainer = create.element('div', '', '', this.module);
+        // this.imageContainer.classList.add('imageContainer');
+        // this.exploImg = create.element('img', '', '', this.imageContainer);
 
         this.infoTable = document.createElement('table');
         create.row(this.infoTable, `Météo`, '', 0);
@@ -61,20 +59,21 @@ const explorationGenerator = {
         create.row(this.infoTable, `Direction`, '', 8);
         this.module.appendChild(this.infoTable);
         
-        create.hr(this.module)
+        // create.hr(this.module)
 
-        this.roomTable = document.createElement('table');
-        create.row(this.roomTable, `Taille de la pièce`, '', 0);
-        create.row(this.roomTable, `Type de pièce`, '', 1);
-        create.row(this.roomTable, `Sorties`, '', 2);
-        create.row(this.roomTable, `Derrière la sortie`, '', 3);
-        create.row(this.roomTable, `Escalier etc.`, '', 4);
-        this.module.appendChild(this.roomTable);
+        // this.roomTable = document.createElement('table');
+        // create.row(this.roomTable, `Taille de la pièce`, '', 0);
+        // create.row(this.roomTable, `Type de pièce`, '', 1);
+        // create.row(this.roomTable, `Sorties`, '', 2);
+        // create.row(this.roomTable, `Derrière la sortie`, '', 3);
+        // create.row(this.roomTable, `Escalier etc.`, '', 4);
+        // this.module.appendChild(this.roomTable);
 
         // BUTTON
         this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
 
-        this.webPage.appendChild(this.module);
+        this.content.appendChild(this.module);
     },
     getWeather() {
         return roll.from(explorationData.weather);
