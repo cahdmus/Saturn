@@ -8,14 +8,15 @@ const opposition = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#combatContent');
         this.oddsBtns = document.querySelectorAll('#opposition #odds button');
     },
     generateDOM() {
         // THE BOX
         this.module = create.moduleBox('dice');
         this.module.setAttribute('id', 'opposition');
-        this.title = create.element('h1', '', 'Simple opposition', this.module);
+        this.module.classList.add('card');
+        this.title = create.element('h2', '', 'Simple opposition', this.module);
         create.hr(this.module)
         this.stats = create.element('div', 'stats', '', this.module);
         
@@ -37,15 +38,16 @@ const opposition = {
         const oddsValues = ['Incroyablement simple', 'Très facile', 'Facile', 'Neutre', 'Complexe', 'Difficile', 'Très difficile', 'Presque impossible']
         oddsValues.forEach((value) => {
             const el = create.element('button', value, value, this.odds);
-            el.classList.add('pseudoRadio');
+            el.classList.add('rollBtn');
             (value === 'Neutre') ? el.classList.add('checked') : el;
         })
 
         // RESULT and BUTTON
         this.result = create.element('div', 'result', '...', this.module);
         this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
 
-        this.webPage.appendChild(this.module);
+        this.content.appendChild(this.module);
     },
     bindEvents() {
         this.cacheDOM();

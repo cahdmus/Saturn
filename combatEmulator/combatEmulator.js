@@ -7,13 +7,14 @@ const combatEmulator = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#combatContent');
     },
     generateDOM() {
         // THE BOX
         this.module = create.moduleBox('dice');
+        this.module.classList.add('card');
         this.module.setAttribute('id', 'combatEmulator');
-        this.title = create.element('h1', '', 'Emulateur de combat', this.module);
+        this.title = create.element('h2', '', 'Emulateur de combat', this.module);
 
         create.hr(this.module)
         // AGGRO
@@ -28,8 +29,9 @@ const combatEmulator = {
         this.resultTitle = create.element('h3', '', '', this.module);
         this.result = create.element('p', '', '...', this.module);
         this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
 
-        this.webPage.appendChild(this.module);
+        this.content.appendChild(this.module);
     },
     bindEvents() {
         this.cacheDOM();

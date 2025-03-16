@@ -11,8 +11,8 @@ const saturn = {
         this.cacheDOM();
         this.generateDOM();
         this.bindEvents();
-        explo.init()
-        this.explo.classList.add('selected')
+        home.init()
+        this.home.classList.add('selected')
     },
     cacheDOM() {
         this.header = document.querySelector('header');

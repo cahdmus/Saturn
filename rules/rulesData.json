@@ -1,0 +1,31 @@
+[
+    {
+        "id": "scene",
+        "name": "Générateur de scène",
+        "module": "sceneGenerator.init()"
+    },
+    {
+        "id": "proficiency",
+        "name": "Apprendre une spécialisation",
+        "subtitle": "Prix normal d'un entraînement - 2 pièces d'or par jour",
+        "desc": [
+            {
+                "type": "p",
+                "value": "Une fois que l'on a trouvé un maître et acheté le matériel nécessaire, on détermine le dé de départ. Une fois par jour, le joueur devra lancé ce dé jusqu'à ce qu'il obtienne une réussite. Il passe alors au dé supérieur jusqu'à ce qu'il arrive au dernier dé, avec lequel il doit obtenir un certain nombre de réussite pour devenir spécialiste."
+            },
+            {
+                "type": "h3",
+                "value": "Ordre des dés"
+            },
+            {
+                "type": "p",
+                "value": "D20 - D12 - D10 - D8 - D6 - D4"
+            },
+            {"type": "hr"},
+            {
+                "type": "h3",
+                "value": "Score de la capacité associée"
+            }
+        ]
+    }
+]

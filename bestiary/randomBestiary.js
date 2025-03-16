@@ -9,19 +9,22 @@ const randomBestiary = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#combatContent');
     },
     generateDOM() {
         // THE BOX
         this.module = create.moduleBox('dice');
         this.module.setAttribute('id', 'bestiaryModule');
-        this.webPage.appendChild(this.module);
-        this.title = create.element('h1', '', '', this.module);
-        this.subtitle = create.element('h3', '', '', this.module);
+        this.content.appendChild(this.module);
+        this.title = create.element('h2', '', '', this.module);
+        this.subtitle = create.element('h4', '', '', this.module);
 
+        // BUTTON
+        this.rollBtn = create.element('button', `bestiaryRollBtn`, 'Roll', this.module);
+        this.rollBtn.classList.add('rollBtn');
         
         // STATS
-        this.stats = create.element('h1', '', 'Caractéristiques', this.module);
+        this.stats = create.element('h3', '', 'Caractéristiques', this.module);
         
         this.scoreTable = document.createElement('table');
         this.scoreTable.setAttribute('id', '');
@@ -48,10 +51,7 @@ const randomBestiary = {
         this.module.appendChild(this.subScoreTable);
         
         this.desc = create.element('p', '', '', this.module);
-
-        // BUTTON
-        this.rollBtn = create.element('button', `bestiaryRollBtn`, 'Roll', this.module);
-        this.rollBtn.classList.add('rollBtn');
+        this.desc.classList.add('card');
     },
     bindEvents() {
         this.cacheDOM();

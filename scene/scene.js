@@ -9,7 +9,7 @@ const sceneGenerator = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#rulesPage');
     },
     roll() {
         this.infoTable.rows[0].cells[1].innerHTML = this.getEventType();
@@ -20,7 +20,10 @@ const sceneGenerator = {
         // THE BOX
         this.module = create.moduleBox('dice');
         this.module.setAttribute('id', 'sceneGenerator');
-        this.title = create.element('h1', '', 'Générateur de scene', this.module);
+        this.title = create.element('h2', '', 'Générateur de scene', this.module);
+
+        const desc = `Après avoir imaginé le contexte de la scène que l'on veut jouer, on lance un D10 contre l'indicateur de chaos (remplir ci-dessous). Si le résultat est supérieur à l'indicateur de charos, on joue la scène normalement, sinon selon si le résultat est paire ou impaire, la scène sera plus ou moins modifiée. On peut utiliser le tableau pour obtenir des informations sur les changements qui ont lieu ou pour s'inspirer si on a pas d'idée de scène.`;
+        create.element('p', '', desc, this.module);
 
         create.hr(this.module)
         // CHAOS
@@ -30,20 +33,29 @@ const sceneGenerator = {
         this.chaos.value = '5'
         create.hr(this.module)
 
+        this.moduleContent2 = create.element('div', 'moduleContent2', '', this.module);
+        
+        // COLUMN ONE
+        this.col1 = create.element('div', '', '', this.moduleContent2);
+        // RESULT and BUTTON
+        this.mod = create.element('h3', '', 'Scène modifiée ?', this.col1);
+        this.result = create.element('div', 'result', '...', this.col1);
+        this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.col1);
+        this.rollBtn.classList.add('rollBtn')
+
+        // COLUMN TWO
+        this.col2 = create.element('div', '', '', this.moduleContent2);
         this.infoTable = document.createElement('table');
         create.row(this.infoTable, `Type`, this.eventType, 0);
         create.row(this.infoTable, `Mots clefs`, this.keyWords, 1);
         create.row(this.infoTable, `Sens`, this.meaning, 2);
-        this.module.appendChild(this.infoTable);
+        this.col2.appendChild(this.infoTable);
         // BUTTON
-        this.dataBtn = create.element('button', 'dataBtn', 'Roll', this.module);
+        this.dataBtn = create.element('button', 'dataBtn', 'Roll', this.col2);
+        this.dataBtn.classList.add('rollBtn')
 
-        // RESULT and BUTTON
-        this.mod = create.element('h1', '', 'Scène modifiée ?', this.module);
-        this.result = create.element('div', 'result', '...', this.module);
-        this.rollBtn = create.element('button', 'rollBtn', 'Roll', this.module);
 
-        this.webPage.appendChild(this.module);
+        this.content.appendChild(this.module);
     },
     getEventType() {
         const chance = roll.d100();

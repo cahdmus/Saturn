@@ -1,7 +1,7 @@
 import { Monster } from "./monsterGenerator.js";
 import { create } from "../utils.js";
 
-const displayModule = {
+const monsterMachine = {
     init(title, id) {
         this.title = title;
         this.id = id;
@@ -11,14 +11,14 @@ const displayModule = {
         this.bindEvents();
     },
     cacheDOM() {
-        this.webPage = document.querySelector('#content');
+        this.content = document.querySelector('#combatContent');
     },
     generateDOM() {
         // THE BOX
         this.module = create.moduleBox('dice');
         this.module.setAttribute('id', this.id);
-        this.webPage.appendChild(this.module);
-        this.title = create.element('h1', '', this.title, this.module);
+        this.content.appendChild(this.module);
+        this.title = create.element('h2', '', 'Machine à monstre', this.module);
 
         this.infoTable = document.createElement('table');
         create.row(this.infoTable, `Type`, '', 0);
@@ -28,8 +28,8 @@ const displayModule = {
         this.module.appendChild(this.infoTable);
 
         // STATS
-        this.stats = create.element('h1', '', 'Caractéristiques', this.module);
-        this.subtitle = create.element('h3', '', '', this.module);
+        this.stats = create.element('h3', '', 'Caractéristiques', this.module);
+        this.subtitle = create.element('h4', '', '', this.module);
 
         this.scoreTable = document.createElement('table');
         this.scoreTable.setAttribute('id', '');
@@ -94,4 +94,4 @@ const displayModule = {
     }
 }
 
-export { displayModule }
+export { monsterMachine }

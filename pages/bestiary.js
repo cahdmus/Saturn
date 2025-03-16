@@ -5,7 +5,6 @@ const bestiary = {
     init() {
         this.cacheDOM();
         this.generateDOM();
-        this.bindEvents();
     },
     cacheDOM() {
         this.main = document.querySelector('main');
@@ -18,9 +17,6 @@ const bestiary = {
         this.page = create.element('div', 'bestiaryPage', 'Sélectionner une créature', this.content);
         
         this.fillMenu()
-    },
-    bindEvents() {
-        this.cacheDOM();
     },
     fillMenu() {
         bestiaryData.forEach((creature) => {
