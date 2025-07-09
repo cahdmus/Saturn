@@ -1852,6 +1852,24 @@
                         "desc": "légende"
                     }
                 ]
+            },
+            {
+                "name": "Calcul fiche personnages",
+                "type": "table",
+                "value": [
+                    {
+                        "name": "Points de vie",
+                        "desc": "(Force/5) + (Endurance/5) + (Volonté/10)"
+                    },
+                    {
+                        "name": "Points de fortune",
+                        "desc": "(Volonté/5)"
+                    },
+                    {
+                        "name": "Bonus de force",
+                        "desc": "(Force/10)"
+                    }
+                ]
             }
         ]
     },   
@@ -4100,6 +4118,187 @@
                             "duration": "",
                             "desc": "Le dragon transforme toute la neige sur RUx10 mètres carré en une surface de verglas très glissante. Tous ceux qui marchent sur cette surface doivent chaque tour réussir un test de MVT à 0 pour ne pas tomber. Le sortilège dure une heure."
                         }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "checks",
+        "name": "Jets de dés",
+        "desc": [
+            {
+                "name": "Échelle de difficulté",
+                "type": "table",
+                "value": [
+                    {
+                        "name": "+30%",
+                        "desc": "Zone de confort du personnage"
+                    },
+                    {
+                        "name": "+20%",
+                        "desc": "L'action est facilitée par plusieurs facteurs importants"
+                    },
+                    {
+                        "name": "+10%",
+                        "desc": "Les conditions sont plutôt bonnes pour accomplir l'action"
+                    },
+                    {
+                        "name": "+0%",
+                        "desc": "Action assez difficile, stressante, pas préparée"
+                    },
+                    {
+                        "name": "-10%",
+                        "desc": "Action difficile, les conditions sont mauvaises"
+                    },
+                    {
+                        "name": "-20%",
+                        "desc": "Action particulièrement difficile"
+                    },
+                    {
+                        "name": "-30%",
+                        "desc": "Action presque impossible"
+                    }
+                ]
+            },
+            {
+                "name": "Différence entre la limite et le résultat du dé",
+                "type": "table",
+                "value": [
+                    {
+                        "name": "Coup critique",
+                        "desc": "Le chiffre des unités est égal à 0. Dans un combat, le dé est explosif (on peut le relancer tant qu'on fait 10)"
+                    },
+                    {
+                        "name": "0",
+                        "desc": "Réussite de justesse, échec de justesse, rageant"
+                    },
+                    {
+                        "name": "10 +",
+                        "desc": "Réussite suffisante, échec vexant"
+                    },
+                    {
+                        "name": "20 +",
+                        "desc": "Réussite satisfaisante, échec flagrant"
+                    },
+                    {
+                        "name": "30 +",
+                        "desc": "Réussite brillante, échec cuisant"
+                    },
+                    {
+                        "name": "40 +",
+                        "desc": "Réussite épatante, échec cinglant"
+                    },
+                    {
+                        "name": "50 +",
+                        "desc": "Réussite éblouissante, échec retentissant"
+                    }
+                ]
+            },
+            {
+                "name": "Diverses règles",
+                "type": "table",
+                "value": [
+                    {
+                        "name": "Test en opposition",
+                        "desc": "On ajoute au jet la différence entre le score de caractéristiques de l'adversaire et 50. L'adversaire a 35, on ajoute 15. L'adversaire a 70, on retire 20."
+                    },
+                    {
+                        "name": "Coopération",
+                        "desc": "Score de la caractéristique du meneur de l'action + (score caractéristique de personne aidante / 5) + (autre score d'un autre personnage si y a / 5, etc)"
+                    },
+                    {
+                        "name": "Adversaire à terre",
+                        "desc": "+10% au jet de dé (ou -10% si c'est le personnage qui est à terre)"
+                    },
+                    {
+                        "name": "Combat contre plusieurs adversaires",
+                        "desc": "Donne une attaque gratuite, une attaque normale où le personnage pris en tenaille ne fera pas de dégâts, même s'il gagne la passe d'armes."
+                    },
+                    {
+                        "name": "Attaque surprise",
+                        "desc": "+10% au jet de dé et l'attaque est gratuite (comme ci-dessus)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dangers",
+        "name": "Dangers, maladies, etc",
+        "desc": [
+            {
+                "type": "table",
+                "value": [
+                    {
+                        "name": "Guérison",
+                        "desc": "Premiers soins (test de HAB ou SRV) +2 PV. Ensuite +1 PV par jour"
+                    },
+                    {
+                        "name": "Asphyxie et noyade",
+                        "desc": "test END/tour avec un malus de 5% de plus par tour. Chaque échec -2 PV (+ BF de l'attaquant si étranglement). Bonus armure compte pas."
+                    },
+                    {
+                        "name": "Faim",
+                        "desc": "Ne pas manger assez cause -1 PV par jour. Rien manger du tout -2 PV."
+                    },
+                    {
+                        "name": "Soif",
+                        "desc": "Ne rien boire -3 PV par jour."
+                    },
+                    {
+                        "name": "Chute",
+                        "desc": "tranche de 3m -1D10 PV (armure compte pas) tomber sur un sol mou (eau, paille, etc) divise les dégâts par 2. Réussir un jet de MVT enlève 5 PV au total."
+                    },
+                    {
+                        "name": "Feu",
+                        "desc": "Un objet enflammé +1 PV par attaque. Le risque d'embrasement est de 30%. Tomber dans le feu -5 PV et le risque d'embrasement est de 50%. Être dans un incendie -1D10 PV par tour et le risque d'embrasement est de 50%."
+                    },
+                    {
+                        "name": "Froid glacial",
+                        "desc": "-1 PV par tranche de 10 minutes"
+                    },
+                    {
+                        "name": "Poisons et maladies",
+                        "desc": "Pour savoir si on est infecté ou si on souffre d'un poison on fait un test d'ENDURANCE + la virulence. Si on rate, on est malade."
+                    }
+                ]
+            },
+            {
+                "name": "Maladies",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "La fièvre des marais",
+                        "desc": "virulence +10; fièvre, fatigue; -10% à toutes actions et pertes d'1 PV par jour"
+                    },
+                    {
+                        "name": "La langue noire",
+                        "desc": "virulence 0; langue noire, puis taches brunes sur la peau, souffrance; -2 PV par jour"
+                    },
+                    {
+                        "name": "La lèpre des asséchés",
+                        "desc": "virulence -10; extrémités du corps s'assèches et tombent; -1 PV par jour"
+                    }
+                ]
+            },
+            {
+                "name": "Poisons",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Venin de serpent d'argent",
+                        "desc": "virulence 0; spasmes; -1 PV par jour"
+                    },
+                    {
+                        "name": "Voile de brume",
+                        "desc": "virulence +10; paralysie, vision pendant des jours"
+                    },
+                    {
+                        "name": "Sang des diables",
+                        "desc": "virulence -10; vomissements et douleurs atroces; -1 PV par jour"
                     }
                 ]
             }
