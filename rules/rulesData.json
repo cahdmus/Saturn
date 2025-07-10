@@ -4191,7 +4191,54 @@
                     },
                     {
                         "name": "50 +",
-                        "desc": "Réussite éblouissante, échec retentissant"
+                        "desc": "Réussite éblouissante, échec retentissant. Déclenche un coup spécial !"
+                    }
+                ]
+            },
+            {
+                "name": "Coups spéciaux",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Coup assomant (K.O. mais pas de dégâts)",
+                        "desc": "Le personnage a frappé à la pointe du menton, au sommet du crâne, à la tempe, ou au foie. Son adversaire s'effondre au sol, K.O., pour (RU) tours. Il ne subit pas de dégâts ce tour-ci."
+                    },
+                    {
+                        "name": "Coup handicapant (MTV/2, -10% cumulatif)",
+                        "desc": "Le coup a été porté au pied, à la rotule, ou au tibia. Le MVT de l'adversaire est réduit de moitié durant le reste du combat, et il subit un malus de 10% cumulatif (si d'autres coups handicapants sont portés) à ses actions pour le reste du combat."
+                    },
+                    {
+                        "name": "Coup illégal (Dégâts +2, attaque gratuite)",
+                        "desc": "Coup dans les yeux ou dans les aprties intimes, le coup illégal est le coup en traitre par excellence. Il ajoute 2 à ses dégâts, et son adversaire ne pourra plus que se dégendre (=attaque gratuite pour le PJ) au prochain tour."
+                    },
+                    {
+                        "name": "Désarmement (ennemi désarmé)",
+                        "desc": "L'arme a frappé les doigts ou le poignet de la main directrice. L'adversaire lâche son arme aussitôt. Les dégâts sont normaux."
+                    },
+                    {
+                        "name": "Enchaînement (attaque gratuite sans le BF)",
+                        "desc": "Le personnage a droit a une attaque gratuite immédiatement, à laquelle il n'ajoutera pas son modificateur de force."
+                    },
+                    {
+                        "name": "Fauchage (adversaire au sol)",
+                        "desc": "Le personnage balaye les points d'appuis de son ennemi et le fait chuter automatiquement."
+                    },
+                    {
+                        "name": "Hémoragie (-2 PV par tour)",
+                        "desc": "Le coup a sectionné une artère et le sang coule abondamment. L'ennemi perdra 2 PV par tour jusqu'à ce qu'il reçoive des soins."
+                    },
+                    {
+                        "name": "Hit & run ! (fuite gratuite)",
+                        "desc": "Le personnage a droit à une action gratuite de fuite s'il le désire."
+                    },
+                    {
+                        "name": "Immobilisation (soumission)",
+                        "desc": "Le personnage place une prise de soumission à son adversaire. Un étranglement, une clé de bras ou tout simplement une lame sur la gorge, force l'ennemi à demander grâce ou à ne plus bouger. Aucun dégât n'est infligé."
+                    },
+                    {
+                        "name": "Perce-armure (protection = 0)",
+                        "desc": "Le personnage a trouvé le défaut dans la cuirasse et ne compte pas l'armure de son adversaire ce tour-ci."
                     }
                 ]
             },
@@ -4218,6 +4265,88 @@
                     {
                         "name": "Attaque surprise",
                         "desc": "+10% au jet de dé et l'attaque est gratuite (comme ci-dessus)"
+                    }
+                ]
+            },
+            {
+                "name": "Test de Tir",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "0",
+                        "desc": "Cible de taille moyenne en mouvement normal"
+                    },
+                    {
+                        "name": "+10/+20",
+                        "desc": "Cible grande (+ de 2m50)/Très grande (+ de 4m)"
+                    },
+                    {
+                        "name": "-10/-20",
+                        "desc": "Cible petite (- de 50 cm)/Très petite (- de 20cm)"
+                    },
+                    {
+                        "name": "+10/+20",
+                        "desc": "Courte/Très courte portée"
+                    },
+                    {
+                        "name": "-10/-20",
+                        "desc": "Longue/Très longue portée"
+                    },
+                    {
+                        "name": "-5/-10",
+                        "desc": "Mauvaise/Très mauvaise conditions (visibilité, vent, pluie...)"
+                    },
+                    {
+                        "name": "+10",
+                        "desc": "Cible immobile"
+                    },
+                    {
+                        "name": "-10",
+                        "desc": "Cible en mouvement rapide"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "advancedCombat",
+        "name": "Règles avancées de combat",
+        "desc": [
+            {
+                "type": "table",
+                "value": [
+                    {
+                        "name": "Attaque brutale (-10%, BF*2)",
+                        "desc": "Le personnage attaque furieusement, en faisant de larges moulinets ou en hurlant. Il fait un jet d'opposition de COM avec un malus de 10%, mais ajoute une deuxième fois son BF aux dégâts de son attaque si elle touche."
+                    },
+                    {
+                        "name": "Attaque ferme",
+                        "desc": "Le personnage fait un jet d'opposition de COM normal. C'est l'attaque standard. On attaque fermement en cherchant le point faible, bien campé sur ses positions, tout en gardant une bonne défense."
+                    },
+                    {
+                        "name": "Attaque rapide (+5%, BF=0)",
+                        "desc": "Ici, on donne le plus grand nombre de coups possibles avec un seul but : toucher. Le personnage fait un test d'opposition COM avec un bonus de +5%, mais il n'ajoute pas son BF aux dégâts."
+                    },
+                    {
+                        "name": "Charge (BF*2 pour tous)",
+                        "desc": "Le personnage se rue sur son adversaire (il faut au moins 10m pour charger). Il fait un test d'opposition normal. C'est un pari: s'il remporte la passe d'armes il ajoute une nouvelle fois son BF aux dégâts, mais il en va de même pour son ennemi, car il aura anticipé sa course (risque d'empalement, etc)."
+                    },
+                    {
+                        "name": "Défense totale (+20%, pas de dégâts)",
+                        "desc": "Cette tactique consiste à se défendre le plus possible, sans même attaquer pour ce tour. Le personnage fait un test d'oppostition de COM avec un bonus de 20%, mais s'il remporte la passe d'armes, il n'inflige pas de dégâts."
+                    },
+                    {
+                        "name": "Déséquilibré (BF=0, +FOR/FOR)",
+                        "desc": "Le personnage veut faire chuter son adversaire. C'est la tactique la plus facile, et souvent la plus efficace pour prendre rapidement l'avantage. Le personnage fait son test d'opposition de COM. S'il réussit, il n'ajoute pas son BF aux dégâts, et fait un test d'opposition de FOR avec son adversaire. S'il réussit ce second jet, son ennemi est à terre."
+                    },
+                    {
+                        "name": "Feinte/Ruse (chifoumi, +10% en jeu)",
+                        "desc": "Qu'il s'agisse de faire mine d'attaquer d'un côté pour mieux frapper de l'autre, ou d'une ruse plus classique comme la poussière dans les yeux, la feinte est un pari : elle peut être mortelle, mais si on la voit venir, elle peut se retourner contre vous. Le MJ et le joueur font un rapide pierre-feuille-ciseaux. Si le joueur gagne, il obtient un +10%. Si le MJ le gagne, il aura un malus de 10%. En cas d'agalité, les conditions ne changent pas."
+                    },
+                    {
+                        "name": "Viser (-10%, Protection=0)",
+                        "desc": "Viser permet d'ignorer l'armure de son adversaire ou de toucher un endroit précis (la main droite, la cheville...). Le personnage fait son test d'opposition de COM avec un malus de 10%. S'il gagne la passe d'armes, il aura touché l'endroit voulu. Le MJ est libre d'interdire cette option si son PNJ est protégé de partout."
                     }
                 ]
             }

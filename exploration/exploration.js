@@ -17,9 +17,9 @@ const explorationGenerator = {
         this.infoTable.rows[1].cells[1].innerHTML = this.getHour();
         this.infoTable.rows[2].cells[1].innerHTML = this.getDensity();
         this.infoTable.rows[3].cells[1].innerHTML = this.getType();
-        this.infoTable.rows[4].cells[1].innerHTML = this.getDesc();
-        this.infoTable.rows[5].cells[1].innerHTML = this.getCitySpot();
-        this.infoTable.rows[6].cells[1].innerHTML = this.getCountrySpot();
+        this.infoTable.rows[4].cells[1].innerHTML = this.getCitySpot();
+        this.infoTable.rows[5].cells[1].innerHTML = this.getCountrySpot();
+        this.infoTable.rows[6].cells[1].innerHTML = this.getDesc();
         this.infoTable.rows[7].cells[1].innerHTML = roll.from(explorationData.disaster);
         this.infoTable.rows[8].cells[1].innerHTML = this.getDirection();
         // this.exploImg.setAttribute('src', `exploration/images/${this.getImage()}`);
