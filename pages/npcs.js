@@ -1,5 +1,6 @@
-import { create } from "../utils.js";
+import { create, roll } from "../utils.js";
 import { NPC } from "../NPCGenerator/NPCGenerator.js";
+import rulesData from '../rules/rulesData.json' with { type: 'json' };
 
 const npcs = {
     init() {
@@ -89,7 +90,8 @@ const npcs = {
         create.row(this.infoTable, `Apparence`, '', 3);
         create.row(this.infoTable, `Motivations`, '', 4);
         create.row(this.infoTable, `Focus`, '', 5);
-        create.row(this.infoTable, `Spécialité`, '', 6);
+        create.row(this.infoTable, `Arme`, '', 6);
+        create.row(this.infoTable, `Spécialité`, '', 7);
     },
     roll() {
         this.NPC = new NPC;
@@ -131,7 +133,13 @@ const npcs = {
         this.infoTable.rows[3].cells[1].innerHTML = this.NPC.appearance.value
         this.infoTable.rows[4].cells[1].innerHTML = this.NPC.motivations.value
         this.infoTable.rows[5].cells[1].innerHTML = this.NPC.focus.value
-        this.infoTable.rows[6].cells[1].innerHTML = this.formatSpeciality(this.NPC.speciality.value)
+        this.infoTable.rows[6].cells[1].innerHTML = this.getWeapon()
+        this.infoTable.rows[7].cells[1].innerHTML = this.formatSpeciality(this.NPC.speciality.value)
+    },
+    getWeapon() {
+        let weapons = rulesData[1].desc[0].value;
+        let weapon = roll.from(weapons)
+        return `${weapon.name} (bonus dégâts ${weapon.desc.hit})`
     },
     bindEvents() {
         this.cacheDOM();
