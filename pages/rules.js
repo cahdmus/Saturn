@@ -2,6 +2,7 @@ import { create } from "../utils.js";
 import rulesData from '../rules/rulesData.json' with { type: 'json' };
 import { sceneGenerator } from '../scene/scene.js'
 import { proficiency } from "../proficiency/proficiency.js";
+import { insanity } from "../insanity/insanity.js";
 
 const rules = {
     init() {
@@ -39,6 +40,9 @@ const rules = {
                 break
             case 'proficiency':
                 proficiency.init()
+                break
+            case 'insanity':
+                insanity.init()
                 break
             default:
                 this.generateRestOfDOM(rule)

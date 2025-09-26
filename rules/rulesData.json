@@ -4526,5 +4526,290 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "chase",
+        "name": "Course poursuite",
+        "desc": [
+            {
+                "type": "p",
+                "value": [
+                    "les courses-poursuites se règlent avec un test en opposition. Le joueur, qu’il soit le fuyard ou le poursuivant, devra opposer son MOUVEMENT au MODO de MVT de son adversaire. Il faudra remporter un nombre de « manches gagnantes » défini au préalable par le MJ, pour que la course-poursuite prenne fin."
+                ]
+            },
+            {
+                "type": "p",
+                "value": [
+                    "En cas d’égalité totale, c’est le fuyard qui l’emporte (ou celui qui a le MVT le plus élevé, au choix du MJ)."
+                ]
+            },
+            {
+                "name": "Résultats critiques et doublés",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Réussite critique",
+                        "desc": "Bonus de 10% au test suivant"
+                    },
+                    {
+                        "name": "Echec critique",
+                        "desc": "Malus de 10% au test suivant"
+                    }
+                ]
+            },
+            {
+                "name": "L'allure",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "0",
+                        "desc": "Humains, Demi-Orques, Changelins, Sang-Démons, Orques, Mutants, Semblables"
+                    },
+                    {
+                        "name": "-5",
+                        "desc": "Nains, Petites-Gens, Gnomes, Marionnettes"
+                    },
+                    {
+                        "name": "+5",
+                        "desc": "Elfes, Demi-Elfes, Demi-Ogres, Elfes noirs"
+                    }
+                ]
+            },
+            {
+                "name": "L'avance",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "0",
+                        "desc": "Pas d’avance significative (seulement quelques mètres...)"
+                    },
+                    {
+                        "name": "+5 ou -5",
+                        "desc": "Courte avance (entre 10 et 20 mètres)"
+                    },
+                    {
+                        "name": "+10 ou -10",
+                        "desc": "Avance significative (plus de 20 mètres)"
+                    },
+                    {
+                        "name": "+15 ou -15",
+                        "desc": "Le fuyard est encore visible mais s’éloigne rapidement"
+                    },
+                    {
+                        "name": "+20 ou -20",
+                        "desc": "Le fuyard est sur le point de s’échapper"
+                    }
+                ]
+            },
+            {
+                "name": "L’ambiance, le décor",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "0",
+                        "desc": "Pas de modificateur: le terrain est dégagé ou il n’y a personne."
+                    },
+                    {
+                        "name": "+10 à +20",
+                        "desc": "Foule favorable au PJ: on l’aide, soit en s’écartant (si le PJ est fuyard) soit en tentant d’attraper le fuyard (si le PJ est poursuivant)."
+                    },
+                    {
+                        "name": "-10 à -20",
+                        "desc": "Foule défavorable au PJ: on le ralentit ou essaie de l’attraper."
+                    },
+                    {
+                        "name": "+5 à +10",
+                        "desc": "Décor favorable au PJ: ruelles étroites, jour de marché si le PJ est le fuyard, ou vue dégagée si le PJ est le poursuivant."
+                    },
+                    {
+                        "name": "-5 à -10",
+                        "desc": "Décor défavorable au PJ: ruelles étroites, jour de marché si le PJ est le pour- suivant, ou vue dégagée pour le poursuivant si le PJ est fuyard."
+                    },
+                    {
+                        "name": "-5 à -20%",
+                        "desc": "Encombrement: transporter des marchandises (ou une personne !) en courant n’est pas idéal. Au MJ de juger le malus à donner, en tenant compte aussi bien du poids que de la taille de l’objet transporté."
+                    }
+                ]
+            },
+            {
+                "name": "Tactiques de course-poursuite",
+                "type": "table",
+                "value": [
+                    {
+                        "name": "Tactiques de courses (Foncer Test MVT/MVT)",
+                        "desc": "C’est le test standard: on fonce droit devant soi."
+                    },
+                    {
+                        "name": "Sprint (-10%, gain de 2 manches mais test de fatigue)",
+                        "desc": "Courir le plus rapidement possible, jusqu’à en perdre haleine. Le coureur s’afflige un malus de -10%, mais s’il réussit, il gagnera DEUX manches au lieu d’une. Il ne peut utiliser cette tactique qu’une seule fois au cours de la course- poursuite, et devra faire un test d’ENDURANCE juste après son sprint. S’il échoue, il subira un malus de -10% pour toutes les manches restantes (ainsi que ses autres actions –combat etc.- jusqu’à ce qu’il ait récupéré son souffle)."
+                    },
+                    {
+                        "name": "Louvoyer/Planquer (Test DIS/PER)",
+                        "desc": "Une seule fois au cours de la poursuite, le fuyard peut se fondre dans une foule pour passer inaperçu. La manche se jouera sur un test de DISCRÉTION opposé au MODO de PERCEPTION du poursuivant (ou l’inverse si le PJ est poursuivant)."
+                    },
+                    {
+                        "name": "Marathon (Test END/END)",
+                        "desc": "Une seule fois au cours de la poursuite, le coureur peut décider d’opposer son ENDURANCE au modo d’ENDURANCE de son adversaire. Il peut ainsi remporter une manche basée sur le souffle."
+                    },
+                    {
+                        "name": "Feinte Chifoumi, (+10% en jeu)",
+                        "desc": "Changer de comportement, se déguiser avec un drap volé au passage, tenter une acrobatie... Similaire au combat, la feinte se règle au chifoumi (jeu du pierre-feuille-ciseaux). Si le joueur le gagne, il obtient un bonus de 10% pour cette manche. S’il échoue, il aura un malus de 10%. En cas d’égalité, personne n’est avantagé. Le MJ peut décider qu’un personnage particulièrement plus retors et agile que son adversaire remporte les égalités du chifoumi."
+                    },
+                    {
+                        "name": "Au voleur! (-10% et test de SOC pour gagner un avantage)",
+                        "desc": "Le poursuivant peut hurler qu’on lui vienne à l’aide et haranguer la foule pour qu’ils mettent la main sur le fuyard. Sur un test réussi de SOCIABILITÉ à 0 (un membre de la garde en uniforme ajoute 10 à 20% à son jet), le poursuivant bénéficiera du bonus de foule favorable pour toutes les manches suivantes. Néanmoins, il écope d’un malus de 10% pour celle-ci. Le MJ est libre de refuser un quelconque bonus de foule favorable dans les pires quartiers de Béjofa où les forces de l’ordre sont haïes comme la peste."
+                    },
+                    {
+                        "name": "...comme ma poche (Test PER/PER)",
+                        "desc": "Le personnage va ici jouer sur sa connaissance de la ville et prendre les coins et recoins qu’il a arpentés des dizaines de fois, pour emprunter des passages et raccourcis connus de lui seul. Une seule fois au cours de la poursuite, le coureur peut décider d’opposer sa PERCEPTION au modo de PERCEPTION de son adversaire. Il peut ainsi remporter une manche basée sur l’orientation. Le MJ ne doit pas hésiter à donner des bonus au personnage s’il est dans son quartier fétiche. "
+                    },
+                    {
+                        "name": "Offensive (Test de MVT à -10 mais droit à un TIR)",
+                        "desc": "Pour toute action offensive, comme tenter de tirer sur son adversaire, ou lui lancer un filet pour le capturer, le MJ doit d’abord décider si la portée le permet. Si oui, le personnage offensif subira un -10% à son test de MVT pour gagner la manche, mais aura droit à une action de tir. S’il touche son adversaire, au MJ de décider si la gravité de la blessure est telle qu’elle stoppe net la poursuite, ou s’il ne s’agissait que d’une estafilade sans conséquences. La blessure peut aussi simplement pénaliser le coureur (malus de -5, -10…)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "familiars",
+        "name": "Familiers",
+        "desc": [
+            {
+                "type": "p",
+                "value": [
+                    "Un mage ne peut avoir qu’un seul Familier à la fois."
+                ]
+            },
+            {
+                "type": "p",
+                "value": [
+                    "Les Familiers sont des animaux ordinaires auxquels un magicien ou un sorcier a insufflé une énergie liée à un domaine magique particulier (air, divination, nécromancie...). Cette énergie lui confère une intelligence humaine et des capacités magiques destinées à aider son maître. Leur apparence en est alors légèrement transformée, et reflète le domaine magique qui lui est associé."
+                ]
+            },
+            {
+                "name": "Domaine",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Air",
+                        "desc": "Tous les oiseaux, et insectes volants. Reflets argentés, parfois transparents"
+                    },
+                    {
+                        "name": "Eau",
+                        "desc": "Poisson, batracien, serpent d’eau. Reflets bleutés, odeur marine"
+                    },
+                    {
+                        "name": "Feu",
+                        "desc": "Salamandre, fauve, dragonnet. Reflets roux, odeur de feu"
+                    },
+                    {
+                        "name": "Terre",
+                        "desc": "Ours, biche, lapin, blaireau. Reflets bruns ou verts, odeur de terre"
+                    },
+                    {
+                        "name": "Alchimie",
+                        "desc": "Chat noir, hibou, dragonnet. Teinte noire, huileuse"
+                    },
+                    {
+                        "name": "Démonisme",
+                        "desc": "Insecte, bouc, poule noire, chien. Poils noirs, yeux rouges, odeur de soufre"
+                    },
+                    {
+                        "name": "Illusions",
+                        "desc": "Serpent, chat, singe, araignée, renard. Couleur changeante de jour en jour"
+                    },
+                    {
+                        "name": "Nécromancie",
+                        "desc": "Rat, chauve-souris, corbeau, araignée. Grisâtre, noir, maladif, odeur de mort"
+                    },
+                    {
+                        "name": "Divination",
+                        "desc": "Hibou, chat, serpent, dragonnet. Yeux jaunes"
+                    },
+                    {
+                        "name": "Enchantements",
+                        "desc": "Cheval, chèvre, chien, souris, âne. Odeur douce, fleurie"
+                    },
+                    {
+                        "name": "Protection",
+                        "desc": "Colombe, faucon, cheval, chien. Blanc et pur"
+                    },
+                    {
+                        "name": "Psyché",
+                        "desc": "Chat, chien, lézard, dragonnet. Yeux vairons"
+                    },
+                    {
+                        "name": "Voie animale",
+                        "desc": "Loup, lion, lynx, ours, aigle... Sauvage, yeux fous"
+                    }
+                ]
+            },
+            {
+                "name": "Capacités de familiers",
+                "type": "table",
+                "value": [
+                    {
+                        "name": "Espion",
+                        "desc": "Ce Familier est aussi bien éclaireur qu’espion. Le mage lié à cet animal peut voir à travers les yeux de son Familier, en fermant les siens. Ainsi, espionner ses ennemis devient chose aisée, car il peut envoyer son Familier en reconnaissance en toute discrétion."
+                    },
+                    {
+                        "name": "Gardien",
+                        "desc": "Le Familier gardien est un animal qui défendra le mage en toutes circonstances. Ainsi, il gagne +10% en COM et +10% en FOR dès qu’il attaque un ennemi de son maître."
+                    },
+                    {
+                        "name": "Énergétique",
+                        "desc": "Le Familier énergétique est un réceptacle de pouvoir magique. Il facilite en permanence les lancers de sort de son maître. Tant qu’il est présent, le mage obtient +1d10% pour les tests de MAG liés au domaine magique du familier (le d10 est à lancer chaque jour)."
+                    },
+                    {
+                        "name": "Métamorphe",
+                        "desc": "Le métamorphe permet au mage de prendre la forme de son Familier, autant de fois qu’il le désire (sans limitation de durée). Il faut que le Familier soit à proximité (mais pas forcément à vue) du mage. Un mage attaché dans une pièce qui entend son Familier loup hurler, pourra se changer en loup et ainsi ne plus être tenu par les liens... La métamorphose ne comprend que le corps du mage, et pas ses vêtements ni son équipement."
+                    },
+                    {
+                        "name": "Bavard",
+                        "desc": "Le Familier bavard est doué de parole et peut tenir une conversation simple. Il peut donc délivrer des messages, conseiller son maître, raconter ce qu’il a vu, ou commenter ironiquement les faits et gestes des personnages…"
+                    },
+                    {
+                        "name": "Résistant",
+                        "desc": "Le Familier est particulièrement coriace. Il gagne 10 PV. Ainsi, même un insecte ou un rat, ne pourra être écrasé d’un coup de botte : sa résistance magique l’aura sauvé de la mort."
+                    }
+                ]
+            },
+            {
+                "type": "p",
+                "value": [
+                    "Le mage qui souhaite posséder un Familier doit d’abord trouver un animal qui ne soit pas effrayé ou agressif à son encontre. La façon la plus simple est d’approcher un animal domestique (chat, chien, souris, poule, cheval...) mais des animaux sauvages peuvent aussi se laisser amadouer par le magnétisme, l’aura mystérieuse d’un mage."
+                ]
+            },
+            {
+                "type": "p",
+                "value": [
+                    "Pour faire de cet animal son Familier, le mage doit procéder à un rituel d’une nuit, et dépenser 100 PX. Ce Familier sera lié au mage, et associé à un domaine magique connu de son maître. Il bénéficiera d’une espérance de vie égale à celle du mage, et disposera d’une capacité spéciale (espion, bavard, gardien...). Dépenser 50 PX supplémentaires permet d’ajouter une fonction au Familier."
+                ]
+            },
+            {
+                "type": "p",
+                "value": [
+                    "Le Familier peut gagner de nouvelles capacités au cours de sa vie, mais celles-ci coûteront au mage 100 PX pour chaque capacité supplémentaire, au lieu des 50 PX normalement requis lors de sa création."
+                ]
+            },
+            {
+                "type": "p",
+                "value": [
+                    "Si le Familier vient à mourir, le choc psychologique lié à sa perte entraîne un Test de Folie pour le mage. Tous les PX investis dans son compagnon sont perdus, et il devra attendre un an avant d’avoir un nouveau Familier."
+                ]
+            },
+            {
+                "type": "p",
+                "value": [
+                    "Si le mage meurt, mais pas le Familier, celui-ci peut se mettre au service de la famille du mage (ses enfants, sa fratrie...) et ainsi rester fidèle à son sang. Si le mage n’a pas de famille, ou si elle n’est pas accessible, le Familier retrouve sa liberté et perdra en un an toutes ses caractéristiques magiques (longévité et capacités)."
+                ]
+            }
+        ]
     }
 ]
