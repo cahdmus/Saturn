@@ -4265,6 +4265,22 @@
                     {
                         "name": "Attaque surprise",
                         "desc": "+10% au jet de dé et l'attaque est gratuite (comme ci-dessus)"
+                    },
+                    {
+                        "name": "Attaques multiples",
+                        "desc": "(x) indique que la créature est si rapide et puissante qu'on a l'impression qu'il y en a plusieurs. Le nombre entre parenthèses indique le nombre de tests d'attaque dont dispose la créature. Si la créature avec 'Attaques multiples (2)' attaque un seul personnage, elle aura droit à une attaque gratuite en plus de son attaque normale."
+                    },
+                    {
+                        "name": "Coup spécial (30+)",
+                        "desc": "La créature déclenche un coup spécial lorsqu'elle remporte la passe d'armes avec une marge de réussite 30+. On applique alors directement l'effet du coup spécial, en plus des dégâts normaux. Si la créature dispose de plusieurs coups spéciaux, le MJ choisit celui qui est déclenché."
+                    },
+                    {
+                        "name": "Peur",
+                        "desc": "La créature est effrayante. Tout personnage qu'elle affronte doit d'abord réussir un test de VOL pour pouvoir attaquer. Si le test est raté, le personnage ne pourra que se défendre (la créature bénéficiera donc d'attaques gratuites). Le nombre indiqué entre parenthèses indique le nombre de tours où la peur fait effet. Lorsqu'un personnage a viancu sa peur une fois, il est immunisé pour une semaine pour le même type de monstre."
+                    },
+                    {
+                        "name": "Vol",
+                        "desc": "La créature vole, et peut fuir par la voie des airs. Elle peut aussi fondre sur sa cible pour attaque en piqué. Elle est considérée comme utilisant la tactique de charge mais gagne un bonus de +10% pour cette action."
                     }
                 ]
             },
@@ -4311,7 +4327,7 @@
     },
     {
         "id": "advancedCombat",
-        "name": "Règles avancées de combat",
+        "name": "Combat avancé",
         "desc": [
             {
                 "type": "table",
@@ -4428,6 +4444,84 @@
                     {
                         "name": "Sang des diables",
                         "desc": "virulence -10; vomissements et douleurs atroces; -1 PV par jour"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "travel",
+        "name": "Voyage",
+        "desc": [
+            {
+                "name": "à pieds",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Normal",
+                        "desc": "Entre 30 et 50 km par jour"
+                    },
+                    {
+                        "name": "Chargé",
+                        "desc": "Entre 25 et 40 km par jour"
+                    }
+                ]
+            },
+            {
+                "name": "à cheval",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Vitesse",
+                        "desc": "Entre 6 et 65 km par heure"
+                    },
+                    {
+                        "name": "Distance",
+                        "desc": "Entre 30 et 160 km par jour"
+                    }
+                ]
+            },
+            {
+                "name": "sur mer",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Trirème",
+                        "desc": "Environ 13km par heure. Arrêt au port tous les 300km"
+                    },
+                    {
+                        "name": "Petit bateau à voiles",
+                        "desc": "Environ 25km par heure. Arrêt au port tous les 8000km"
+                    },
+                    {
+                        "name": "Bateau à voiles",
+                        "desc": "Entre 140 (7km/h) et 240 (15km/h) km par jour. Arrêt au port tous les 8000km"
+                    },
+                    {
+                        "name": "Bateau à vapeur",
+                        "desc": "Environ 40km par heure. Arrêt au port tous les 7700km"
+                    },
+                    {
+                        "name": "Barque",
+                        "desc": "Entre 25 (5km/h) et 64 (8km/h) km par jour."
+                    }
+                ]
+            },
+            {
+                "name": "par pigeon",
+                "type": "table",
+                "class": "smallTable",
+                "value": [
+                    {
+                        "name": "Vitesse",
+                        "desc": "Entre 50 et 150 km par heure"
+                    },
+                    {
+                        "name": "Distance",
+                        "desc": "Entre 900 et 1000 km par jour"
                     }
                 ]
             }

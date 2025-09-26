@@ -1139,5 +1139,157 @@
         "Pluie acide",
         "Peste ou épidemie",
         "Éclipse solaire"
+    ],
+    "adventures": [
+        {
+            "name": "Lois, usages",
+            "test": "CNS",
+            "desc": "La ville dispose de lois bien spécifiques qu’il faut connaître pour ne pas subir la colère des argousins, ou devoir payer une taxe exorbitante. Les PJ peuvent aussi être impliqués dans un procès, comme témoin, accusés ou partie plaidante."
+        },
+        {
+            "name": "Religion, mariage",
+            "test": "CNS",
+            "desc": "Une cérémonie religieuse a lieu. Il peut s’agir d’un mariage important, d’un sacre, d’un pèlerinage... Bien connaître les rites permettra de tirer profit de la situation, ou de bien se faire voir."
+        },
+        {
+            "name": "Ecriture, langages",
+            "test": "CNS",
+            "desc": "Une lettre reçue doit être déchiffrée, il faut rédiger un document, comprendre un langage étranger ou oublié, lire un vieux parchemin... Ce document peut impliquer l’histoire des PJ par exemple."
+        },
+        {
+            "name": "Recherchés !",
+            "test": "DIS",
+            "desc": "On a dénoncé les PJ (à la garde ou à des gros bras embauchés pour le moment) pour un crime. Qu’ils soient innocents ou non, ils devront se montrer discrets et ne pas se faire repérer."
+        },
+        {
+            "name": "Contrebande, recel",
+            "test": "DIS",
+            "desc": "Les PJ sont en possession de marchandises interdites (ou taxées!) et ils doivent être discrets. Cet évènement peut aussi concerner le fait de faire rentrer (ou sortir) quelqu’un de recherché en ville."
+        },
+        {
+            "name": "Filature",
+            "test": "DIS",
+            "desc": "Les PJ doivent suivre un individu qui détient quelque chose qui les intéresse. Des informations, un objet de valeur bien caché, une clef, un livre rare, ou bien les mènera-t-il à un endroit étrange et inconnu?"
+        },
+        {
+            "name": "Intoxication",
+            "test": "END",
+            "desc": "La viande avalée goulûment il y a quelques heures était ava- riée et tous les PJ doivent faire un test d’END pour ne pas vomir leurs tripes pendant deux jours. L’intoxication peut aussi être due à un poison."
+        },
+        {
+            "name": "Maladie",
+            "test": "END",
+            "desc": "Les maladies sont courantes en ville, et se propagent très vite. Les PJ peuvent en contracter une dont la gravité est laissée à la discrétion du Meneur, de la simple maladie vénérienne à l’épidémie de peste."
+        },
+        {
+            "name": "Beuverie",
+            "test": "END",
+            "desc": "L’alcool a coulé plus que de raison et les PJ doivent réussir à garder le contrôle et ne pas subir les fâcheuses conséquences d’une ivresse trop importante (bagarre, coma éthylique, détroussage...)."
+        },
+        {
+            "name": "Intimidation",
+            "test": "FOR",
+            "desc": "Les PJ doivent aller impressionner quelqu’un pour qu’il leur obéisse. Il peut s’agir d’un débiteur récalcitrant, d’une bande de vauriens, d’un bourgeois un peu trop riche, d’un garde incorruptible..."
+        },
+        {
+            "name": "Épreuve",
+            "test": "FOR",
+            "desc": "Une charrette, un échafaudage ou un bâtiment s’est effondré, et il faut soulever de lourdes charges pour sauver quelqu’un. Des tests de FOR sont nécessaires pour déblayer le terrain."
+        },
+        {
+            "name": "Lutte",
+            "test": "FOR",
+            "desc": "Un jeu «viril » a lieu: un bras de fer dans une taverne, un défi lancé par un lutteur de foire, un sport très physique organisé par les habitants du quartier etc. Des tests de FOR sont nécessaires pour gagner."
+        },
+        {
+            "name": "Crochetage",
+            "test": "HAB",
+            "desc": "Une serrure résiste aux PJ. Qu’il s’agisse d’une porte pour s’introduire quelque part, ou délivrer un comparse, un coffre qui promet beaucoup, ou une ceinture de chasteté, des tests d’HAB sont nécessaires."
+        },
+        {
+            "name": "Artisanat, bricolage",
+            "test": "HAB",
+            "desc": "Il peut s’agir d’une arnaque (créer de faux documents, ou rogner de la monnaie) ou d’un véritable travail d’artisan à effectuer (retaper une bâtisse, construire un petit pont...)."
+        },
+        {
+            "name": "Déguisement",
+            "test": "HAB",
+            "desc": "Il faut se faire passer pour quelqu’un d’autre, dans le cadre d’un carnaval, d’un bal masqué, d’un espionnage ou d’une escroquerie. Vêtements appropriés, maquillage, coiffure, tout doit être parfait."
+        },
+        {
+            "name": "Course, acrobaties",
+            "test": "MVT",
+            "desc": "Il peut s’agir du concours annuel de course en sac de la ville, comme d’une course-poursuite haletante avec une bande de malfrats. Dans tous les cas, il faudra faire preuve de rapidité et de souplesse."
+        },
+        {
+            "name": "Escalade",
+            "test": "MVT",
+            "desc": "Il faut grimper en haut d’une maison, d’une tour, d’une église, sur les toits de la ville. La raison: fuir, sauver quelqu’un, récupérer un objet, accrocher ou décrocher un symbole qui sert de signal etc."
+        },
+        {
+            "name": "Contorsion",
+            "test": "MVT",
+            "desc": "Les PJ sont emprisonnés et doivent se libérer des liens qui les entravent. Qui les a emprisonnés? La garde ? Un ennemi? Cette contorsion peut aussi concerner la progression dans des conduits étroits, des failles..."
+        },
+        {
+            "name": "Détection, évaluation",
+            "test": "PER",
+            "desc": "On suit les PJ, on les espionne. Ou sont-ils en repérage sur un prochain mauvais coup. Ils peuvent aussi repérer un objet précieux, mais il faudra déterminer s’il est authentique ou faux (évaluation)."
+        },
+        {
+            "name": "Fouille",
+            "test": "PER",
+            "desc": "Il faut retrouver un objet précieux, une clef, une carte, une lettre ou bien une personne dans une maison, une auberge, ou un quartier entier. Tout doit être passé au peigne fin."
+        },
+        {
+            "name": "Arts",
+            "test": "PER",
+            "desc": "Il faut jouer d’un instrument, chanter, peindre une toile, sculpter une statue avec de l’argile aux propriétés étranges, ou aller chercher un objet ou un artiste avec pour seul indice une mélodie ou les paroles d’un poème..."
+        },
+        {
+            "name": "Ragots",
+            "test": "SOC",
+            "desc": "Il faut ici se renseigner, écouter ou propager les rumeurs (ou en être victime), connaître les dernières nouvelles sur un évènement particulier, porter préjudice à un rival... Les ragots sont la presse de l’époque."
+        },
+        {
+            "name": "Baratin, négociations",
+            "test": "SOC",
+            "desc": "Baratiner la garde, négocier un prix ou bien un laisser-passer, plaire à un « gros bonnet » du milieu, séduire une personne haut placée pour attirer ses faveurs ou accéder à son réseau, sont autant d’évènements ou le bagout et le charme des personnages entrera en jeu."
+        },
+        {
+            "name": "Société",
+            "test": "SOC",
+            "desc": "Un évènement important a lieu et les PJ sont conviés: un bal chez un noble, une réunion à la Cour des miracles... Il faudra qu’ils fassent bonne impression et qu’ils ne commettent pas d’impair (étiquette)."
+        },
+        {
+            "name": "Animaux",
+            "test": "SRV",
+            "desc": "Un animal suit les personnages, ou il est nécessaire d’en capturer un, le dresser ou l’apprivoiser. Un animal rare ou sauvage permettra de gagner de l’argent, tandis qu’un animal ordinaire fera un allié fidèle."
+        },
+        {
+            "name": "Botanique, soins",
+            "test": "SRV",
+            "desc": "Trouver la bonne plante dans la maison d’un apothicaire pour soigner un comparse, une fleur rare dans les Jardins Royaux pour séduire une demoiselle, ou concocter un poison demande des tests de SRV. Devoir pratiquer les premiers soins à un ami dépend aussi de ce résultat."
+        },
+        {
+            "name": "Chasse, pêche",
+            "test": "SRV",
+            "desc": "Parfois les ressources manquent, et les PJ doivent pêcher dans le fleuve, ou chasser des bestioles dans les rues pour se nourrir. Il peut aussi s’agir d’un concours lancé entre eux ou par un PNJ (ami ou rival)."
+        },
+        {
+            "name": "Sang-froid",
+            "test": "VOL",
+            "desc": "Il faut ici garder son calme, face à une menace effrayante, ou ne pas céder à la panique d’un mouvement de foule. Le courage et le calme des personnages dépendra de leurs tests de VOL."
+        },
+        {
+            "name": "Force mentale",
+            "test": "VOL",
+            "desc": "Les PJ sont victimes d’un évènement mystique où leur force mentale est en jeu. Hypnose, envoûtement, lecture des pensées, absorption d’une potion hallucinogène..."
+        },
+        {
+            "name": "Torture",
+            "test": "VOL",
+            "desc": "Victimes ou bien bourreaux, la torture pour une vengeance ou bien l’extorsion de renseignements est au cœur de cette péripétie pour les PJ. Si les PJ sont victimes, ressortez un de leurs anciens ennemis."
+        }
     ]
 }
