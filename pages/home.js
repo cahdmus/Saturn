@@ -2,7 +2,6 @@ import { create } from "../utils.js";
 import { yesOrNo } from "../yes or no/yesOrNo.js";
 import { displayDice } from "../dice/dice.js";
 
-
 const home = {
     init() {
         this.cacheDOM();

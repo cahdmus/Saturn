@@ -490,3 +490,20 @@ main {
 #result {
     font-size: .9rem;
 }
+
+/* Triple-O
+------------------------ */
+#tripleO input {
+    display: block;
+    min-width: 100%;
+    font-size: .6rem;
+}
+
+#tripleO label {
+    font-family: var(--accent-font);
+}
+
+#tripleO h2 {
+    font-family: var(--main-font);
+    font-size: .8rem;
+}

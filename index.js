@@ -5,8 +5,6 @@ import { explo } from "./pages/explo.js";
 import { combat } from "./pages/combat.js";
 import { rules } from "./pages/rules.js";
 import { bestiary } from "./pages/bestiary.js";
-import { tripleO } from "./triple-O/index.js";
-
 
 const saturn = {
     init() {
@@ -71,7 +69,4 @@ const saturn = {
     }
 }
 
-// saturn.init()
-
-const main = document.querySelector('main');
-tripleO.init(main)
+saturn.init()

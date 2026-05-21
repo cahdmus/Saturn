@@ -6,6 +6,8 @@ import { quest } from "../quest/quest.js";
 import { explorationImage } from "../exploration/explorationImage.js";
 import { roomGenerator } from "../exploration/roomGenerator.js";
 
+import { tripleO } from "../triple-O/index.js";
+
 const explo = {
     init() {
         this.cacheDOM();
@@ -17,6 +19,7 @@ const explo = {
         letterGenerator.init();
         quest.init();
         roomGenerator.init();
+        this.content.appendChild(tripleO.init())
     },
     cacheDOM() {
         this.main = document.querySelector('main');
