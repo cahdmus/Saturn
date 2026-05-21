@@ -4811,5 +4811,12 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "insanity",
+        "name": "Folie",
+        "desc": [
+            
+        ]
     }
 ]
