@@ -73,4 +73,4 @@ const saturn = {
 saturn.init()
 
 const body = document.querySelector("body")
-body.appendChild(payDay.init())
+// body.appendChild(payDay.init())
